@@ -16,7 +16,7 @@ const process = require('process');
 
 gulp.task('e2e', function(cb) {
   process.chdir(helpers.root('e2e'));
-   exec('..\\node_modules\\.bin\\gulp test', function (err, stdout, stderr) {
+   exec('../node_modules/.bin/gulp test', function (err, stdout, stderr) {
     console.log(stdout);
     console.log(stderr);
     cb(err);
@@ -24,7 +24,8 @@ gulp.task('e2e', function(cb) {
 });
 
 gulp.task('test', function(cb) {
-   exec('node_modules\\.bin\\karma start karma.conf.js', function (err, stdout, stderr) {
+  process.chdir(helpers.root('.'));
+   exec('node_modules/.bin/karma start karma.conf.js', function (err, stdout, stderr) {
     console.log(stdout);
     console.log(stderr);
     cb(err);
