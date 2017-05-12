@@ -6,7 +6,6 @@ matrix:
   fast_finish: true
 before_install:
   - npm i npm@^4 -g
-  - npm i karma
 install:
   - npm install
 before_install:
