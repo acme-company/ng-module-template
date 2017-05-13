@@ -31,12 +31,18 @@ module.exports = function (config) {
         platform: 'Windows 8.1',
         version: '11'
     },
-    sl_iphone_10_11: {
+    sl_iphone_10: {
         base: 'SauceLabs',
-        browserName: 'internet explorer',
+        browserName: 'safari',
         platform: 'iPhone 10',
-        version: '10.11'
-    }    
+        version: '10.0'
+    },
+    'SL_Safari': {
+        base: 'SauceLabs',
+        browserName: 'safari',
+        platform: 'OS X 10.11',
+        version: '10.0'
+      }
   };
   
   config.set({
