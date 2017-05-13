@@ -43,7 +43,8 @@ module.exports = function (config) {
         platform: 'iPhone 10',
         version: '10.11'
     }    
-  },
+  };
+  
   config.set({
     basePath: '',
     frameworks: ['jasmine'],
