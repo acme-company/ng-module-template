@@ -13,22 +13,6 @@ const es = require('event-stream');
 const merge = require('gulp-merge-json');
 const helpers = require('./helpers');
 const process = require('process');
-var Server = require('karma').Server;
-
-gulp.task('e2e', function (done) {
-  new Server({
-    configFile: __dirname + '/e2e/karma.conf.js',
-    singleRun: true
-  }, done).start();
-});
-
-
-gulp.task('test', function (done) {
-  new Server({
-    configFile: __dirname + '/karma.conf.js',
-    singleRun: true
-  }, done).start();
-});
 
 
 
