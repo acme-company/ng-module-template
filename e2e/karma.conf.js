@@ -19,48 +19,31 @@ module.exports = function (config) {
       platform: 'Windows 7',
       version: '50'
     },
-    sl_ie_11: {
-      base: 'SauceLabs',
-      browserName: 'internet explorer',
-      platform: 'Windows 8.1',
-      version: '11'
-    }
-  },
-  
-  sl_ie_9: {
+    sl_ie_9: {
       base: 'SauceLabs',
       browserName: 'internet explorer',
       platform: 'Windows 7',
-      version: '50'
-  },    
-  sl_ie_10: {
-      base: 'SauceLabs',
-      browserName: 'internet explorer',
-      platform: 'Windows 8',
-      version: '50'
-  },    
-  sl_ie_10: {
-      base: 'SauceLabs',
-      browserName: 'internet explorer',
-      platform: 'Windows 9',
-      version: '50'
+        version: '9'
+    },    
+    sl_ie_10: {
+        base: 'SauceLabs',
+        browserName: 'internet explorer',
+        platform: 'Windows 8',
+        version: '10'
+    },    
+    sl_ie_11: {
+        base: 'SauceLabs',
+        browserName: 'internet explorer',
+        platform: 'Windows 8.1',
+        version: '11'
+    },
+    sl_iphone_10_11: {
+        base: 'SauceLabs',
+        browserName: 'internet explorer',
+        platform: 'iPhone 10',
+        version: '10.11'
+    }    
   },
-  sl_ie_11: {
-      base: 'SauceLabs',
-      browserName: 'internet explorer',
-      platform: 'Windows 8.1',
-      version: '50'
-  },    
-  sl_ie_12: {
-      base: 'SauceLabs',
-      browserName: 'internet explorer',
-      platform: 'Windows 8.1',
-      version: '50'
-  },    
-
-
-
-
   config.set({
     basePath: '',
     frameworks: ['jasmine'],
