@@ -6,7 +6,7 @@ module.exports = function(config) {
       base: 'SauceLabs',
       browserName: 'chrome',
       version: '48.0',
-      platform: 'Linux'
+      platform: 'Windows 10'
     },
     // 'SL_Firefox': {
     //   base: 'SauceLabs',
