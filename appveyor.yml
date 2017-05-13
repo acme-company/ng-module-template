@@ -32,5 +32,10 @@ test_script:
   - npm run e2e
 
 notifications:
+  - provider: Webhook
+    url: https://webhooks.gitter.im/e/cfd8ce5ddee6f3a0b0c9
+    on_build_success: false
+    on_build_failure: true
+    on_build_status_changed: true
 
 cache: node_modules -> package.json
