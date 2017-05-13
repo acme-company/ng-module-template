@@ -6,7 +6,7 @@
 
 [![Sauce Test Status](https://saucelabs.com/browser-matrix/pixelbits-mk.svg)](https://saucelabs.com/u/pixelbits-mk)
 
-[![Sauce Test Status](https://saucelabs.com/buildstatus/pixelbits-mk)](https://saucelabs.com/u/pixelbits-mk)
+[![Sauce Test Status](https://saucelabs.com/buildstatus/pixelbits-mk)](https://saucelabs.com/buildstatus/pixelbits-mk)
 
 [![Sauce Test Status](https://saucelabs.com/browser-matrix/pixelbits-mk.svg)](https://saucelabs.com/u/pixelbits-mk)
 
