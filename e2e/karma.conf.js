@@ -92,7 +92,7 @@ module.exports = function (config) {
   if (process.env.TRAVIS) {
     var buildId =
       'TRAVIS #' + process.env.TRAVIS_BUILD_NUMBER + ' (' + process.env.TRAVIS_BUILD_ID + ')';
-    if (process.env.CI_MODE.startsWith('saucelabs')) {
+    if (config.CI_MODE == 'saucelabs') {
       config.sauceLabs.build = buildId;
       config.sauceLabs.tunnelIdentifier = process.env.TRAVIS_JOB_NUMBER;
 
@@ -102,7 +102,7 @@ module.exports = function (config) {
       config.transports = ['polling'];
     }
 
-    if (process.env.CI_MODE.startsWith('browserstack')) {
+    if (config.CI_MODE == 'browserstack') {
       config.browserStack.build = buildId;
       config.browserStack.tunnelIdentifier = process.env.TRAVIS_JOB_NUMBER;
     }
