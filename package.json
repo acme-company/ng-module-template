@@ -1,6 +1,6 @@
 {
-  "name": "ng-feature-module",
-  "version": "1.0.0",
+  "name": "ng-module-template",
+  "version": "0.1.0",
   "description": "",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
