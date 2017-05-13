@@ -3,7 +3,7 @@ module.exports = function(config) {
   // Browsers to run on Sauce Labs
   var customLaunchers = {
     'SL_Chrome': {
-      base: 'SauceLabs',
+      base: 'chrome',
       browserName: 'chrome',
       version: '50.0',
       platform: 'Windows 10',
