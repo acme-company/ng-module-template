@@ -8,6 +8,8 @@
 
 [![Sauce Test Status](https://saucelabs.com/buildstatus/pixelbits-mk)](https://saucelabs.com/u/pixelbits-mk)
 
+[![Sauce Test Status](https://saucelabs.com/browser-matrix/pixelbits-mk.svg)](https://saucelabs.com/u/pixelbits-mk)
+
 <a href="https://saucelabs.com/u/pixelbits-mk">
   <img src="https://saucelabs.com/browser-matrix/pixelbits-mk.svg" alt="Sauce Test Status"/>
 </a> 
