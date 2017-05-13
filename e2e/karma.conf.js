@@ -11,12 +11,13 @@ module.exports = function (config) {
       base: 'SauceLabs',
       browserName: 'chrome',
       platform: 'Windows 7',
-      version: '35'
+      version: '54'
     },
     sl_firefox: {
       base: 'SauceLabs',
       browserName: 'firefox',
-      version: '30'
+      platform: 'Windows 7',
+      version: '50'
     },
     sl_ie_11: {
       base: 'SauceLabs',
@@ -24,7 +25,41 @@ module.exports = function (config) {
       platform: 'Windows 8.1',
       version: '11'
     }
-  }
+  },
+  
+  sl_ie_9: {
+      base: 'SauceLabs',
+      browserName: 'internet explorer',
+      platform: 'Windows 7',
+      version: '50'
+  },    
+  sl_ie_10: {
+      base: 'SauceLabs',
+      browserName: 'internet explorer',
+      platform: 'Windows 8',
+      version: '50'
+  },    
+  sl_ie_10: {
+      base: 'SauceLabs',
+      browserName: 'internet explorer',
+      platform: 'Windows 9',
+      version: '50'
+  },
+  sl_ie_11: {
+      base: 'SauceLabs',
+      browserName: 'internet explorer',
+      platform: 'Windows 8.1',
+      version: '50'
+  },    
+  sl_ie_12: {
+      base: 'SauceLabs',
+      browserName: 'internet explorer',
+      platform: 'Windows 8.1',
+      version: '50'
+  },    
+
+
+
 
   config.set({
     basePath: '',
