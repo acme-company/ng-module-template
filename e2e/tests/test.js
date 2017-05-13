@@ -68,6 +68,9 @@
 //   });
 // });
 
+var SauceLabs = require("saucelabs");
+var saucelabs = new SauceLabs();
+
 /* global describe, expect, it, window */
 describe('add', function() {
     it('should add two numbers and return the result', function() {
