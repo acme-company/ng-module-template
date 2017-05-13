@@ -17,3 +17,7 @@ script:
 cache:
   directories:
     - node_modules
+addons:
+  sauce_connect:
+    username: "pixelbits-mk"
+    access_key: "704b59a8-e1b1-4ee2-abd1-38a0acc6376c"
