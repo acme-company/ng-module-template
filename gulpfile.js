@@ -13,24 +13,23 @@ const es = require('event-stream');
 const merge = require('gulp-merge-json');
 const helpers = require('./helpers');
 const process = require('process');
+var Server = require('karma').Server;
 
-gulp.task('e2e', function(cb) {
-  process.chdir(helpers.root('e2e'));
-   exec('"../node_modules/.bin/gulp" test', function (err, stdout, stderr) {
-    console.log(stdout);
-    console.log(stderr);
-    cb(err);
-  }); 
+gulp.task('e2e', function (done) {
+  new Server({
+    configFile: __dirname + '/e2e/karma.conf.js',
+    singleRun: true
+  }, done).start();
 });
 
-gulp.task('test', function(cb) {
-  process.chdir(helpers.root('.'));
-   exec('"node_modules/.bin/karma" start karma.conf.js', function (err, stdout, stderr) {
-    console.log(stdout);
-    console.log(stderr);
-    cb(err);
-  }); 
+
+gulp.task('test', function (done) {
+  new Server({
+    configFile: __dirname + '/karma.conf.js',
+    singleRun: true
+  }, done).start();
 });
+
 
 
 gulp.task('clean', function() {
