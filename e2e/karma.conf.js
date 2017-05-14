@@ -7,7 +7,7 @@ module.exports = function (config) {
     BROWSER_CATEGORY: config.BROWSER_CATEGORY
   });
   
-  console.log(browserList);
+  console.log(browserList.browsers);
 
   config.set({
     basePath: '',
