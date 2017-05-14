@@ -6,6 +6,8 @@ module.exports = function (config) {
     CI_MODE: config.CI_MODE,
     BROWSER_CATEGORY: config.BROWSER_CATEGORY
   });
+  
+  console.log(browserList);
 
   config.set({
     basePath: '',
