@@ -4,7 +4,11 @@ var helpers = require('../helpers.js');
 
 module.exports = (function() {
     // execute the process
-    var karma = exec(`karma start ${helpers.root('e2e/karma.conf.js')} --CI_MODE=browserstack --BROWSER_CATEGORY=CI_REQUIRED`);
+    var args = process.argv.slice(2, process.argv.length);
+    var csv = args.map(t=>t.trim()).join(',');
+
+    var karma = exec(`karma start ${helpers.root('e2e/karma.conf.js')} --CI_MODE=browserstack --BROWSER_CATEGORY=${csv}`);
     karma.stdout.pipe(process.stdout);    
+ 
 })();
 

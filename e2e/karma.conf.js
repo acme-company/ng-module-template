@@ -2,12 +2,22 @@ module.exports = function (config) {
 
   console.log(`CI_MODE is ${config.CI_MODE} and BROWSER_CATEGORY is ${config.BROWSER_CATEGORY}`);
 
-  var browserList = require('./tools/getBrowserList.js')({
-    CI_MODE: config.CI_MODE,
-    BROWSER_CATEGORY: config.BROWSER_CATEGORY
-  });
+  var customLaunchers = [];
+  var categories = config.BROWSER_CATEGORY.split(',');
+  var browsers = categories.reduce(function(acc, val) {
+      var browserList = require('./tools/getBrowserList.js')({
+        CI_MODE: config.CI_MODE,
+        BROWSER_CATEGORY: val
+      });
+      if (customLaunchers.length == 0) {
+        customLaunchers = browserList.customLaunchers;
+      }
+     return acc.concat(browserList.browsers);
+  }, []);
+
+
   
-  console.log(browserList.browsers);
+  console.log(browsers);
 
   config.set({
     basePath: '',
@@ -37,12 +47,12 @@ module.exports = function (config) {
       pollingTimeout: 10000,
     },
 
-    browsers: browserList.browsers,
+    browsers: browsers,
     port: 9876,
     colors: true,
     // Increase timeout in case connection in CI is slow
     captureTimeout: 120000,
-    customLaunchers: browserList.customLaunchers,
+    customLaunchers: customLaunchers,
     singleRun: true
   })
 
