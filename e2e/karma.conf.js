@@ -46,8 +46,6 @@ module.exports = function (config) {
 
 
   if (process.env.TRAVIS) {
-    require('./tools/assignBuildNumber.js')({
-      CI_MODE: config.CI_MODE
-    });
+    require('./tools/assignBuildNumber.js')(config);
   }
 }
