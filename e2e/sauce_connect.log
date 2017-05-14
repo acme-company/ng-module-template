@@ -2836,3 +2836,464 @@
 20170514 024553.558 [9560] PROXY 127.0.0.1:56697 -> POST http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm68gis&sid=If-aIRbW43kYRcpRAAAH (1582 bytes)
 20170514 024553.566 [9560] PROXY 127.0.0.1:56697 <- 200 localhost:9876 (273 bytes)
 20170514 024553.567 [9560] PROXY 127.0.0.1:56682 <- 200 localhost:9876 (234 bytes)
+20170514 025511.494 [17404] Sauce Connect 4.4.0, build 845 e8cba87-dirty
+20170514 025511.495 [17404] Trying to autodetect proxy settings
+20170514 025511.495 [17404] Starting up; pid 17404
+20170514 025511.495 [17404] Command line arguments: C:\projects\tmp7\ng-module-template\node_modules\sauce-connect-launcher\sc\sc-4.4.0-win32\bin\sc -P 5757 --logfile sauce_connect.log -u pixelbits-mk -k **** --tunnel-identifier karma1494752104 --readyfile C:\Users\kangm\AppData\Local\Temp\sc-launcher-readyfile 
+20170514 025511.495 [17404] Log file: sauce_connect.log
+20170514 025511.495 [17404] Pid file: C:\Users\kangm\AppData\Roaming/sc_client-karma1494752104.pid
+20170514 025511.495 [17404] Timezone: Mountain Daylight Time GMT OFfset: -6h
+20170514 025511.495 [17404] Using no proxy for connecting to Sauce Labs REST API.
+20170514 025511.495 [17404] Resolving saucelabs.com to 162.222.75.243 took 3 ms.
+20170514 025512.040 [17404] ***********************************************************
+20170514 025512.041 [17404] A newer version of Sauce Connect (build 1496) is available!
+20170514 025512.041 [17404] Download it here:
+20170514 025512.041 [17404] https://saucelabs.com/downloads/sc-4.4.6-win32.zip
+20170514 025512.041 [17404] ***********************************************************
+20170514 025512.041 [17404] PROXY *** scproxy started ***
+20170514 025512.071 [17404] PROXY found DNS server 192.168.2.1
+20170514 025512.224 [17404] Started scproxy on port 57071.
+20170514 025512.224 [17404] Please wait for 'you may start your tests' to start your tests.
+20170514 025512.224 [17404] Starting secure remote tunnel VM...
+20170514 025516.233 [17404] Secure remote tunnel VM provisioned.
+20170514 025516.233 [17404] Tunnel ID: eb7af62faf014056bdfcfe5cb168e936
+20170514 025517.153 [17404] Secure remote tunnel VM is now: booting
+20170514 025525.975 [17404] Secure remote tunnel VM is now: running
+20170514 025525.975 [17404] Remote tunnel host is: maki76023.miso.saucelabs.com
+20170514 025525.975 [17404] Using no proxy for connecting to tunnel VM.
+20170514 025526.090 [17404] Resolving tunnel hostname to 162.222.76.23 took 2888ms.
+20170514 025526.090 [17404] Starting Selenium listener...
+20170514 025526.090 [17404] Establishing secure TLS connection to tunnel...
+20170514 025526.090 [17404] [EVDNS] Added nameserver 192.168.2.1:53 as 02FA1FD8
+20170514 025526.090 [17404] MAIN connecting to maki76023.miso.saucelabs.com:443
+20170514 025526.336 [17404] Selenium listener started on port 5757.
+20170514 025526.354 [17404] MAIN connecting to KGP server maki76023.miso.saucelabs.com took 266 ms
+20170514 025527.906 [17404] Sauce Connect is up, you may start your tests.
+20170514 025532.474 [17404] PROXY 127.0.0.1:57111 -> GET http://saucelabs.secret/a3bd17f69f034da5987a31270f3f29ac (319 bytes)
+20170514 025532.499 [17404] PROXY 127.0.0.1:57111 error resolving hostname, ares status: 4
+20170514 025532.499 [17404] PROXY 127.0.0.1:57111 <- saucelabs.secret:80 DNS error: Domain name not found (4)
+20170514 025532.594 [17404] PROXY 127.0.0.1:57112 -> GET http://saucelabs.secret/9cf6a2cb618d4199bbbac9368048da6c (318 bytes)
+20170514 025532.606 [17404] PROXY 127.0.0.1:57112 error resolving hostname, ares status: 4
+20170514 025532.606 [17404] PROXY 127.0.0.1:57112 <- saucelabs.secret:80 DNS error: Domain name not found (4)
+20170514 025532.791 [17404] PROXY 127.0.0.1:57113 -> GET http://saucelabs.secret/4c916435431f4ff59f1431bd6149905e (319 bytes)
+20170514 025532.821 [17404] PROXY 127.0.0.1:57113 error resolving hostname, ares status: 4
+20170514 025532.822 [17404] PROXY 127.0.0.1:57113 <- saucelabs.secret:80 DNS error: Domain name not found (4)
+20170514 025542.891 [17404] PROXY 127.0.0.1:57118 -> GET https://setup.icloud.com/configurations/init (712 bytes)
+20170514 025542.922 [17404] PROXY resolved 'setup.icloud.com' to '17.248.130.244:443'
+20170514 025543.092 [17404] PROXY 127.0.0.1:57118 <- 200 setup.icloud.com:443 (2359 bytes)
+20170514 025623.991 [11440] Sauce Connect 4.4.0, build 845 e8cba87-dirty
+20170514 025623.991 [11440] Trying to autodetect proxy settings
+20170514 025623.991 [11440] Starting up; pid 11440
+20170514 025623.991 [11440] Command line arguments: C:\projects\tmp7\ng-module-template\node_modules\sauce-connect-launcher\sc\sc-4.4.0-win32\bin\sc -P 5757 --logfile sauce_connect.log -u pixelbits-mk -k **** --tunnel-identifier karma1494752165 --readyfile C:\Users\kangm\AppData\Local\Temp\sc-launcher-readyfile 
+20170514 025623.991 [11440] Log file: sauce_connect.log
+20170514 025623.991 [11440] Pid file: C:\Users\kangm\AppData\Roaming/sc_client-karma1494752165.pid
+20170514 025623.991 [11440] Timezone: Mountain Daylight Time GMT OFfset: -6h
+20170514 025623.991 [11440] Using no proxy for connecting to Sauce Labs REST API.
+20170514 025623.991 [11440] Resolving saucelabs.com to 162.222.75.243 took 4 ms.
+20170514 025625.052 [11440] ***********************************************************
+20170514 025625.052 [11440] A newer version of Sauce Connect (build 1496) is available!
+20170514 025625.053 [11440] Download it here:
+20170514 025625.053 [11440] https://saucelabs.com/downloads/sc-4.4.6-win32.zip
+20170514 025625.053 [11440] ***********************************************************
+20170514 025625.053 [11440] PROXY *** scproxy started ***
+20170514 025625.053 [11440] PROXY found DNS server 192.168.2.1
+20170514 025625.291 [11440] Started scproxy on port 57126.
+20170514 025625.291 [11440] Please wait for 'you may start your tests' to start your tests.
+20170514 025625.291 [11440] Starting secure remote tunnel VM...
+20170514 025630.884 [11440] Secure remote tunnel VM provisioned.
+20170514 025630.884 [11440] Tunnel ID: c3660e01e0224148a74f1f45c1609bd0
+20170514 025632.417 [11440] Secure remote tunnel VM is now: booting
+20170514 025638.109 [11440] Secure remote tunnel VM is now: running
+20170514 025638.109 [11440] Remote tunnel host is: maki81181.miso.saucelabs.com
+20170514 025638.109 [11440] Using no proxy for connecting to tunnel VM.
+20170514 025638.172 [11440] Resolving tunnel hostname to 162.222.75.76 took 67ms.
+20170514 025638.172 [11440] Starting Selenium listener...
+20170514 025638.172 [11440] Establishing secure TLS connection to tunnel...
+20170514 025638.186 [11440] [EVDNS] Added nameserver 192.168.2.1:53 as 02F86F80
+20170514 025638.186 [11440] MAIN connecting to maki81181.miso.saucelabs.com:443
+20170514 025638.439 [11440] Selenium listener started on port 5757.
+20170514 025638.480 [11440] MAIN connecting to KGP server maki81181.miso.saucelabs.com took 292 ms
+20170514 025640.566 [11440] Sauce Connect is up, you may start your tests.
+20170514 025645.145 [11440] PROXY 127.0.0.1:57148 -> GET http://saucelabs.secret/ebf02b14d8f54697ba9ee4b014ac740f (319 bytes)
+20170514 025645.176 [11440] PROXY 127.0.0.1:57148 error resolving hostname, ares status: 4
+20170514 025645.176 [11440] PROXY 127.0.0.1:57148 <- saucelabs.secret:80 DNS error: Domain name not found (4)
+20170514 025645.234 [11440] PROXY 127.0.0.1:57149 -> GET http://saucelabs.secret/01674ba5969944a4b6d109b509875d9a (319 bytes)
+20170514 025645.234 [11440] PROXY 127.0.0.1:57149 error resolving hostname, ares status: 4
+20170514 025645.235 [11440] PROXY 127.0.0.1:57149 <- saucelabs.secret:80 DNS error: Domain name not found (4)
+20170514 025645.358 [11440] PROXY 127.0.0.1:57150 -> GET http://saucelabs.secret/0dede4ebbe37479b9bccf343bf96f9f7 (319 bytes)
+20170514 025645.373 [11440] PROXY 127.0.0.1:57150 error resolving hostname, ares status: 4
+20170514 025645.373 [11440] PROXY 127.0.0.1:57150 <- saucelabs.secret:80 DNS error: Domain name not found (4)
+20170514 025656.382 [11440] PROXY 127.0.0.1:57152 -> GET https://setup.icloud.com/configurations/init (712 bytes)
+20170514 025656.413 [11440] PROXY resolved 'setup.icloud.com' to '17.248.139.8:443'
+20170514 025657.301 [11440] PROXY 127.0.0.1:57152 <- 200 setup.icloud.com:443 (2363 bytes)
+20170514 025700.280 [11440] Cleaning up.
+20170514 025700.280 [11440] Removing tunnel c3660e01e0224148a74f1f45c1609bd0.
+20170514 025721.491 [4244] Sauce Connect 4.4.0, build 845 e8cba87-dirty
+20170514 025721.492 [4244] Trying to autodetect proxy settings
+20170514 025721.492 [4244] Starting up; pid 4244
+20170514 025721.492 [4244] Command line arguments: C:\projects\tmp7\ng-module-template\node_modules\sauce-connect-launcher\sc\sc-4.4.0-win32\bin\sc -P 5757 --logfile sauce_connect.log -u pixelbits-mk -k **** --tunnel-identifier karma1494752228 --readyfile C:\Users\kangm\AppData\Local\Temp\sc-launcher-readyfile 
+20170514 025721.495 [4244] Log file: sauce_connect.log
+20170514 025721.495 [4244] Pid file: C:\Users\kangm\AppData\Roaming/sc_client-karma1494752228.pid
+20170514 025721.495 [4244] Timezone: Mountain Daylight Time GMT OFfset: -6h
+20170514 025721.495 [4244] Using no proxy for connecting to Sauce Labs REST API.
+20170514 025721.495 [4244] Resolving saucelabs.com to 162.222.75.243 took 3 ms.
+20170514 025722.495 [4244] ***********************************************************
+20170514 025722.495 [4244] A newer version of Sauce Connect (build 1496) is available!
+20170514 025722.495 [4244] Download it here:
+20170514 025722.495 [4244] https://saucelabs.com/downloads/sc-4.4.6-win32.zip
+20170514 025722.496 [4244] ***********************************************************
+20170514 025722.503 [4244] PROXY *** scproxy started ***
+20170514 025722.513 [4244] PROXY found DNS server 192.168.2.1
+20170514 025722.725 [4244] Started scproxy on port 57160.
+20170514 025722.725 [4244] Please wait for 'you may start your tests' to start your tests.
+20170514 025722.725 [4244] Starting secure remote tunnel VM...
+20170514 025727.409 [4244] Secure remote tunnel VM provisioned.
+20170514 025727.409 [4244] Tunnel ID: 97ac486bb5ec497db9cc9e0b1153da37
+20170514 025728.639 [4244] Secure remote tunnel VM is now: booting
+20170514 025738.062 [4244] Secure remote tunnel VM is now: running
+20170514 025738.062 [4244] Remote tunnel host is: maki86094.miso.saucelabs.com
+20170514 025738.062 [4244] Using no proxy for connecting to tunnel VM.
+20170514 025738.124 [4244] Resolving tunnel hostname to 162.222.75.79 took 54ms.
+20170514 025738.125 [4244] Starting Selenium listener...
+20170514 025738.125 [4244] Establishing secure TLS connection to tunnel...
+20170514 025738.155 [4244] [EVDNS] Added nameserver 192.168.2.1:53 as 02F61CA8
+20170514 025738.156 [4244] MAIN connecting to maki86094.miso.saucelabs.com:443
+20170514 025738.396 [4244] Selenium listener started on port 5757.
+20170514 025738.771 [4244] MAIN connecting to KGP server maki86094.miso.saucelabs.com took 605 ms
+20170514 025741.552 [4244] Sauce Connect is up, you may start your tests.
+20170514 025747.385 [4244] PROXY 127.0.0.1:57188 -> GET http://saucelabs.secret/935e4ba0f78545cbbc426627f7717d81 (319 bytes)
+20170514 025747.416 [4244] PROXY 127.0.0.1:57188 error resolving hostname, ares status: 4
+20170514 025747.417 [4244] PROXY 127.0.0.1:57188 <- saucelabs.secret:80 DNS error: Domain name not found (4)
+20170514 025748.301 [4244] PROXY 127.0.0.1:57189 -> GET http://saucelabs.secret/4fa2f887ff3343b187427577ad827a68 (318 bytes)
+20170514 025748.332 [4244] PROXY 127.0.0.1:57189 error resolving hostname, ares status: 4
+20170514 025748.333 [4244] PROXY 127.0.0.1:57189 <- saucelabs.secret:80 DNS error: Domain name not found (4)
+20170514 025807.438 [8064] Sauce Connect 4.4.0, build 845 e8cba87-dirty
+20170514 025807.438 [8064] Trying to autodetect proxy settings
+20170514 025807.438 [8064] Starting up; pid 8064
+20170514 025807.438 [8064] Command line arguments: C:\projects\tmp7\ng-module-template\node_modules\sauce-connect-launcher\sc\sc-4.4.0-win32\bin\sc -P 5757 --logfile sauce_connect.log -u pixelbits-mk -k **** --tunnel-identifier karma1494752278 --readyfile C:\Users\kangm\AppData\Local\Temp\sc-launcher-readyfile 
+20170514 025807.439 [8064] Log file: sauce_connect.log
+20170514 025807.439 [8064] Pid file: C:\Users\kangm\AppData\Roaming/sc_client-karma1494752278.pid
+20170514 025807.439 [8064] Timezone: Mountain Daylight Time GMT OFfset: -6h
+20170514 025807.439 [8064] Using no proxy for connecting to Sauce Labs REST API.
+20170514 025807.439 [8064] Resolving saucelabs.com to 162.222.75.243 took 3 ms.
+20170514 025808.572 [8064] ***********************************************************
+20170514 025808.572 [8064] A newer version of Sauce Connect (build 1496) is available!
+20170514 025808.572 [8064] Download it here:
+20170514 025808.572 [8064] https://saucelabs.com/downloads/sc-4.4.6-win32.zip
+20170514 025808.572 [8064] ***********************************************************
+20170514 025808.572 [8064] PROXY *** scproxy started ***
+20170514 025808.573 [8064] PROXY found DNS server 192.168.2.1
+20170514 025808.747 [8064] Started scproxy on port 57196.
+20170514 025808.747 [8064] Please wait for 'you may start your tests' to start your tests.
+20170514 025808.747 [8064] Starting secure remote tunnel VM...
+20170514 025813.482 [8064] Secure remote tunnel VM provisioned.
+20170514 025813.482 [8064] Tunnel ID: e191d872ad2545b2a64ec475c08ce1c9
+20170514 025814.255 [8064] Secure remote tunnel VM is now: booting
+20170514 025823.426 [8064] Secure remote tunnel VM is now: running
+20170514 025823.426 [8064] Remote tunnel host is: maki76194.miso.saucelabs.com
+20170514 025823.426 [8064] Using no proxy for connecting to tunnel VM.
+20170514 025823.488 [8064] Resolving tunnel hostname to 162.222.76.194 took 67ms.
+20170514 025823.488 [8064] Starting Selenium listener...
+20170514 025823.488 [8064] Establishing secure TLS connection to tunnel...
+20170514 025823.512 [8064] [EVDNS] Added nameserver 192.168.2.1:53 as 03029E68
+20170514 025823.512 [8064] MAIN connecting to maki76194.miso.saucelabs.com:443
+20170514 025823.755 [8064] Selenium listener started on port 5757.
+20170514 025823.777 [8064] MAIN connecting to KGP server maki76194.miso.saucelabs.com took 267 ms
+20170514 025825.579 [8064] Sauce Connect is up, you may start your tests.
+20170514 025829.161 [8064] PROXY 127.0.0.1:57230 -> GET http://saucelabs.secret/8e83e72612544699a14b7b81de794224 (319 bytes)
+20170514 025829.177 [8064] PROXY 127.0.0.1:57230 error resolving hostname, ares status: 4
+20170514 025829.177 [8064] PROXY 127.0.0.1:57230 <- saucelabs.secret:80 DNS error: Domain name not found (4)
+20170514 025829.469 [8064] PROXY 127.0.0.1:57231 -> GET http://saucelabs.secret/4b249499ecd344c2af5dd74519953ae1 (319 bytes)
+20170514 025829.499 [8064] PROXY 127.0.0.1:57231 error resolving hostname, ares status: 4
+20170514 025829.499 [8064] PROXY 127.0.0.1:57231 <- saucelabs.secret:80 DNS error: Domain name not found (4)
+20170514 025829.773 [8064] PROXY 127.0.0.1:57232 -> GET http://saucelabs.secret/e9289a479886483bb39740211734116b (319 bytes)
+20170514 025829.784 [8064] PROXY 127.0.0.1:57232 error resolving hostname, ares status: 4
+20170514 025829.784 [8064] PROXY 127.0.0.1:57232 <- saucelabs.secret:80 DNS error: Domain name not found (4)
+20170514 025830.078 [8064] PROXY 127.0.0.1:57233 -> GET http://saucelabs.secret/61b3c749ef9c4c559857d99f518fff45 (319 bytes)
+20170514 025830.109 [8064] PROXY 127.0.0.1:57233 error resolving hostname, ares status: 4
+20170514 025830.109 [8064] PROXY 127.0.0.1:57233 <- saucelabs.secret:80 DNS error: Domain name not found (4)
+20170514 025830.187 [8064] PROXY 127.0.0.1:57235 -> GET http://saucelabs.secret/b4dd424d31e84542b3c4eae4f0148f83 (319 bytes)
+20170514 025830.202 [8064] PROXY 127.0.0.1:57235 error resolving hostname, ares status: 4
+20170514 025830.202 [8064] PROXY 127.0.0.1:57235 <- saucelabs.secret:80 DNS error: Domain name not found (4)
+20170514 025835.019 [8064] PROXY 127.0.0.1:57236 -> GET https://setup.icloud.com/configurations/init (712 bytes)
+20170514 025835.027 [8064] PROXY resolved 'setup.icloud.com' to '17.248.139.109:443'
+20170514 025835.605 [8064] PROXY 127.0.0.1:57236 <- 200 setup.icloud.com:443 (2361 bytes)
+20170514 025838.709 [8064] PROXY resolved 'albert.apple.com' to '17.171.27.65:443'
+20170514 025838.740 [8064] PROXY 127.0.0.1:57239 -> POST https://albert.apple.com/deviceservices/deviceActivation?device=MacOS (7754 bytes)
+20170514 025839.379 [8064] PROXY 127.0.0.1:57239 <- 200 albert.apple.com:443 (1339 bytes)
+20170514 025842.179 [8064] PROXY 127.0.0.1:57239 -> GET http://connectivitycheck.android.com/generate_204 (385 bytes)
+20170514 025842.179 [8064] PROXY resolved 'connectivitycheck.android.com' to '216.123.194.213:80'
+20170514 025842.210 [8064] PROXY 127.0.0.1:57239 <- 204 connectivitycheck.android.com:80 (83 bytes)
+20170514 025845.746 [8064] PROXY 127.0.0.1:57239 -> GET https://configuration.apple.com/configurations/pep/config/geo/networkDefaults-ios-9.0.plist (482 bytes)
+20170514 025845.777 [8064] PROXY 127.0.0.1:57243 -> GET https://gspe1-ssl.ls.apple.com/pep/gcc (428 bytes)
+20170514 025845.777 [8064] PROXY resolved 'configuration.apple.com' to '23.72.228.224:443'
+20170514 025845.777 [8064] PROXY resolved 'gspe1-ssl.ls.apple.com' to '23.72.229.141:443'
+20170514 025845.824 [8064] PROXY 127.0.0.1:57244 -> GET https://gspe35-ssl.ls.apple.com/geo_manifest/dynamic/config?application=geod&application_version=1&country_code=US&hardware=iPhone7,2&os=ios&os_build=13E230&os_version=9.3 (562 bytes)
+20170514 025845.834 [8064] PROXY resolved 'gspe35-ssl.ls.apple.com' to '23.72.229.141:443'
+20170514 025845.851 [8064] PROXY 127.0.0.1:57239 <- 200 configuration.apple.com:443 (2682 bytes)
+20170514 025845.882 [8064] PROXY 127.0.0.1:57243 <- 200 gspe1-ssl.ls.apple.com:443 (126 bytes)
+20170514 025846.041 [8064] PROXY 127.0.0.1:57244 <- 200 gspe35-ssl.ls.apple.com:443 (132024 bytes)
+20170514 025846.151 [8064] PROXY resolved 'gspe35-ssl.ls.apple.com' to '23.72.229.141:443'
+20170514 025846.151 [8064] PROXY 127.0.0.1:57243 -> GET https://gspe35-ssl.ls.apple.com/geo_manifest/dynamic/config?application=geod&application_version=1&country_code=CA&hardware=iPhone7,2&os=ios&os_build=13E230&os_version=9.3 (538 bytes)
+20170514 025846.344 [8064] PROXY 127.0.0.1:57243 <- 200 gspe35-ssl.ls.apple.com:443 (132024 bytes)
+20170514 025846.665 [8064] PROXY 127.0.0.1:57239 -> GET http://gspe21.ls.apple.com/stylesheet/default-11621@2x.styl?sid=1678064049493381312707872776288275621651&accessKey=1494756532_if1FscoGztKClqi8_QcQesja0dtcMRJ9otjahlsLXk0vb2aFzllRi986EOqgWwfEdkS27BkzBkruxJ4Ih6Wt1uxeRaAe6mxKeiSG7VZ5GqWCmLhVBxDFF5OAbRT%2B5%2BmRqZcj4Xf8GTv%2FJwpiR2%2Boq%2FL%2F%2F2dE37ctIXkMx9A%3D%3D (643 bytes)
+20170514 025846.696 [8064] PROXY 127.0.0.1:57249 -> GET http://gspe21.ls.apple.com/stylesheet/default-9871.styl?sid=1678064049493381312707872776288275621651&accessKey=1494756532_gEUagcEYbXDyUbxO_weprQZqoRMo5kbsk8gkZsRWK%2F7Fd25qpH5e4DCAD4EgaAC7lzp9vBQxymzToU3XQ88f86Lbll6wrytPt92kh3gNd6985HTPelyzM%2F23qtlhewxPoEQ1ZPE2YuELapXBY4U8TkHAimEGURK%2F4U0f2nA%3D%3D (631 bytes)
+20170514 025846.696 [8064] PROXY resolved 'gspe21.ls.apple.com' to '209.89.157.194:80'
+20170514 025846.696 [8064] PROXY resolved 'gspe21.ls.apple.com' to '209.89.157.194:80'
+20170514 025846.743 [8064] PROXY resolved 'gspe21.ls.apple.com' to '209.89.157.194:80'
+20170514 025846.743 [8064] PROXY 127.0.0.1:57250 -> GET http://gspe21.ls.apple.com/stylesheet/default-car-4970@2x.styl?sid=1678064049493381312707872776288275621651&accessKey=1494756532_J2bo6fbQwezyoGRQ_UXUCwoEXyrQomXLRl8Y6h7UbvnHtG2ebz5elVvB%2BIdgXJO6GvV4s2b1Hr6V7NHLRdd0E01vP4eToKUk0Rh6tyyjeFXUdwrr5lkMYkJ%2BvejE2CAikAkLRJMYMa0gE3TgDsQEbMkgYr6tH6BBdAThxGA%3D%3D (636 bytes)
+20170514 025846.774 [8064] PROXY 127.0.0.1:57249 <- 200 gspe21.ls.apple.com:80 (107041 bytes)
+20170514 025846.804 [8064] PROXY 127.0.0.1:57239 <- 200 gspe21.ls.apple.com:80 (107429 bytes)
+20170514 025846.804 [8064] PROXY 127.0.0.1:57250 <- 200 gspe21.ls.apple.com:80 (102915 bytes)
+20170514 025846.890 [8064] PROXY 127.0.0.1:57249 -> GET http://gspe21.ls.apple.com/stylesheet/default-search-2977.styl?sid=1678064049493381312707872776288275621651&accessKey=1494756533_LkA9T5bOziEs6aNx_sKP0ux6DmoDbzHwdF9KZvi7jOT7lf7V%2BDxeyCBBbSQmx0w2FAJSIJw5MQ%2BCF%2BHRZPHZ5xMGPKEQ9CYIJTAklqkD8knL5T16rK%2Fpon5fl2Md%2F8KsQ%2FUj8VaMciUfARwsnxap8rvDcvgiviNqPzGKMQQ%3D%3D (644 bytes)
+20170514 025846.921 [8064] PROXY 127.0.0.1:57249 <- 200 gspe21.ls.apple.com:80 (10982 bytes)
+20170514 025847.135 [8064] PROXY 127.0.0.1:57250 -> GET http://gspe21.ls.apple.com/stylesheet/default-search-3329@2x.styl?sid=1678064049493381312707872776288275621651&accessKey=1494756533_VSsjDzgqGnDnmTne_%2FPUyg7MRo%2F94Abw1IpbYM24eB5JIe%2Fwf%2BGlyys%2B31gbjZMrVWfjCKwsdzJlKQ6XTp%2FifJoorVxPy%2FW7cpGK%2BgHER7r40SHqjxSfHfpfWp8KD5qz7XFx1WNLNPizbi7BJE6qTuO%2B5E3jWenj97QfH%2FA%3D%3D (655 bytes)
+20170514 025847.135 [8064] PROXY 127.0.0.1:57239 -> GET http://gspe21.ls.apple.com/stylesheet/default-search-car-678@2x.styl?sid=1678064049493381312707872776288275621651&accessKey=1494756533_mLXuj5bQq68H6yx6_21ZwUWaozU8N1Ivd21SvMBIcYa6mFk1GeU9D8LLA4zWN57JS0MO76758qyMLL98YKqrwTzTFTcWoOvP%2FYqChTibFg0wSiSz57L%2F3ouxIOy36uxnDuupAkaPv6FTYBl%2BlH572%2BC%2Bv19jL3ygjKtPsDnxNa%2BKKoeuQTSGNgtUBMx4%3D (668 bytes)
+20170514 025847.166 [8064] PROXY 127.0.0.1:57250 <- 200 gspe21.ls.apple.com:80 (10946 bytes)
+20170514 025847.166 [8064] PROXY 127.0.0.1:57239 <- 200 gspe21.ls.apple.com:80 (10892 bytes)
+20170514 025847.197 [8064] PROXY 127.0.0.1:57249 -> GET http://gspe21.ls.apple.com/stylesheet/globe-default-1018.styl?sid=1678064049493381312707872776288275621651&accessKey=1494756533_9Bd7E59zF7BcoNCb_u9VRhG5lecDfalvQ2JAK0oELhtC9NOMVRDQdUOp7mImQuPptiQr5Kc84lcfUPCm%2FtI%2BUzyn6zclXkX%2F%2FczBRLF11%2B16LIVCHhjKtbxbe57HLCLt4pG692pGpXEWVDdVCe5bit3uU%2FeyVjJOOhIoN4w%3D%3D (643 bytes)
+20170514 025847.227 [8064] PROXY 127.0.0.1:57249 <- 200 gspe21.ls.apple.com:80 (28465 bytes)
+20170514 025847.304 [8064] PROXY 127.0.0.1:57250 -> GET http://gspe21.ls.apple.com/stylesheet/globe-default-1023@2x.styl?sid=1678064049493381312707872776288275621651&accessKey=1494756533_bpSs3gooWTj9m9nj_teWx%2FBT3jFB3WNtQLWmOGtt6rDY6c6yURduKcStrB0huhoPMxj5G50gYbZmr4rtuR1fTnKq8hHsJ0W6TiX%2BSQt3YrYxD%2FyowVeR6BcB4uEbuecwqSaGyeLfrPSr6Xp89WTw%2BUbIZTVlWtaK39IdZrA%3D%3D (642 bytes)
+20170514 025847.305 [8064] PROXY 127.0.0.1:57239 -> GET http://gspe21.ls.apple.com/stylesheet/hybrid-941.styl?sid=1678064049493381312707872776288275621651&accessKey=1494756533_32eJTCihGYEgkycI_9m0fQIU%2F6rToZWYqXYz0VTzbqhZoePNBiznHM8LVDzGjcW7qd9PNcAo15o3aMpZdsSp46qDgdsdtiIZKcINC1xznOLoFm03WhU6woVVc%2F3j6OzPGkoHyE%2BEo4WojK4BmzXMci6yKan1WTTHJ3Vc9hw%3D%3D (629 bytes)
+20170514 025847.328 [8064] PROXY 127.0.0.1:57250 <- 200 gspe21.ls.apple.com:80 (29116 bytes)
+20170514 025847.328 [8064] PROXY 127.0.0.1:57239 <- 200 gspe21.ls.apple.com:80 (28172 bytes)
+20170514 025847.377 [8064] PROXY 127.0.0.1:57249 -> GET http://gspe21.ls.apple.com/stylesheet/hybrid-941@2x.styl?sid=1678064049493381312707872776288275621651&accessKey=1494756533_hbZllkoivVxf298I_kRGAM5Lr%2BTFkVB8dNEorUuUEB7Ao10B9yVq7UYCRDwzB9zG2t4%2F8DAHqDxGdsDtHYGuOmWuXvq2Dq95upIu18ePJ6v4z8D2EPMNZB%2Bce8krZindc0xWLVkO3wpkbhb9nRGeR8jHU13M2vN8%2FeKbnZQ%3D%3D (634 bytes)
+20170514 025847.408 [8064] PROXY 127.0.0.1:57249 <- 200 gspe21.ls.apple.com:80 (28744 bytes)
+20170514 025847.439 [8064] PROXY 127.0.0.1:57239 -> GET http://gspe21.ls.apple.com/icon/33-45-7-detroit-transit-icons-5@2x.iconpack?sid=1678064049493381312707872776288275621651&accessKey=1494756533_ybA8fnFkIjGaAPHp_f5r7Q%2BWv7WlcWZcqv7WW8q313q22p2SlDJcwLLepPxz%2BoYtnLOqiKEtU49vnwCMRfKSTKZqnTVAKk2mGZSijieggnXdzkcQBvm647EBMBYDO1pcvJfrwvAX3KNpJfjyXnRTMU%2FDtxmgEh8sgODSdZMma6u4Rhms8Y%2FwL3FYqes4%3D (671 bytes)
+20170514 025847.485 [8064] PROXY 127.0.0.1:57250 -> GET http://gspe21.ls.apple.com/icon/33-45-7-detroit-transit-icons-6.iconpack?sid=1678064049493381312707872776288275621651&accessKey=1494756533_2Kzo4CoBAxwQ3tlA_ewSQPKNfMUjf6xqYmGdQjRvz5ewy7oJ8iK7JQMAWLRoY5nff6zA8JCHn1Ikz8SQdZsoJsYCERoj8hIWzvFmcf7cdn%2FHA4mBjjI%2BwJ8N0nGAVLrcX3oSC%2B0%2B3UdZqHFBUsro1NJSsgYkjwrhhzfydj9QogDodMNixzRtf3Ptml1Y%3D (668 bytes)
+20170514 025847.485 [8064] PROXY 127.0.0.1:57239 <- 200 gspe21.ls.apple.com:80 (78260 bytes)
+20170514 025847.516 [8064] PROXY 127.0.0.1:57250 <- 200 gspe21.ls.apple.com:80 (36444 bytes)
+20170514 025847.547 [8064] PROXY 127.0.0.1:57249 -> GET http://gspe21.ls.apple.com/icon/5-12-5-la-transit-icons-22.iconpack?sid=1678064049493381312707872776288275621651&accessKey=1494756533_kolKsi5mevc1m6To_Lp409tRzFs28fjVmDTrcgdc9zRjuY8VaShuTk2yhHzmL4bj6bzoNq58QPzlA7VYajBKeNM2gcsQn5vwl2N5DZOIAoCn%2BmyCDI8gswA712B0dfFXtBXsVJQlKBtTX8uAfLKqLhTu%2FFheC31bjZ%2BcX%2FTubmIJo0%2F5XaZ5hhNWhszM%3D (665 bytes)
+20170514 025847.619 [8064] PROXY 127.0.0.1:57249 <- 200 gspe21.ls.apple.com:80 (196981 bytes)
+20170514 025847.650 [8064] PROXY 127.0.0.1:57250 -> GET http://gspe21.ls.apple.com/icon/5-12-5-la-transit-icons-25@2x.iconpack?sid=1678064049493381312707872776288275621651&accessKey=1494756534_ZqC4M4rhbSG2C4Sg_qT85cVYWjXM4aK5geh8GCa59JqEhJERqMewPPw%2B9WWBvOg0U1ZulpcatK9Cp6GNL9qkh7m7ytVQZNxHO%2BFk%2BtXZmWXFOYxCMXY35b3sGFrGQ9tFfYcNp014FIWuMeqT%2FvnmUG47N2VfuM2UoEZYk0EhWDg7EXR831BzH495SLEs%3D (666 bytes)
+20170514 025847.650 [8064] PROXY 127.0.0.1:57239 -> GET http://gspe21.ls.apple.com/icon/default-icons-370.iconpack?sid=1678064049493381312707872776288275621651&accessKey=1494756534_z1n2aBCzBocKbGB9_cdf7FbCVcXJ3zQQTeDncu1zRyPLuAtKbAqAqzXpyMDSRFQPTnYi8j0JPfNanE4heQphzRd1pQJXjrPoDQJlluGHpgS5OFRlj8Gr8RYIEjlZbQLPOdHNzF77DfviarrSxHG%2FAduyX3zRexvulA1dNEw%3D%3D (630 bytes)
+20170514 025847.743 [8064] PROXY 127.0.0.1:57239 <- 200 gspe21.ls.apple.com:80 (124165 bytes)
+20170514 025847.774 [8064] PROXY 127.0.0.1:57249 -> GET http://gspe21.ls.apple.com/icon/default-icons-390@2x.iconpack?sid=1678064049493381312707872776288275621651&accessKey=1494756534_1RUopafYTSkaWnc9_Vq0d3An0sB9xa%2BIs4%2BQqabg1GOOS2RHStMOAhgQty95I6lq7pfYwU1I4ZhcsEWLMOAEjcvFBwBmj0v5fT1j4h%2FRqNWnUHHLJkK%2FM05m4XID9BxbTnBkgOz34WdW4x%2B3kY2hy7wRNCe2mpGADQhOixg%3D%3D (641 bytes)
+20170514 025847.844 [8064] PROXY 127.0.0.1:57249 <- 200 gspe21.ls.apple.com:80 (255963 bytes)
+20170514 025847.860 [8064] PROXY 127.0.0.1:57239 -> GET http://gspe21.ls.apple.com/icon/default-search-icons-186.iconpack?sid=1678064049493381312707872776288275621651&accessKey=1494756534_XT80Mn11c8NWFKhe_zahm77kD%2FPQimKcsNxs7UnZjHyy4GqzkMk6h%2Fflfo%2FTf9Tbwy3mcgxKYcRSo2VJ57ug1XlWXhklIV9RT4FX1h%2BCNInVWc4O7PjgsKd8Oj48N459bfxeMYAyid8i8%2BkkcXbPTaQzqoMUZA66JBPAaig%3D%3D (645 bytes)
+20170514 025847.906 [8064] PROXY 127.0.0.1:57250 <- 200 gspe21.ls.apple.com:80 (442241 bytes)
+20170514 025847.983 [8064] PROXY 127.0.0.1:57249 -> GET http://gspe21.ls.apple.com/icon/default-search-icons-220@2x.iconpack?sid=1678064049493381312707872776288275621651&accessKey=1494756534_vylmVU7llmGgpM9q_KSeQLQlDHoJcAJuuM25wg2nYvS6D%2BsGRrH8E%2FOGzSkaQ6zUQgX2G9rJy0UUT%2FgNseg08Ttg0V8prMmIfbo3LRlFTKvvaRwQ%2FMIiEnilP%2FMA1xscvfXdAGR3PxSj4SnlXYfamoOnv90pdHipkFs6ng%2F86X6BOy6Yhc5VGwLZQvAs%3D (668 bytes)
+20170514 025848.045 [8064] PROXY 127.0.0.1:57249 <- 200 gspe21.ls.apple.com:80 (200909 bytes)
+20170514 025848.045 [8064] PROXY 127.0.0.1:57250 -> GET http://gspe21.ls.apple.com/xml/altitude-502.xml?sid=1678064049493381312707872776288275621651&accessKey=1494756534_n1lwK4sHpReWFvAp_smOScXFI2TSECBDZ1JHuym7ecur%2BPMU3z%2Bk3sL7RiLnTqMOHHKFOIIWWC5MgBwScEzhXSBy1c8IXHaKuoGKsfWrhmeglfWyG%2FDvODl6%2Bc0O4izLDDoZHUr%2BZgICPTLl%2B (601 bytes)
+20170514 025848.149 [8064] PROXY 127.0.0.1:57239 <- 200 gspe21.ls.apple.com:80 (94932 bytes)
+20170514 025848.180 [8064] PROXY 127.0.0.1:57249 -> GET http://gspe21.ls.apple.com/xml/supportedCountriesDirections-8.plist?sid=1678064049493381312707872776288275621651&accessKey=1494756534_RwhPwH0by45TQxyj_Xtew9zXqckpfN5C81yyy1h%2BSbl9iLYWYRumg43EWlDRf3AK3TLV4EKdrsjJKw2q36GSI5HpVemv7E6CxtcZoBsPJx09TLirCvamIXiYkFgEvDPijOr9HLrtaUc5mpBJm1k5Jbw0TysS3plwXXXsumYiptXkAs67EXio75eIU%2F8U%3D (659 bytes)
+20170514 025848.180 [8064] PROXY 127.0.0.1:57249 <- 200 gspe21.ls.apple.com:80 (3177 bytes)
+20170514 025848.258 [8064] PROXY 127.0.0.1:57239 -> GET http://gspe21.ls.apple.com/xml/supportedCountriesTraffic-5.plist?sid=1678064049493381312707872776288275621651&accessKey=1494756534_Q6USOllN0uOmqP8X_KXcrwaaHgxICZejCLuM32JUIonS5qe1AZtVcrQmkthosu90XmWRmNuJ7CxjAblSPvx4CW6rJcvUGgNyPIKFWfEbjAw%2FZG8Srt7bshV8fWL1uUDOMuknzOLrlf1O%2FlNaXDz5%2FYhhGyu7k1nUtZc%2FFKw%3D%3D (642 bytes)
+20170514 025848.258 [8064] PROXY 127.0.0.1:57250 <- 200 gspe21.ls.apple.com:80 (127041 bytes)
+20170514 025848.288 [8064] PROXY 127.0.0.1:57239 <- 200 gspe21.ls.apple.com:80 (1777 bytes)
+20170514 025848.822 [8064] PROXY 127.0.0.1:57255 -> POST https://gsp-ssl.ls.apple.com/experiments.arpc (592 bytes)
+20170514 025848.844 [8064] PROXY resolved 'gsp-ssl.ls.apple.com' to '17.134.62.31:443'
+20170514 025849.030 [8064] PROXY 127.0.0.1:57255 <- 200 gsp-ssl.ls.apple.com:443 (255 bytes)
+20170514 025851.047 [8064] PROXY resolved 'gspe1-ssl.ls.apple.com' to '23.72.229.141:443'
+20170514 025851.047 [8064] PROXY 127.0.0.1:57255 -> GET https://gspe1-ssl.ls.apple.com/pep/gcc (428 bytes)
+20170514 025851.152 [8064] PROXY 127.0.0.1:57255 <- 200 gspe1-ssl.ls.apple.com:443 (126 bytes)
+20170514 025853.125 [8064] PROXY resolved 'configuration.apple.com' to '23.72.228.224:443'
+20170514 025853.125 [8064] PROXY 127.0.0.1:57255 -> GET https://configuration.apple.com/configurations/pep/config/pepconfig.plist (467 bytes)
+20170514 025853.202 [8064] PROXY 127.0.0.1:57255 <- 200 configuration.apple.com:443 (1200 bytes)
+20170514 025856.108 [8064] PROXY 127.0.0.1:57260 -> POST http://wu-calculator.apple.com/dgw?imei=APPLE&apptype=finance (789 bytes)
+20170514 025856.138 [8064] PROXY resolved 'wu-calculator.apple.com' to '17.171.43.55:80'
+20170514 025856.503 [8064] PROXY 127.0.0.1:57260 <- 200 wu-calculator.apple.com:80 (1035 bytes)
+20170514 025856.503 [8064] PROXY 127.0.0.1:57260 failed to send half-close
+20170514 025856.517 [8064] PROXY resolved 'configuration.apple.com' to '23.72.228.224:443'
+20170514 025856.518 [8064] PROXY 127.0.0.1:57250 -> GET https://configuration.apple.com/configurations/pep/config/geo/networkDefaults-ios-8.3.plist (493 bytes)
+20170514 025856.576 [8064] PROXY 127.0.0.1:57249 -> GET https://api.smoot.apple.com/bag?key=granite0323&locale=en-US&sprite=1 (524 bytes)
+20170514 025856.607 [8064] PROXY resolved 'api.smoot.apple.com' to '17.249.9.246:443'
+20170514 025856.638 [8064] PROXY 127.0.0.1:57250 <- 200 configuration.apple.com:443 (2404 bytes)
+20170514 025856.668 [8064] PROXY resolved 'gsp-ssl.ls.apple.com' to '17.134.62.31:443'
+20170514 025856.668 [8064] PROXY 127.0.0.1:57265 -> POST https://gsp-ssl.ls.apple.com/experiments.arpc (607 bytes)
+20170514 025856.669 [8064] PROXY resolved 'gspe35-ssl.ls.apple.com' to '23.72.229.141:443'
+20170514 025856.669 [8064] PROXY 127.0.0.1:57266 -> GET https://gspe35-ssl.ls.apple.com/geo_manifest/dynamic/config?application=geod&application_version=1&country_code=US&hardware=iPhone7,2&os=ios&os_build=12H141&os_version=8.4 (573 bytes)
+20170514 025856.776 [8064] PROXY 127.0.0.1:57266 <- 200 gspe35-ssl.ls.apple.com:443 (69410 bytes)
+20170514 025856.818 [8064] PROXY 127.0.0.1:57249 <- 200 api.smoot.apple.com:443 (3252 bytes)
+20170514 025856.864 [8064] PROXY 127.0.0.1:57265 <- 200 gsp-ssl.ls.apple.com:443 (1055 bytes)
+20170514 025857.412 [8064] PROXY 127.0.0.1:57266 -> GET https://api-glb-msp.smoot.apple.com/installed_app_whitelist_url?version=539893cbe420d3d1622feaef815a31fd&key=granite0323 (530 bytes)
+20170514 025857.443 [8064] PROXY 127.0.0.1:57265 -> GET https://api-glb-msp.smoot.apple.com/qi_features_url?locale=en-US&version=00000000000000000000000000000014&key=granite0323 (554 bytes)
+20170514 025857.444 [8064] PROXY resolved 'gspe21.ls.apple.com' to '209.89.157.194:80'
+20170514 025857.444 [8064] PROXY 127.0.0.1:57249 -> GET http://gspe21.ls.apple.com/stylesheet/default-9423@2x.styleproto?sid=1599446608659898768512701786913174453364&accessKey=1494756538_BetFqt9nNG2AUlwG_YVTsQcu1iMTKWJULUDTghChSBjPDtyI4usc29b0%2BCFiuAWSiXt3TupvoK2TGqfASlgbWgnh3t0GfX3BCXDziO%2FskhGFlhU5B0tMVfOW1AH3lq%2FXQ7DQgRfpX%2BN7pr2T1%2BnUEI%2BokIuN5RHp%2B%2FfCSnQ%3D%3D (661 bytes)
+20170514 025857.445 [8064] PROXY resolved 'api-glb-msp.smoot.apple.com' to '17.249.187.246:443'
+20170514 025857.445 [8064] PROXY resolved 'api-glb-msp.smoot.apple.com' to '17.249.187.246:443'
+20170514 025857.504 [8064] PROXY resolved 'gspe21.ls.apple.com' to '209.89.157.194:80'
+20170514 025857.505 [8064] PROXY 127.0.0.1:57250 -> GET http://gspe21.ls.apple.com/stylesheet/default-8054.styleproto?sid=1599446608659898768512701786913174453364&accessKey=1494756538_g72y8KMjvqKeu6LH_EA10VzocJDYPo73e789szY%2FRJDi02x5lHm0cgWUqBY%2FcojUgDKrXhM7bkao2rKnEOLQlBW8pgNlZI8l7WIrrloeKLUagRo6fxSFTuNF0k3bLZbs5BmX2vbaGkEsAJcebwYRhorf5C7tKjM8EEQWrEg%3D%3D (646 bytes)
+20170514 025857.535 [8064] PROXY resolved 'gspe21.ls.apple.com' to '209.89.157.194:80'
+20170514 025857.535 [8064] PROXY 127.0.0.1:57272 -> GET http://gspe21.ls.apple.com/stylesheet/default-car-3879@2x.styleproto?sid=1599446608659898768512701786913174453364&accessKey=1494756538_5qfUD8oEZbiPwZxn_U2tENPGJElL5Xqq1lGqpjV1XCFktfvGXSjjSYgakgt9o%2FAvumtdWBg%2BCFnaeGlnuT4RADZMpOyVvi%2Fx9ddwRsX8QUv68TaTUYxIyijAHf6G16UbORwXWwjGvKlQ4CBJ%2B2NemPWYI%2FDt8Lutfhq7srGAGUy6HLDVOcRAVNmVGO3c%3D (677 bytes)
+20170514 025857.536 [8064] PROXY 127.0.0.1:57249 <- 200 gspe21.ls.apple.com:80 (118300 bytes)
+20170514 025857.609 [8064] PROXY 127.0.0.1:57250 <- 200 gspe21.ls.apple.com:80 (118252 bytes)
+20170514 025857.609 [8064] PROXY 127.0.0.1:57272 <- 200 gspe21.ls.apple.com:80 (110196 bytes)
+20170514 025857.640 [8064] PROXY 127.0.0.1:57275 -> GET https://cdn.smoot.apple.com/sprites/2d2b166f8396cb026825b1ade49d355a_iphone_2x.json (509 bytes)
+20170514 025857.671 [8064] PROXY resolved 'cdn.smoot.apple.com' to '17.253.31.204:443'
+20170514 025857.732 [8064] PROXY resolved 'cdn.smoot.apple.com' to '17.253.31.204:443'
+20170514 025857.732 [8064] PROXY 127.0.0.1:57250 -> GET https://cdn.smoot.apple.com/sprites/2d2b166f8396cb026825b1ade49d355a_iphone_2x.png (510 bytes)
+20170514 025857.795 [8064] PROXY 127.0.0.1:57275 <- 200 cdn.smoot.apple.com:443 (10010 bytes)
+20170514 025857.848 [8064] PROXY 127.0.0.1:57272 -> GET http://mesu.apple.com/assets/com_apple_MobileAsset_routined_defaults/com_apple_MobileAsset_routined_defaults.xml (463 bytes)
+20170514 025857.879 [8064] PROXY resolved 'mesu.apple.com' to '17.253.31.205:80'
+20170514 025857.879 [8064] PROXY 127.0.0.1:57265 <- 200 api-glb-msp.smoot.apple.com:443 (26960 bytes)
+20170514 025857.911 [8064] PROXY 127.0.0.1:57266 <- 200 api-glb-msp.smoot.apple.com:443 (30178 bytes)
+20170514 025857.911 [8064] PROXY 127.0.0.1:57272 <- 304 mesu.apple.com:80 (297 bytes)
+20170514 025858.093 [8064] PROXY resolved 'gspe21.ls.apple.com' to '209.89.157.194:80'
+20170514 025858.093 [8064] PROXY 127.0.0.1:57272 -> GET http://gspe21.ls.apple.com/stylesheet/default-search-2925.styleproto?sid=1599446608659898768512701786913174453364&accessKey=1494756538_pVQdbwk6eyu668Ni_zwjGSlGUGilxkKwwB96Cy%2FcUUxeQK78sdx97rCRIezAuX9Ndlvmxq%2BC4gFa4sEypRX%2Bni39qtDVcMBoi8GA2t08F02xtCFUyM%2FIo86XuJ%2BCEj3%2FmISoK0WgDLf2F%2FnEkrLozm2w%2BvEJYdQpieTa9ig8R%2FsnJ%2FO%2Bvy2lbfgcKw9I%3D (689 bytes)
+20170514 025858.139 [8064] PROXY 127.0.0.1:57250 <- 200 cdn.smoot.apple.com:443 (391661 bytes)
+20170514 025858.171 [8064] PROXY resolved 'gspe21.ls.apple.com' to '209.89.157.194:80'
+20170514 025858.171 [8064] PROXY 127.0.0.1:57266 -> GET http://gspe21.ls.apple.com/stylesheet/default-search-3265@2x.styleproto?sid=1599446608659898768512701786913174453364&accessKey=1494756538_BCMYszNlxXZPJBUA_JGt1IS7SF3lMY1LoLKvRhgRn6IkDIP4t3YDB9wtGypn%2Fqw9vzNUA%2FV1JN%2F9bUivLhG1mSjg1QgDrC1JgciTR39K%2BcFqc8JhhqFvV51eFVcMFrbIiLJ9w6UlZzlgFloPXrrRpRzYz5AYJiadhPxwESEBAHbW9YLSgw2bchwXyKVA%3D (678 bytes)
+20170514 025858.171 [8064] PROXY resolved 'gspe21.ls.apple.com' to '209.89.157.194:80'
+20170514 025858.171 [8064] PROXY 127.0.0.1:57265 -> GET http://gspe21.ls.apple.com/stylesheet/globe-default-973@2x.styleproto?sid=1599446608659898768512701786913174453364&accessKey=1494756538_tWvVkJOGYKHC1ikh_ofOE9bxGNgCm9deGDuvGapAv30L4uE1R6F2X2vxzA%2FYjINT6KqmpVP3po0oXvB8LkdjsLAQZoYOOMn%2BNoWgekgl3UoydyYvZSAa%2FWGno1tbkBJ5zzewyybZafO1%2FpbT7KFJ5%2BdtqXb9vpKrHqQmyz0n%2ByByi6MArocCb1ih3nxc%3D (680 bytes)
+20170514 025858.171 [8064] PROXY 127.0.0.1:57272 <- 200 gspe21.ls.apple.com:80 (44898 bytes)
+20170514 025858.217 [8064] PROXY 127.0.0.1:57265 <- 200 gspe21.ls.apple.com:80 (33435 bytes)
+20170514 025858.248 [8064] PROXY 127.0.0.1:57266 <- 200 gspe21.ls.apple.com:80 (44898 bytes)
+20170514 025858.449 [8064] PROXY 127.0.0.1:57266 -> GET http://gspe21.ls.apple.com/stylesheet/globe-default-976.styleproto?sid=1599446608659898768512701786913174453364&accessKey=1494756539_VWC9gpncTzE0xg5b_3ns1tYCn%2FNNsZGmXQl6QjF%2B94%2Fpd7kRHRPKWX5ca0hUDyClcdh6GKvRXUesCMsOhEUVMPurjkLqQM3KrdxW0GowZ0DoIiV4lRjv4gygccp72hFZSdTuOlXJ47CvC9Rpv5hhervgawmUCHIbSIPidEw%3D%3D (653 bytes)
+20170514 025858.480 [8064] PROXY 127.0.0.1:57266 <- 200 gspe21.ls.apple.com:80 (33398 bytes)
+20170514 025858.575 [8064] PROXY 127.0.0.1:57265 -> GET http://gspe21.ls.apple.com/stylesheet/hybrid-896.styleproto?sid=1599446608659898768512701786913174453364&accessKey=1494756539_IR6W44qCQAZBwV24_bBKMMxpuLk%2BlFbgSt%2BGV4lNNs4Hccpc3Ht7hQffFpc5uYkvlzyCXC4I15AbGOATMlvruoZ%2BVHQCAHx35ko1jZw6GYpGrfQoGm9WocWGSDxoy606bTKVW%2Bb9t2FpK5bMToWCEUnR2P71T9Iuc11H5ug%3D%3D (648 bytes)
+20170514 025858.575 [8064] PROXY 127.0.0.1:57272 -> GET http://gspe21.ls.apple.com/stylesheet/hybrid-896@2x.styleproto?sid=1599446608659898768512701786913174453364&accessKey=1494756539_qTL9JuIXhm5i734q_9zZpJPfYau5XCQOFFe1Rka7vdptBkTV3FGClviy0SKSQw5xQ%2BvOkmr1dcJguxv%2Bim5mgqi9j1RvPUJ4JukmFjnWj3eKUj0lr7A%2F02ekf9WuCxescOShLlhuwqAZF8NukReGDfpEjq0%2FFXRXHwayDMg%3D%3D (651 bytes)
+20170514 025858.606 [8064] PROXY 127.0.0.1:57265 <- 200 gspe21.ls.apple.com:80 (33274 bytes)
+20170514 025858.606 [8064] PROXY 127.0.0.1:57272 <- 200 gspe21.ls.apple.com:80 (33302 bytes)
+20170514 025858.637 [8064] PROXY 127.0.0.1:57266 -> GET http://gspe21.ls.apple.com/icon/default-icons-368.iconpack?sid=1599446608659898768512701786913174453364&accessKey=1494756539_Draw4qkspXjX4epJ_A%2BvSQZb2Qk4WTY%2BZXx3YTIhf8DTpO%2Ft2w5nRs%2B8qB4qV7DeWHcLwcbYx2QF0UPnaRgkTrIsoLbfNRPNY6wQwwW%2BEffMqx0GWL%2FfHhn1Q1HzlGdpL7k35rQVeoaeAJhoL44p3w%2FDm4fxylHe5wNHMdg%3D%3D (653 bytes)
+20170514 025858.683 [8064] PROXY 127.0.0.1:57266 <- 200 gspe21.ls.apple.com:80 (32902 bytes)
+20170514 025858.850 [8064] PROXY 127.0.0.1:57272 -> GET http://gspe21.ls.apple.com/icon/default-icons-395@2x.iconpack?sid=1599446608659898768512701786913174453364&accessKey=1494756539_yO4TCvHNJ7170Ahr_OvqMfYuzoNjeEJOUdQYpuMMtlIbSOjPVdTiGiL%2Bl%2BInTWbjRDQPu4D9xcVYro0kHK1D%2BmST1pHV4%2Bq8Q3SsTiqOyNhDgLK%2FAt32R73xci8Lo6ldE6BzPOlQ0ek7fphx2t2kAe1Nv0fy21hO2XTb6iQ%3D%3D (652 bytes)
+20170514 025858.851 [8064] PROXY 127.0.0.1:57265 -> GET http://gspe21.ls.apple.com/icon/default-search-icons-185.iconpack?sid=1599446608659898768512701786913174453364&accessKey=1494756539_E06qs9PsCQfTzABD_GmHmrnnMz4kC66Uaa6z9%2BKnoip35J6%2FRJdC6xiG6Iek6mHc07HZcde0URlA8mflBGiFWoKDHAa3XB%2FpZSmaziLpt12sR5VF%2BMo%2FFsxDPOvXIgihGIpXXWW9Qx6vTermb0CwEBqcrmjjr7%2Bx78VFFUg%3D%3D (658 bytes)
+20170514 025858.881 [8064] PROXY 127.0.0.1:57265 <- 200 gspe21.ls.apple.com:80 (32779 bytes)
+20170514 025858.912 [8064] PROXY 127.0.0.1:57272 <- 200 gspe21.ls.apple.com:80 (66696 bytes)
+20170514 025858.912 [8064] PROXY 127.0.0.1:57266 -> GET http://gspe21.ls.apple.com/icon/default-search-icons-218@2x.iconpack?sid=1599446608659898768512701786913174453364&accessKey=1494756539_64aOQzNLkpYez6Kw_qcRkcAFnSQqZCGTSl9hiSrKAsqJ55%2FiE%2Bimaub2dLXmsL0zZNouv3dZVPqjA3Dyuo3QBnvvfEm2EBJ1MUwqkfX63YQOtlQb%2BGJBqE5qytt5z0W26u1eZ2QYLAin5Pt%2FxQ4RmOWUEb%2BqaGTsWFinMPddfv91EQbaVnecWBru8ivk%3D (677 bytes)
+20170514 025858.958 [8064] PROXY 127.0.0.1:57266 <- 200 gspe21.ls.apple.com:80 (68667 bytes)
+20170514 025859.019 [8064] PROXY 127.0.0.1:57265 -> GET http://gspe21.ls.apple.com/xml/altitude-502.xml?sid=1599446608659898768512701786913174453364&accessKey=1494756539_jAA5xgzP5JMcJ1Up_vrInclwWed4YyFOnWYt8oH38K3nzQ0%2BVabNkRvAU%2Fbow2%2BvvsLWDBm21skOsqSim1pdxXjeiMDCnplddMKQZ6Dn2SiRRrA3iprcl5jWcB3eqyTeyKO53LBvh%2BK1wTpUc (608 bytes)
+20170514 025859.062 [8064] PROXY 127.0.0.1:57265 <- 200 gspe21.ls.apple.com:80 (127041 bytes)
+20170514 025859.108 [8064] PROXY 127.0.0.1:57272 -> GET http://gspe21.ls.apple.com/xml/supportedCountriesDirections-8.plist?sid=1599446608659898768512701786913174453364&accessKey=1494756539_AjtBKPzKhhYbIfQ6_GCkP%2F8JGjjwVY8VZkWeTi9vzSZsyFnHxtx1buSyHbGpIQJ4SBbCIFgzZekOISfaBRxZzreNqgoqsINGOx41kJgYj%2BBgQUX61asL%2F37zxRgfH8%2FfKqWBPqxixqxdAow7w%2BNBSQO5ozvv0eGgv3UyMIWMY3ErRbG5dLWnv6Dngpvc%3D (676 bytes)
+20170514 025859.108 [8064] PROXY 127.0.0.1:57266 -> GET http://gspe21.ls.apple.com/xml/supportedCountriesTraffic-5.plist?sid=1599446608659898768512701786913174453364&accessKey=1494756539_J9cpaejcriJ42Rct_HEf8OY7vdGM%2BO7aMKDHIuw7yAoZZAScvfJ1bqdvswK6kxC2Xhx%2Brwp%2FGhu8XaudP3ADySexY6yQLO7nK%2FsAlZYAP3lTcW%2Fa1uGl%2FHHN1QPJsQOSE5zjYUXfXKK168yVlHgPWXkgg%2FDQ3BPyJAnUpTg%3D%3D (659 bytes)
+20170514 025859.124 [8064] PROXY 127.0.0.1:57272 <- 200 gspe21.ls.apple.com:80 (3177 bytes)
+20170514 025859.124 [8064] PROXY 127.0.0.1:57266 <- 200 gspe21.ls.apple.com:80 (1777 bytes)
+20170514 025902.612 [8064] PROXY 127.0.0.1:57272 -> GET http://init-p01md.apple.com/bag (370 bytes)
+20170514 025902.643 [8064] PROXY resolved 'init-p01md.apple.com' to '207.228.83.9:80'
+20170514 025902.674 [8064] PROXY 127.0.0.1:57272 <- 200 init-p01md.apple.com:80 (9376 bytes)
+20170514 025902.949 [8064] PROXY resolved 'api.smoot.apple.com' to '17.249.9.246:443'
+20170514 025902.949 [8064] PROXY 127.0.0.1:57266 -> GET https://api.smoot.apple.com/bag?locale=en-US&key=granite0323&sprite=1 (537 bytes)
+20170514 025903.617 [8064] PROXY 127.0.0.1:57266 <- 200 api.smoot.apple.com:443 (3214 bytes)
+20170514 025903.877 [8064] PROXY resolved 'mesu.apple.com' to '17.253.31.205:80'
+20170514 025903.877 [8064] PROXY 127.0.0.1:57266 -> GET http://mesu.apple.com/assets/com_apple_MobileAsset_SafariCloudHistoryConfiguration/com_apple_MobileAsset_SafariCloudHistoryConfiguration.xml (491 bytes)
+20170514 025903.938 [8064] PROXY 127.0.0.1:57266 <- 304 mesu.apple.com:80 (255 bytes)
+20170514 025903.969 [8064] PROXY resolved 'albert.apple.com' to '17.171.27.65:443'
+20170514 025904.000 [8064] PROXY 127.0.0.1:57286 -> POST https://albert.apple.com/deviceservices/deviceActivation?device=MacOS (7774 bytes)
+20170514 025904.166 [8064] PROXY 127.0.0.1:57266 -> GET http://mesu.apple.com/assets/com_apple_MobileAsset_SafariCloudHistoryConfiguration/com_apple_MobileAsset_SafariCloudHistoryConfiguration.xml (491 bytes)
+20170514 025904.212 [8064] PROXY 127.0.0.1:57266 <- 304 mesu.apple.com:80 (255 bytes)
+20170514 025904.480 [8064] PROXY 127.0.0.1:57266 -> GET http://mesu.apple.com/assets/com_apple_MobileAsset_LinguisticData/com_apple_MobileAsset_LinguisticData.xml (457 bytes)
+20170514 025904.526 [8064] PROXY 127.0.0.1:57266 <- 200 mesu.apple.com:80 (8310 bytes)
+20170514 025904.584 [8064] PROXY 127.0.0.1:57286 <- 200 albert.apple.com:443 (2240 bytes)
+20170514 025904.785 [8064] PROXY resolved 'mesu.apple.com' to '17.253.31.205:80'
+20170514 025904.785 [8064] PROXY 127.0.0.1:57286 -> GET http://mesu.apple.com/assets/com_apple_MobileAsset_SafariCloudHistoryConfiguration/com_apple_MobileAsset_SafariCloudHistoryConfiguration.xml (491 bytes)
+20170514 025904.888 [8064] PROXY 127.0.0.1:57286 <- 304 mesu.apple.com:80 (255 bytes)
+20170514 025904.919 [8064] PROXY 127.0.0.1:57266 -> GET http://mesu.apple.com/assets/com_apple_MobileAsset_SafariCloudHistoryConfiguration/com_apple_MobileAsset_SafariCloudHistoryConfiguration.xml (491 bytes)
+20170514 025904.949 [8064] PROXY 127.0.0.1:57266 <- 304 mesu.apple.com:80 (255 bytes)
+20170514 025905.708 [8064] PROXY 127.0.0.1:57266 -> GET http://init-p01st.push.apple.com/bag (357 bytes)
+20170514 025905.739 [8064] PROXY resolved 'init-p01st.push.apple.com' to '204.191.12.11:80'
+20170514 025905.771 [8064] PROXY 127.0.0.1:57266 <- 200 init-p01st.push.apple.com:80 (7310 bytes)
+20170514 025906.022 [8064] PROXY 127.0.0.1:57266 -> GET http://about/ (484 bytes)
+20170514 025906.132 [8064] PROXY 127.0.0.1:57266 error resolving hostname, ares status: 4
+20170514 025906.132 [8064] PROXY 127.0.0.1:57266 <- about:80 DNS error: Domain name not found (4)
+20170514 025906.132 [8064] PROXY 127.0.0.1:57286 -> GET http://ocsp.entrust.net/MFYwVKADAgEAME0wSzBJMAkGBSsOAwIaBQAEFMxtIhz2tFUsL4eRX1r%2B8OHuzoPMBBSConB03bxTP8971PfNf6dgxgpMvwIQKtg6FTJSjyoAAAAAUNvCNA%3D%3D (451 bytes)
+20170514 025906.163 [8064] PROXY resolved 'ocsp.entrust.net' to '23.73.49.63:80'
+20170514 025906.194 [8064] PROXY 127.0.0.1:57286 <- 200 ocsp.entrust.net:80 (2501 bytes)
+20170514 025906.271 [8064] PROXY resolved 'api-glb-msp.smoot.apple.com' to '17.249.187.246:443'
+20170514 025906.271 [8064] PROXY 127.0.0.1:57265 -> GET https://api-glb-msp.smoot.apple.com/user_guid?key=granite0323 (537 bytes)
+20170514 025906.340 [8064] PROXY 127.0.0.1:57286 -> GET http://ocsp.entrust.net/MEowSKADAgEAMEEwPzA9MAkGBSsOAwIaBQAEFNeB4%2BF%2Bwlyj2EWYTSpbHUa1WpQ9BBQqcJU6n%2FaTxfOKxahjuz2ULObKBwIEUc4A%2Fg%3D%3D (441 bytes)
+20170514 025906.370 [8064] PROXY 127.0.0.1:57286 <- 200 ocsp.entrust.net:80 (2338 bytes)
+20170514 025906.847 [8064] PROXY 127.0.0.1:57265 <- 200 api-glb-msp.smoot.apple.com:443 (222 bytes)
+20170514 025906.934 [8064] PROXY 127.0.0.1:57286 -> GET https://www.bing.com/ (555 bytes)
+20170514 025906.949 [8064] PROXY resolved 'www.bing.com' to '204.79.197.200:443'
+20170514 025907.155 [8064] PROXY 127.0.0.1:57286 <- 200 www.bing.com:443 (21240 bytes)
+20170514 025908.785 [8064] PROXY 127.0.0.1:57286 -> GET https://www.bing.com/apple-touch-icon-120x120-precomposed.png (537 bytes)
+20170514 025908.831 [8064] PROXY 127.0.0.1:57286 <- 200 www.bing.com:443 (729 bytes)
+20170514 025910.182 [8064] PROXY 127.0.0.1:57286 -> GET https://www.google.com/?client=safari&channel=iphone_bm (591 bytes)
+20170514 025910.214 [8064] PROXY resolved 'www.google.com' to '216.58.216.132:443'
+20170514 025910.559 [8064] PROXY 127.0.0.1:57286 <- 302 www.google.com:443 (1011 bytes)
+20170514 025910.941 [8064] PROXY resolved 'api-glb-msp.smoot.apple.com' to '17.249.187.246:443'
+20170514 025910.941 [8064] PROXY 127.0.0.1:57286 -> GET https://api-glb-msp.smoot.apple.com/13/search?q=%20&locale=en-US&key=granite0323&storefront=143441-1,29&time_zone=America/Los_Angeles&calendar=gregorian&region=en-US&card=1&units=US (713 bytes)
+20170514 025910.941 [8064] PROXY resolved 'api-glb-msp.smoot.apple.com' to '17.249.187.246:443'
+20170514 025910.941 [8064] PROXY 127.0.0.1:57250 -> GET https://api-glb-msp.smoot.apple.com/13/search?q=%20&locale=en-US&key=granite0323&storefront=143441-1,29&time_zone=America/Los_Angeles&calendar=gregorian&region=en-US&card=1&units=US (713 bytes)
+20170514 025910.972 [8064] PROXY 127.0.0.1:57265 -> GET https://www.google.ca/?client=safari&channel=iphone_bm&gws_rd=cr&ei=XxwYWf3jFpHAjwOnrqGoCQ (625 bytes)
+20170514 025910.972 [8064] PROXY resolved 'api-glb-msp.smoot.apple.com' to '17.249.187.246:443'
+20170514 025910.972 [8064] PROXY 127.0.0.1:57275 -> GET https://api-glb-msp.smoot.apple.com/13/search?q=%20&locale=en-US&key=granite0323&storefront=143441-1,29&time_zone=America/Los_Angeles&calendar=gregorian&region=en-US&card=1&units=US (713 bytes)
+20170514 025910.972 [8064] PROXY resolved 'www.google.ca' to '216.58.216.131:443'
+20170514 025911.003 [8064] PROXY resolved 'api-glb-msp.smoot.apple.com' to '17.249.187.246:443'
+20170514 025911.003 [8064] PROXY 127.0.0.1:57249 -> GET https://api-glb-msp.smoot.apple.com/13/search?q=%20&locale=en-US&key=granite0323&storefront=143441-1,29&time_zone=America/Los_Angeles&calendar=gregorian&region=en-US&card=1&units=US (713 bytes)
+20170514 025911.126 [8064] PROXY resolved 'api.smoot.apple.com' to '17.249.9.246:443'
+20170514 025911.126 [8064] PROXY 127.0.0.1:57301 -> GET https://api.smoot.apple.com/bag?locale=en-US&key=andromeda&sprite=1 (503 bytes)
+20170514 025911.265 [8064] PROXY 127.0.0.1:57286 <- 200 api-glb-msp.smoot.apple.com:443 (610 bytes)
+20170514 025911.279 [8064] PROXY 127.0.0.1:57250 <- 200 api-glb-msp.smoot.apple.com:443 (610 bytes)
+20170514 025911.312 [8064] PROXY 127.0.0.1:57275 <- 200 api-glb-msp.smoot.apple.com:443 (604 bytes)
+20170514 025911.343 [8064] PROXY 127.0.0.1:57249 <- 200 api-glb-msp.smoot.apple.com:443 (610 bytes)
+20170514 025911.374 [8064] PROXY 127.0.0.1:57301 <- 200 api.smoot.apple.com:443 (3215 bytes)
+20170514 025911.405 [8064] PROXY 127.0.0.1:57265 <- 200 www.google.ca:443 (36876 bytes)
+20170514 025911.482 [8064] PROXY resolved 'api-glb-msp.smoot.apple.com' to '17.249.187.246:443'
+20170514 025911.482 [8064] PROXY 127.0.0.1:57301 -> GET https://api-glb-msp.smoot.apple.com/13/search?q=http://127.0.0.1:4443/welcome&locale=en-US&key=granite0323&storefront=143441-1,29&time_zone=America/Los_Angeles&calendar=gregorian&region=en-US&card=1&keyboard=en&units=US (907 bytes)
+20170514 025911.860 [8064] PROXY 127.0.0.1:57265 -> GET https://www.google.ca/images/branding/product_ios/3x/gsa_ios_60dp.png (546 bytes)
+20170514 025911.968 [8064] PROXY 127.0.0.1:57249 -> GET https://api-glb-msp.smoot.apple.com/user_guid?key=andromeda (503 bytes)
+20170514 025912.014 [8064] PROXY 127.0.0.1:57265 <- 200 www.google.ca:443 (3416 bytes)
+20170514 025912.015 [8064] PROXY 127.0.0.1:57301 <- 200 api-glb-msp.smoot.apple.com:443 (662 bytes)
+20170514 025912.055 [8064] PROXY 127.0.0.1:57249 <- 200 api-glb-msp.smoot.apple.com:443 (222 bytes)
+20170514 025912.194 [8064] PROXY resolved 'api-glb-msp.smoot.apple.com' to '17.249.187.246:443'
+20170514 025912.194 [8064] PROXY 127.0.0.1:57305 -> POST https://api-glb-msp.smoot.apple.com/13/fb?key=granite0323 (3335 bytes)
+20170514 025912.534 [8064] PROXY 127.0.0.1:57305 <- 200 api-glb-msp.smoot.apple.com:443 (163 bytes)
+20170514 025914.008 [8064] PROXY 127.0.0.1:57305 -> GET https://yahoo.com/ (549 bytes)
+20170514 025914.035 [8064] PROXY resolved 'yahoo.com' to '206.190.36.45:443'
+20170514 025914.572 [8064] PROXY 127.0.0.1:57305 <- 301 yahoo.com:443 (704 bytes)
+20170514 025914.926 [8064] PROXY resolved 'www.google.com' to '216.58.216.132:443'
+20170514 025914.926 [8064] PROXY 127.0.0.1:57305 -> GET https://www.google.com/webhp?client=android-google&source=android-home (680 bytes)
+20170514 025915.245 [8064] PROXY 127.0.0.1:57249 -> GET https://www.yahoo.com/ (557 bytes)
+20170514 025915.271 [8064] PROXY resolved 'www.yahoo.com' to '206.190.36.105:443'
+20170514 025915.428 [8064] PROXY 127.0.0.1:57305 <- 302 www.google.com:443 (1041 bytes)
+20170514 025915.576 [8064] PROXY 127.0.0.1:57249 <- 302 www.yahoo.com:443 (523 bytes)
+20170514 025915.858 [8064] PROXY resolved 'www.google.ca' to '216.58.216.131:443'
+20170514 025915.858 [8064] PROXY 127.0.0.1:57249 -> GET https://www.google.ca/webhp?client=android-google&source=android-home&gws_rd=cr&ei=ZBwYWf2PD8bQjwO2sZT4DA (714 bytes)
+20170514 025915.981 [8064] PROXY 127.0.0.1:57305 -> GET https://ca.yahoo.com/?p=us (560 bytes)
+20170514 025916.012 [8064] PROXY resolved 'ca.yahoo.com' to '206.190.39.42:443'
+20170514 025916.244 [8064] PROXY 127.0.0.1:57249 <- 200 www.google.ca:443 (35423 bytes)
+20170514 025916.467 [8064] PROXY 127.0.0.1:57305 <- 302 ca.yahoo.com:443 (999 bytes)
+20170514 025916.467 [8064] PROXY 127.0.0.1:57249 -> GET https://www.google.ca/images/hpp/gsa_super_g-64.gif (870 bytes)
+20170514 025916.503 [8064] PROXY 127.0.0.1:57301 -> GET https://ssl.gstatic.com/gb/images/qi2_00ed8ca1.png (725 bytes)
+20170514 025916.547 [8064] PROXY resolved 'ssl.gstatic.com' to '209.115.217.24:443'
+20170514 025916.547 [8064] PROXY 127.0.0.1:57265 -> GET https://www.google.ca/logos/doodles/2017/mothers-day-2017-5112903454687232-law.gif (901 bytes)
+20170514 025916.547 [8064] PROXY resolved 'www.google.ca' to '216.58.216.131:443'
+20170514 025916.547 [8064] PROXY 127.0.0.1:57250 -> GET https://www.google.ca/images/nav_logo242_hr.png (866 bytes)
+20170514 025916.565 [8064] PROXY 127.0.0.1:57286 -> GET https://www.gstatic.com/og/_/js/k=og.mob.en_US.tQFR_xmsOLc.O/rt=j/m=md/exm=mih,mab,meb/d=1/ed=1/rs=AA2YrTudva6nOXXnYukVGExuFIrmIcaCvg (789 bytes)
+20170514 025916.565 [8064] PROXY 127.0.0.1:57249 <- 200 www.google.ca:443 (22614 bytes)
+20170514 025916.596 [8064] PROXY resolved 'www.gstatic.com' to '207.34.103.20:443'
+20170514 025916.596 [8064] PROXY resolved 'www.google.ca' to '216.58.216.131:443'
+20170514 025916.596 [8064] PROXY 127.0.0.1:57317 -> GET https://www.google.ca/xjs/_/js/k=xjs.qs.en.1YKIr1SpFNY.O/m=sx,c,sb_mob,bct,cdos,elog,hsm,jsa,mbsf,qim,r,qsm,d,csi/am=AEegOS0THCgAsEpoLMJeQFRAJQ/rt=j/d=1/t=zcms/rs=ACT90oFTAxskG1WdmtYZ6sF84r76JQ8A3Q (997 bytes)
+20170514 025916.627 [8064] PROXY 127.0.0.1:57305 -> GET https://ca.yahoo.com/searchset?p=us (569 bytes)
+20170514 025916.704 [8064] PROXY 127.0.0.1:57265 <- 200 www.google.ca:443 (105569 bytes)
+20170514 025916.776 [8064] PROXY 127.0.0.1:57301 <- 200 ssl.gstatic.com:443 (3708 bytes)
+20170514 025916.810 [8064] PROXY 127.0.0.1:57286 <- 200 www.gstatic.com:443 (21734 bytes)
+20170514 025916.874 [8064] PROXY 127.0.0.1:57250 <- 200 www.google.ca:443 (31088 bytes)
+20170514 025917.088 [8064] PROXY 127.0.0.1:57319 -> REPORT https://caldav.icloud.com/.well-known/calendarsearchdav (795 bytes)
+20170514 025917.088 [8064] PROXY 127.0.0.1:57317 <- 200 www.google.ca:443 (136685 bytes)
+20170514 025917.119 [8064] PROXY resolved 'caldav.icloud.com' to '17.248.130.243:443'
+20170514 025917.165 [8064] PROXY 127.0.0.1:57305 <- 200 ca.yahoo.com:443 (121723 bytes)
+20170514 025917.300 [8064] PROXY 127.0.0.1:57319 <- 207 caldav.icloud.com:443 (1010 bytes)
+20170514 025917.331 [8064] PROXY 127.0.0.1:57305 -> GET https://s.yimg.com/dh/ap/default/130909/y_200_a.png (525 bytes)
+20170514 025917.331 [8064] PROXY resolved 's.yimg.com' to '216.115.100.123:443'
+20170514 025917.393 [8064] PROXY resolved 'www.google.ca' to '216.58.216.131:443'
+20170514 025917.393 [8064] PROXY 127.0.0.1:57319 -> GET https://www.google.ca/xjs/_/js/k=xjs.qs.en.WE4UGaChC68.O/m=aa,abd,async,dvl,foot,ipv6,mhp,qmp,d3l/am=AEegOS0THCgAsEpoLMJeQFRAJQ/exm=sx,c,sb_mob,bct,cdos,elog,hsm,jsa,mbsf,qim,r,qsm,d,csi/rt=j/d=1/ed=1/t=zcms/rs=ACT90oGsVvSJKQI-RooiRmsZNJRgmGxRzQ (1045 bytes)
+20170514 025917.424 [8064] PROXY 127.0.0.1:57319 failed to send half-close
+20170514 025917.424 [8064] PROXY 127.0.0.1:57317 -> GET https://www.google.ca/images/branding/product/ico/googleg_lodp.ico (752 bytes)
+20170514 025917.501 [8064] PROXY 127.0.0.1:57286 -> GET http://localhost:9876/?id=37878902 (587 bytes)
+20170514 025917.501 [8064] PROXY 127.0.0.1:57317 <- 200 www.google.ca:443 (1990 bytes)
+20170514 025917.501 [8064] PROXY resolved 'localhost' to '127.0.0.1:9876'
+20170514 025917.557 [8064] PROXY 127.0.0.1:57286 <- 200 localhost:9876 (2903 bytes)
+20170514 025917.588 [8064] PROXY 127.0.0.1:57301 -> GET https://p49-calendars.icloud.com/holidays/us_en-us.ics/ (450 bytes)
+20170514 025917.618 [8064] PROXY 127.0.0.1:57305 <- 200 s.yimg.com:443 (6617 bytes)
+20170514 025917.649 [8064] PROXY resolved 'p49-calendars.icloud.com' to '17.248.130.213:443'
+20170514 025917.680 [8064] PROXY 127.0.0.1:57286 -> GET http://localhost:9876/socket.io/socket.io.js (573 bytes)
+20170514 025917.711 [8064] PROXY resolved 'localhost' to '127.0.0.1:9876'
+20170514 025917.711 [8064] PROXY 127.0.0.1:57317 -> GET http://localhost:9876/karma.js (559 bytes)
+20170514 025917.742 [8064] PROXY 127.0.0.1:57286 <- 200 localhost:9876 (72408 bytes)
+20170514 025917.742 [8064] PROXY 127.0.0.1:57317 <- 200 localhost:9876 (120962 bytes)
+20170514 025917.795 [8064] PROXY 127.0.0.1:57301 <- 200 p49-calendars.icloud.com:443 (3496 bytes)
+20170514 025918.012 [8064] PROXY resolved 'localhost' to '127.0.0.1:9876'
+20170514 025918.012 [8064] PROXY 127.0.0.1:57301 -> GET http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm72gW3 (593 bytes)
+20170514 025918.022 [8064] PROXY 127.0.0.1:57301 <- 200 localhost:9876 (329 bytes)
+20170514 025918.101 [8064] PROXY 127.0.0.1:57317 -> GET http://localhost:9876/favicon.ico (517 bytes)
+20170514 025918.101 [8064] PROXY 127.0.0.1:57317 <- 200 localhost:9876 (5579 bytes)
+20170514 025918.178 [8064] PROXY 127.0.0.1:57301 -> GET http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm72gYL&sid=U018Yi7xo_JQX7zvAAAA (651 bytes)
+20170514 025918.178 [8064] PROXY 127.0.0.1:57301 <- 200 localhost:9876 (231 bytes)
+20170514 025918.304 [8064] PROXY resolved 'localhost' to '127.0.0.1:9876'
+20170514 025918.304 [8064] PROXY 127.0.0.1:57328 -> POST http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm72gao&sid=U018Yi7xo_JQX7zvAAAA (948 bytes)
+20170514 025918.304 [8064] PROXY 127.0.0.1:57328 <- 200 localhost:9876 (273 bytes)
+20170514 025918.610 [8064] PROXY 127.0.0.1:57317 -> GET http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm72gaq&sid=U018Yi7xo_JQX7zvAAAA (651 bytes)
+20170514 025918.611 [8064] PROXY 127.0.0.1:57317 <- 200 localhost:9876 (527 bytes)
