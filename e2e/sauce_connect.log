@@ -1,165 +1,452 @@
-20170513 051308.414 [9936] Sauce Connect 4.4.0, build 845 e8cba87-dirty
-20170513 051308.416 [9936] Trying to autodetect proxy settings
-20170513 051308.418 [9936] Starting up; pid 9936
-20170513 051308.418 [9936] Command line arguments: C:\projects\tmp7\ng-module-template\node_modules\sauce-connect-launcher\sc\sc-4.4.0-win32\bin\sc -P 5757 --logfile sauce_connect.log -u pixelbits-mk -k **** --tunnel-identifier karma1494673984 --readyfile C:\Users\kangm\AppData\Local\Temp\sc-launcher-readyfile 
-20170513 051308.418 [9936] Log file: sauce_connect.log
-20170513 051308.418 [9936] Pid file: C:\Users\kangm\AppData\Roaming/sc_client-karma1494673984.pid
-20170513 051308.418 [9936] Timezone: Mountain Daylight Time GMT OFfset: -6h
-20170513 051308.418 [9936] Using no proxy for connecting to Sauce Labs REST API.
-20170513 051308.421 [9936] Resolving saucelabs.com to 162.222.75.243 took 3 ms.
-20170513 051308.818 [9936] ***********************************************************
-20170513 051308.818 [9936] A newer version of Sauce Connect (build 1496) is available!
-20170513 051308.818 [9936] Download it here:
-20170513 051308.818 [9936] https://saucelabs.com/downloads/sc-4.4.6-win32.zip
-20170513 051308.818 [9936] ***********************************************************
-20170513 051308.818 [9936] PROXY *** scproxy started ***
-20170513 051308.824 [9936] PROXY found DNS server 192.168.2.1
-20170513 051308.970 [9936] Started scproxy on port 61727.
-20170513 051308.970 [9936] Please wait for 'you may start your tests' to start your tests.
-20170513 051308.970 [9936] Starting secure remote tunnel VM...
-20170513 051313.434 [9936] Secure remote tunnel VM provisioned.
-20170513 051313.434 [9936] Tunnel ID: 34cc31e5755b476b8bb44583c5be430d
-20170513 051313.762 [9936] Secure remote tunnel VM is now: booting
-20170513 051323.115 [9936] Secure remote tunnel VM is now: running
-20170513 051323.115 [9936] Remote tunnel host is: maki83244.miso.saucelabs.com
-20170513 051323.115 [9936] Using no proxy for connecting to tunnel VM.
-20170513 051323.181 [9936] Resolving tunnel hostname to 162.222.75.29 took 66ms.
-20170513 051323.181 [9936] Starting Selenium listener...
-20170513 051323.181 [9936] Establishing secure TLS connection to tunnel...
-20170513 051323.187 [9936] [EVDNS] Added nameserver 192.168.2.1:53 as 01860EE8
-20170513 051323.187 [9936] MAIN connecting to maki83244.miso.saucelabs.com:443
-20170513 051323.317 [9936] MAIN connecting to KGP server maki83244.miso.saucelabs.com took 130 ms
-20170513 051323.433 [9936] Selenium listener started on port 5757.
-20170513 051324.527 [9936] Sauce Connect is up, you may start your tests.
-20170513 051329.152 [9936] PROXY 127.0.0.1:61749 -> GET http://saucelabs.secret/7a10690e290c40ed88b1e8ef0bf48559 (318 bytes)
-20170513 051329.207 [9936] PROXY 127.0.0.1:61749 error resolving hostname, ares status: 4
-20170513 051329.207 [9936] PROXY 127.0.0.1:61749 <- saucelabs.secret:80 DNS error: Domain name not found (4)
-20170513 051330.054 [9936] PROXY 127.0.0.1:61750 -> GET http://saucelabs.secret/b1e05e480f9b44248ba7ce35111762f7 (318 bytes)
-20170513 051330.071 [9936] PROXY 127.0.0.1:61750 error resolving hostname, ares status: 4
-20170513 051330.071 [9936] PROXY 127.0.0.1:61750 <- saucelabs.secret:80 DNS error: Domain name not found (4)
-20170513 051330.077 [9936] PROXY 127.0.0.1:61751 -> GET http://saucelabs.secret/9638347ad0ef46c8b012d594691d8e2b (318 bytes)
-20170513 051330.093 [9936] PROXY 127.0.0.1:61751 error resolving hostname, ares status: 4
-20170513 051330.093 [9936] PROXY 127.0.0.1:61751 <- saucelabs.secret:80 DNS error: Domain name not found (4)
-20170513 051349.962 [9936] PROXY 127.0.0.1:61788 -> GET http://localhost:9876/?id=95370774 (454 bytes)
-20170513 051349.965 [9936] PROXY 127.0.0.1:61789 -> GET http://localhost:9876/?id=26083087 (421 bytes)
-20170513 051349.965 [9936] PROXY resolved 'localhost' to '127.0.0.1:9876'
-20170513 051349.967 [9936] PROXY resolved 'localhost' to '127.0.0.1:9876'
-20170513 051349.975 [9936] PROXY resolved 'localhost' to '127.0.0.1:9876'
-20170513 051349.975 [9936] PROXY 127.0.0.1:61792 -> GET http://localhost:9876/?id=72732041 (512 bytes)
-20170513 051349.980 [9936] PROXY 127.0.0.1:61788 <- 200 localhost:9876 (2903 bytes)
-20170513 051349.983 [9936] PROXY 127.0.0.1:61789 <- 200 localhost:9876 (2903 bytes)
-20170513 051349.988 [9936] PROXY 127.0.0.1:61792 <- 200 localhost:9876 (2903 bytes)
-20170513 051350.079 [9936] PROXY 127.0.0.1:61792 -> GET http://localhost:9876/socket.io/socket.io.js (498 bytes)
-20170513 051350.083 [9936] PROXY 127.0.0.1:61792 <- 200 localhost:9876 (72408 bytes)
-20170513 051350.085 [9936] PROXY 127.0.0.1:61789 -> GET http://localhost:9876/socket.io/socket.io.js (474 bytes)
-20170513 051350.085 [9936] PROXY 127.0.0.1:61788 -> GET http://localhost:9876/karma.js (484 bytes)
-20170513 051350.087 [9936] PROXY 127.0.0.1:61789 <- 200 localhost:9876 (72408 bytes)
-20170513 051350.100 [9936] PROXY 127.0.0.1:61788 <- 200 localhost:9876 (120962 bytes)
-20170513 051350.113 [9936] PROXY resolved 'localhost' to '127.0.0.1:9876'
-20170513 051350.113 [9936] PROXY 127.0.0.1:61794 -> GET http://localhost:9876/karma.js (460 bytes)
-20170513 051350.117 [9936] PROXY resolved 'localhost' to '127.0.0.1:9876'
-20170513 051350.118 [9936] PROXY 127.0.0.1:61795 -> GET http://localhost:9876/socket.io/socket.io.js (451 bytes)
-20170513 051350.124 [9936] PROXY resolved 'localhost' to '127.0.0.1:9876'
-20170513 051350.125 [9936] PROXY 127.0.0.1:61798 -> GET http://localhost:9876/karma.js (437 bytes)
-20170513 051350.125 [9936] PROXY 127.0.0.1:61795 <- 200 localhost:9876 (72408 bytes)
-20170513 051350.127 [9936] PROXY 127.0.0.1:61794 <- 200 localhost:9876 (120962 bytes)
-20170513 051350.131 [9936] PROXY resolved 'localhost' to '127.0.0.1:9876'
-20170513 051350.131 [9936] PROXY 127.0.0.1:61800 -> GET http://localhost:9876/favicon.ico (455 bytes)
-20170513 051350.134 [9936] PROXY 127.0.0.1:61800 <- 200 localhost:9876 (5579 bytes)
-20170513 051350.134 [9936] PROXY 127.0.0.1:61798 <- 200 localhost:9876 (120962 bytes)
-20170513 051350.427 [9936] PROXY 127.0.0.1:61788 -> GET http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm1Wxvu (518 bytes)
-20170513 051350.434 [9936] PROXY 127.0.0.1:61788 <- 200 localhost:9876 (329 bytes)
-20170513 051350.445 [9936] PROXY 127.0.0.1:61789 -> GET http://localhost:9876/favicon.ico (442 bytes)
-20170513 051350.447 [9936] PROXY 127.0.0.1:61789 <- 200 localhost:9876 (9055 bytes)
-20170513 051350.515 [9936] PROXY 127.0.0.1:61798 -> GET http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm1WxkN (464 bytes)
-20170513 051350.517 [9936] PROXY 127.0.0.1:61798 <- 200 localhost:9876 (350 bytes)
-20170513 051350.527 [9936] PROXY 127.0.0.1:61788 -> GET http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm1WxxU&sid=G_FZM_LcOS5hCGI_AAAA (576 bytes)
-20170513 051350.527 [9936] PROXY 127.0.0.1:61788 <- 200 localhost:9876 (231 bytes)
-20170513 051350.564 [9936] PROXY 127.0.0.1:61795 -> GET http://localhost:9876/favicon.ico (364 bytes)
-20170513 051350.564 [9936] PROXY 127.0.0.1:61795 <- 200 localhost:9876 (9055 bytes)
-20170513 051350.569 [9936] PROXY 127.0.0.1:61789 -> GET http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm1Wy19 (471 bytes)
-20170513 051350.571 [9936] PROXY 127.0.0.1:61789 <- 200 localhost:9876 (329 bytes)
-20170513 051350.612 [9936] PROXY 127.0.0.1:61798 -> GET http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm1Wxlv&sid=ZhupWo4yxXIXa4DSAAAB (522 bytes)
-20170513 051350.614 [9936] PROXY 127.0.0.1:61798 <- 200 localhost:9876 (252 bytes)
-20170513 051350.646 [9936] PROXY 127.0.0.1:61788 -> GET http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm1WxzL&sid=G_FZM_LcOS5hCGI_AAAA (576 bytes)
-20170513 051350.652 [9936] PROXY resolved 'localhost' to '127.0.0.1:9876'
-20170513 051350.652 [9936] PROXY 127.0.0.1:61802 -> POST http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm1WxzK&sid=G_FZM_LcOS5hCGI_AAAA (824 bytes)
-20170513 051350.661 [9936] PROXY 127.0.0.1:61802 <- 200 localhost:9876 (273 bytes)
-20170513 051350.675 [9936] PROXY 127.0.0.1:61788 <- 200 localhost:9876 (320 bytes)
-20170513 051350.680 [9936] PROXY 127.0.0.1:61789 -> GET http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm1Wy2z&sid=kW03TI_RhjNOWje0AAAC (529 bytes)
-20170513 051350.683 [9936] PROXY 127.0.0.1:61789 <- 200 localhost:9876 (419 bytes)
-20170513 051350.756 [9936] PROXY resolved 'localhost' to '127.0.0.1:9876'
-20170513 051350.767 [9936] PROXY 127.0.0.1:61804 -> POST http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm1Wxnh&sid=ZhupWo4yxXIXa4DSAAAB (736 bytes)
-20170513 051350.767 [9936] PROXY 127.0.0.1:61794 -> GET http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm1Wxni&sid=ZhupWo4yxXIXa4DSAAAB (522 bytes)
-20170513 051350.771 [9936] PROXY 127.0.0.1:61804 <- 200 localhost:9876 (234 bytes)
-20170513 051350.779 [9936] PROXY 127.0.0.1:61794 <- 200 localhost:9876 (878 bytes)
-20170513 051350.791 [9936] PROXY 127.0.0.1:61788 -> GET http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm1Wx_6&sid=G_FZM_LcOS5hCGI_AAAA (576 bytes)
-20170513 051350.791 [9936] PROXY 127.0.0.1:61788 <- 200 localhost:9876 (764 bytes)
-20170513 051350.824 [9936] PROXY 127.0.0.1:61802 -> GET http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm1Wy51&sid=kW03TI_RhjNOWje0AAAC (529 bytes)
-20170513 051350.826 [9936] PROXY resolved 'localhost' to '127.0.0.1:9876'
-20170513 051350.826 [9936] PROXY 127.0.0.1:61806 -> POST http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm1Wy50&sid=kW03TI_RhjNOWje0AAAC (720 bytes)
-20170513 051350.828 [9936] PROXY 127.0.0.1:61802 <- 200 localhost:9876 (562 bytes)
-20170513 051350.829 [9936] PROXY 127.0.0.1:61806 <- 200 localhost:9876 (213 bytes)
-20170513 051350.881 [9936] PROXY 127.0.0.1:61794 -> GET http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm1Wxq7&sid=ZhupWo4yxXIXa4DSAAAB (522 bytes)
-20170513 051350.883 [9936] PROXY 127.0.0.1:61794 <- 200 localhost:9876 (727 bytes)
-20170513 051350.896 [9936] PROXY 127.0.0.1:61804 -> GET http://localhost:9876/context.html (501 bytes)
-20170513 051350.900 [9936] PROXY 127.0.0.1:61804 <- 200 localhost:9876 (2848 bytes)
-20170513 051350.930 [9936] PROXY 127.0.0.1:61788 -> GET http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm1Wy1M&sid=G_FZM_LcOS5hCGI_AAAA (576 bytes)
-20170513 051350.932 [9936] PROXY 127.0.0.1:61788 <- 200 localhost:9876 (706 bytes)
-20170513 051350.970 [9936] PROXY 127.0.0.1:61806 -> GET http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm1Wy7F&sid=kW03TI_RhjNOWje0AAAC (529 bytes)
-20170513 051350.972 [9936] PROXY 127.0.0.1:61806 <- 200 localhost:9876 (815 bytes)
-20170513 051350.987 [9936] PROXY 127.0.0.1:61804 -> GET http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm1Wxrm&sid=ZhupWo4yxXIXa4DSAAAB (522 bytes)
-20170513 051351.008 [9936] PROXY 127.0.0.1:61794 -> GET http://localhost:9876/context.js (495 bytes)
-20170513 051351.009 [9936] PROXY 127.0.0.1:61800 -> GET http://localhost:9876/base/src/main.js?ebbe8b631848ea0b21296bdd505853ffa5a58795 (540 bytes)
-20170513 051351.011 [9936] PROXY 127.0.0.1:61802 -> GET http://localhost:9876/absoluteC:/projects/tmp7/ng-module-template/node_modules/karma-jasmine/lib/boot.js?945a38bf4e45ad2770eb94868231905a04a0bd3e (606 bytes)
-20170513 051351.013 [9936] PROXY 127.0.0.1:61792 -> GET http://localhost:9876/base/test/test.js?1ce4b9cffc7e78321293fa4658518941fed2f49c (541 bytes)
-20170513 051351.020 [9936] PROXY 127.0.0.1:61800 <- 200 localhost:9876 (487 bytes)
-20170513 051351.020 [9936] PROXY 127.0.0.1:61802 <- 200 localhost:9876 (1507 bytes)
-20170513 051351.024 [9936] PROXY 127.0.0.1:61792 <- 200 localhost:9876 (784 bytes)
-20170513 051351.026 [9936] PROXY 127.0.0.1:61794 <- 200 localhost:9876 (66052 bytes)
-20170513 051351.043 [9936] PROXY resolved 'localhost' to '127.0.0.1:9876'
-20170513 051351.043 [9936] PROXY 127.0.0.1:61808 -> GET http://localhost:9876/absoluteC:/projects/tmp7/ng-module-template/node_modules/jasmine-core/lib/jasmine-core/jasmine.js?324c10193d2eee846e728831a0b54e7179ff5dc8 (621 bytes)
-20170513 051351.046 [9936] PROXY resolved 'localhost' to '127.0.0.1:9876'
-20170513 051351.048 [9936] PROXY 127.0.0.1:61809 -> GET http://localhost:9876/absoluteC:/projects/tmp7/ng-module-template/node_modules/karma-jasmine/lib/adapter.js?7a813cc290d592e664331c573a1a796192cdd1ad (609 bytes)
-20170513 051351.048 [9936] PROXY 127.0.0.1:61809 <- 200 localhost:9876 (11305 bytes)
-20170513 051351.049 [9936] PROXY 127.0.0.1:61808 <- 200 localhost:9876 (140477 bytes)
-20170513 051351.058 [9936] PROXY 127.0.0.1:61788 -> GET http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm1Wy3a&sid=G_FZM_LcOS5hCGI_AAAA (576 bytes)
-20170513 051351.103 [9936] PROXY 127.0.0.1:61806 -> GET http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm1Wy9H&sid=kW03TI_RhjNOWje0AAAC (529 bytes)
-20170513 051351.105 [9936] PROXY resolved 'localhost' to '127.0.0.1:9876'
-20170513 051351.105 [9936] PROXY 127.0.0.1:61812 -> GET http://localhost:9876/context.html (534 bytes)
-20170513 051351.106 [9936] PROXY 127.0.0.1:61812 <- 200 localhost:9876 (2848 bytes)
-20170513 051351.206 [9936] PROXY 127.0.0.1:61812 -> GET http://localhost:9876/context.html (592 bytes)
-20170513 051351.208 [9936] PROXY 127.0.0.1:61812 <- 200 localhost:9876 (2848 bytes)
-20170513 051351.246 [9936] PROXY 127.0.0.1:61808 -> GET http://localhost:9876/context.js (472 bytes)
-20170513 051351.250 [9936] PROXY resolved 'localhost' to '127.0.0.1:9876'
-20170513 051351.250 [9936] PROXY 127.0.0.1:61814 -> POST http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm1WxvM&sid=ZhupWo4yxXIXa4DSAAAB (658 bytes)
-20170513 051351.251 [9936] PROXY 127.0.0.1:61814 <- 200 localhost:9876 (234 bytes)
-20170513 051351.251 [9936] PROXY 127.0.0.1:61808 <- 200 localhost:9876 (66052 bytes)
-20170513 051351.297 [9936] PROXY 127.0.0.1:61812 -> GET http://localhost:9876/context.js (519 bytes)
-20170513 051351.298 [9936] PROXY 127.0.0.1:61812 <- 200 localhost:9876 (66052 bytes)
-20170513 051351.359 [9936] PROXY resolved 'localhost' to '127.0.0.1:9876'
-20170513 051351.359 [9936] PROXY 127.0.0.1:61816 -> POST http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm1WxxE&sid=ZhupWo4yxXIXa4DSAAAB (1518 bytes)
-20170513 051351.367 [9936] PROXY 127.0.0.1:61816 <- 200 localhost:9876 (234 bytes)
-20170513 051351.378 [9936] PROXY 127.0.0.1:61804 <- 200 localhost:9876 (255 bytes)
-20170513 051351.381 [9936] PROXY 127.0.0.1:61788 <- 200 localhost:9876 (467 bytes)
-20170513 051351.383 [9936] PROXY 127.0.0.1:61806 <- 200 localhost:9876 (467 bytes)
-20170513 051351.441 [9936] PROXY resolved 'localhost' to '127.0.0.1:9876'
-20170513 051351.452 [9936] PROXY 127.0.0.1:61820 -> POST http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm1WyEJ&sid=kW03TI_RhjNOWje0AAAC (664 bytes)
-20170513 051351.452 [9936] PROXY 127.0.0.1:61816 -> GET http://localhost:9876/favicon.ico (475 bytes)
-20170513 051351.456 [9936] PROXY resolved 'localhost' to '127.0.0.1:9876'
-20170513 051351.456 [9936] PROXY 127.0.0.1:61822 -> POST http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm1Wy9l&sid=G_FZM_LcOS5hCGI_AAAA (725 bytes)
-20170513 051351.456 [9936] PROXY 127.0.0.1:61820 <- 200 localhost:9876 (213 bytes)
-20170513 051351.458 [9936] PROXY 127.0.0.1:61822 <- 200 localhost:9876 (273 bytes)
-20170513 051351.458 [9936] PROXY 127.0.0.1:61816 <- 200 localhost:9876 (9055 bytes)
-20170513 051351.481 [9936] PROXY 127.0.0.1:61804 -> GET http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm1WxzA&sid=ZhupWo4yxXIXa4DSAAAB (522 bytes)
-20170513 051351.481 [9936] PROXY 127.0.0.1:61804 <- 200 localhost:9876 (488 bytes)
-20170513 051351.512 [9936] PROXY 127.0.0.1:61806 -> GET http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm1WyAT&sid=G_FZM_LcOS5hCGI_AAAA (576 bytes)
-20170513 051351.512 [9936] PROXY 127.0.0.1:61788 -> GET http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm1WyFq&sid=kW03TI_RhjNOWje0AAAC (529 bytes)
-20170513 051351.541 [9936] PROXY resolved 'localhost' to '127.0.0.1:9876'
-20170513 051351.541 [9936] PROXY 127.0.0.1:61824 -> POST http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm1WyBH&sid=G_FZM_LcOS5hCGI_AAAA (1585 bytes)
-20170513 051351.544 [9936] PROXY 127.0.0.1:61824 <- 200 localhost:9876 (273 bytes)
-20170513 051351.548 [9936] PROXY 127.0.0.1:61806 <- 200 localhost:9876 (234 bytes)
-20170513 051351.548 [9936] PROXY 127.0.0.1:61788 <- 200 localhost:9876 (467 bytes)
-20170513 051351.559 [9936] PROXY resolved 'localhost' to '127.0.0.1:9876'
-20170513 051351.559 [9936] PROXY 127.0.0.1:61826 -> POST http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm1WyGe&sid=kW03TI_RhjNOWje0AAAC (1524 bytes)
-20170513 051351.561 [9936] PROXY 127.0.0.1:61826 <- 200 localhost:9876 (213 bytes)
+20170513 211352.331 [15876] Sauce Connect 4.4.0, build 845 e8cba87-dirty
+20170513 211352.331 [15876] Trying to autodetect proxy settings
+20170513 211352.331 [15876] Starting up; pid 15876
+20170513 211352.331 [15876] Command line arguments: C:\projects\tmp7\ng-module-template\node_modules\sauce-connect-launcher\sc\sc-4.4.0-win32\bin\sc -P 5757 --logfile sauce_connect.log -u pixelbits-mk -k **** --tunnel-identifier karma1494731613 --readyfile C:\Users\kangm\AppData\Local\Temp\sc-launcher-readyfile 
+20170513 211352.331 [15876] Log file: sauce_connect.log
+20170513 211352.331 [15876] Pid file: C:\Users\kangm\AppData\Roaming/sc_client-karma1494731613.pid
+20170513 211352.331 [15876] Timezone: Mountain Daylight Time GMT OFfset: -6h
+20170513 211352.331 [15876] Using no proxy for connecting to Sauce Labs REST API.
+20170513 211352.346 [15876] Resolving saucelabs.com to 162.222.75.243 took 0 ms.
+20170513 211353.101 [15876] ***********************************************************
+20170513 211353.101 [15876] A newer version of Sauce Connect (build 1496) is available!
+20170513 211353.101 [15876] Download it here:
+20170513 211353.101 [15876] https://saucelabs.com/downloads/sc-4.4.6-win32.zip
+20170513 211353.101 [15876] ***********************************************************
+20170513 211353.101 [15876] PROXY *** scproxy started ***
+20170513 211353.121 [15876] PROXY found DNS server 192.168.2.1
+20170513 211353.467 [15876] Started scproxy on port 49990.
+20170513 211353.467 [15876] Please wait for 'you may start your tests' to start your tests.
+20170513 211353.467 [15876] Starting secure remote tunnel VM...
+20170513 211358.203 [15876] Secure remote tunnel VM provisioned.
+20170513 211358.203 [15876] Tunnel ID: f19f000938524edfa897afb0742e300d
+20170513 211358.910 [15876] Secure remote tunnel VM is now: booting
+20170513 211410.181 [15876] Secure remote tunnel VM is now: running
+20170513 211410.181 [15876] Remote tunnel host is: maki81178.miso.saucelabs.com
+20170513 211410.181 [15876] Using no proxy for connecting to tunnel VM.
+20170513 211410.478 [15876] Resolving tunnel hostname to 162.222.75.23 took 302ms.
+20170513 211410.480 [15876] Starting Selenium listener...
+20170513 211410.480 [15876] Establishing secure TLS connection to tunnel...
+20170513 211410.511 [15876] [EVDNS] Added nameserver 192.168.2.1:53 as 0177DB10
+20170513 211410.511 [15876] MAIN connecting to maki81178.miso.saucelabs.com:443
+20170513 211410.772 [15876] Selenium listener started on port 5757.
+20170513 211411.103 [15876] MAIN connecting to KGP server maki81178.miso.saucelabs.com took 2396 ms
+20170513 211413.198 [15876] Sauce Connect is up, you may start your tests.
+20170513 211418.167 [15876] PROXY 127.0.0.1:50019 -> GET http://saucelabs.secret/28d7f62f17a24f508a7f6867a772ac47 (319 bytes)
+20170513 211418.182 [15876] PROXY 127.0.0.1:50021 -> GET http://saucelabs.secret/5e82f5aae7bf4888b34d8e9f2f8f5d25 (319 bytes)
+20170513 211418.183 [15876] PROXY 127.0.0.1:50022 -> GET http://saucelabs.secret/cdd7a388357042e1af0cff906ce5111e (318 bytes)
+20170513 211418.215 [15876] PROXY 127.0.0.1:50020 -> GET http://saucelabs.secret/7a67de0b70f94283858ec34921971ce7 (318 bytes)
+20170513 211418.300 [15876] PROXY 127.0.0.1:50022 error resolving hostname, ares status: 4
+20170513 211418.300 [15876] PROXY 127.0.0.1:50019 error resolving hostname, ares status: 4
+20170513 211418.300 [15876] PROXY 127.0.0.1:50021 error resolving hostname, ares status: 4
+20170513 211418.300 [15876] PROXY 127.0.0.1:50020 error resolving hostname, ares status: 4
+20170513 211418.300 [15876] PROXY 127.0.0.1:50022 <- saucelabs.secret:80 DNS error: Domain name not found (4)
+20170513 211418.300 [15876] PROXY 127.0.0.1:50019 <- saucelabs.secret:80 DNS error: Domain name not found (4)
+20170513 211418.300 [15876] PROXY 127.0.0.1:50020 <- saucelabs.secret:80 DNS error: Domain name not found (4)
+20170513 211418.300 [15876] PROXY 127.0.0.1:50021 <- saucelabs.secret:80 DNS error: Domain name not found (4)
+20170513 211420.540 [15876] PROXY 127.0.0.1:50024 -> GET http://localhost:9876/?id=64930134 (553 bytes)
+20170513 211420.540 [15876] PROXY resolved 'localhost' to '127.0.0.1:9876'
+20170513 211420.572 [15876] PROXY 127.0.0.1:50024 <- 200 localhost:9876 (2903 bytes)
+20170513 211420.675 [15876] PROXY 127.0.0.1:50024 -> GET http://localhost:9876/socket.io/socket.io.js (509 bytes)
+20170513 211420.683 [15876] PROXY resolved 'localhost' to '127.0.0.1:9876'
+20170513 211420.683 [15876] PROXY 127.0.0.1:50026 -> GET http://localhost:9876/karma.js (495 bytes)
+20170513 211420.728 [15876] PROXY 127.0.0.1:50024 <- 200 localhost:9876 (72408 bytes)
+20170513 211420.753 [15876] PROXY 127.0.0.1:50026 <- 200 localhost:9876 (120962 bytes)
+20170513 211421.675 [15876] PROXY 127.0.0.1:50026 -> GET http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm4yoAE (529 bytes)
+20170513 211421.683 [15876] PROXY 127.0.0.1:50024 -> GET http://localhost:9876/favicon.ico (498 bytes)
+20170513 211421.703 [15876] PROXY 127.0.0.1:50026 <- 200 localhost:9876 (329 bytes)
+20170513 211421.758 [15876] PROXY 127.0.0.1:50024 <- 200 localhost:9876 (5579 bytes)
+20170513 211421.828 [15876] PROXY 127.0.0.1:50026 -> GET http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm4yoCP&sid=Jo032WQcQ80bdslbAAAA (587 bytes)
+20170513 211421.840 [15876] PROXY 127.0.0.1:50026 <- 200 localhost:9876 (231 bytes)
+20170513 211422.152 [15876] PROXY 127.0.0.1:50024 -> GET http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm4yoEB&sid=Jo032WQcQ80bdslbAAAA (587 bytes)
+20170513 211422.160 [15876] PROXY resolved 'localhost' to '127.0.0.1:9876'
+20170513 211422.160 [15876] PROXY 127.0.0.1:50028 -> POST http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm4yoEA&sid=Jo032WQcQ80bdslbAAAA (833 bytes)
+20170513 211422.168 [15876] PROXY 127.0.0.1:50028 <- 200 localhost:9876 (273 bytes)
+20170513 211422.180 [15876] PROXY 127.0.0.1:50024 <- 200 localhost:9876 (320 bytes)
+20170513 211422.502 [15876] PROXY 127.0.0.1:50024 -> GET http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm4yoKg&sid=Jo032WQcQ80bdslbAAAA (587 bytes)
+20170513 211422.506 [15876] PROXY 127.0.0.1:50028 -> GET http://localhost:9876/?id=22409968 (424 bytes)
+20170513 211422.506 [15876] PROXY 127.0.0.1:50024 <- 200 localhost:9876 (430 bytes)
+20170513 211422.506 [15876] PROXY 127.0.0.1:50028 <- 200 localhost:9876 (2903 bytes)
+20170513 211422.530 [15876] PROXY 127.0.0.1:50032 -> GET https://tiles.services.mozilla.com/v3/links/fetch/en-US/release (594 bytes)
+20170513 211422.546 [15876] PROXY resolved 'tiles.services.mozilla.com' to '35.167.184.4:443'
+20170513 211422.593 [15876] PROXY 127.0.0.1:50028 -> GET http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm4yoOW&sid=Jo032WQcQ80bdslbAAAA (587 bytes)
+20170513 211422.593 [15876] PROXY 127.0.0.1:50024 -> GET http://localhost:9876/context.html (633 bytes)
+20170513 211422.600 [15876] PROXY 127.0.0.1:50024 <- 200 localhost:9876 (2848 bytes)
+20170513 211422.610 [15876] PROXY resolved 'localhost' to '127.0.0.1:9876'
+20170513 211422.614 [15876] PROXY 127.0.0.1:50034 -> GET http://localhost:9876/socket.io/socket.io.js (477 bytes)
+20170513 211422.614 [15876] PROXY 127.0.0.1:50034 <- 200 localhost:9876 (72408 bytes)
+20170513 211422.666 [15876] PROXY resolved 'localhost' to '127.0.0.1:9876'
+20170513 211422.666 [15876] PROXY 127.0.0.1:50036 -> GET http://localhost:9876/karma.js (463 bytes)
+20170513 211422.674 [15876] PROXY 127.0.0.1:50036 <- 200 localhost:9876 (120962 bytes)
+20170513 211422.690 [15876] PROXY 127.0.0.1:50024 -> GET http://localhost:9876/context.js (530 bytes)
+20170513 211422.693 [15876] PROXY 127.0.0.1:50024 <- 200 localhost:9876 (66052 bytes)
+20170513 211422.701 [15876] PROXY resolved 'localhost' to '127.0.0.1:9876'
+20170513 211422.714 [15876] PROXY 127.0.0.1:50038 -> GET http://localhost:9876/absoluteC:/projects/tmp7/ng-module-template/node_modules/jasmine-core/lib/jasmine-core/jasmine.js?324c10193d2eee846e728831a0b54e7179ff5dc8 (687 bytes)
+20170513 211422.714 [15876] PROXY resolved 'localhost' to '127.0.0.1:9876'
+20170513 211422.714 [15876] PROXY 127.0.0.1:50040 -> GET http://localhost:9876/absoluteC:/projects/tmp7/ng-module-template/node_modules/karma-jasmine/lib/adapter.js?7a813cc290d592e664331c573a1a796192cdd1ad (675 bytes)
+20170513 211422.723 [15876] PROXY resolved 'localhost' to '127.0.0.1:9876'
+20170513 211422.723 [15876] PROXY 127.0.0.1:50041 -> GET http://localhost:9876/base/src/main.js?ebbe8b631848ea0b21296bdd505853ffa5a58795 (606 bytes)
+20170513 211422.723 [15876] PROXY 127.0.0.1:50032 <- 303 tiles.services.mozilla.com:443 (266 bytes)
+20170513 211422.728 [15876] PROXY resolved 'localhost' to '127.0.0.1:9876'
+20170513 211422.728 [15876] PROXY 127.0.0.1:50039 -> GET http://localhost:9876/absoluteC:/projects/tmp7/ng-module-template/node_modules/karma-jasmine/lib/boot.js?945a38bf4e45ad2770eb94868231905a04a0bd3e (672 bytes)
+20170513 211422.740 [15876] PROXY resolved 'localhost' to '127.0.0.1:9876'
+20170513 211422.740 [15876] PROXY 127.0.0.1:50044 -> GET http://localhost:9876/?id=89754091 (422 bytes)
+20170513 211422.740 [15876] PROXY 127.0.0.1:50039 <- 200 localhost:9876 (1507 bytes)
+20170513 211422.740 [15876] PROXY 127.0.0.1:50041 <- 200 localhost:9876 (487 bytes)
+20170513 211422.740 [15876] PROXY 127.0.0.1:50040 <- 200 localhost:9876 (11305 bytes)
+20170513 211422.740 [15876] PROXY 127.0.0.1:50044 <- 200 localhost:9876 (2903 bytes)
+20170513 211422.748 [15876] PROXY 127.0.0.1:50038 <- 200 localhost:9876 (140477 bytes)
+20170513 211422.819 [15876] PROXY 127.0.0.1:50024 -> GET http://localhost:9876/base/test/test.js?1ce4b9cffc7e78321293fa4658518941fed2f49c (607 bytes)
+20170513 211422.819 [15876] PROXY 127.0.0.1:50024 <- 200 localhost:9876 (784 bytes)
+20170513 211422.827 [15876] PROXY 127.0.0.1:50040 -> GET http://localhost:9876/socket.io/socket.io.js (475 bytes)
+20170513 211422.831 [15876] PROXY 127.0.0.1:50044 -> GET http://localhost:9876/karma.js (461 bytes)
+20170513 211422.831 [15876] PROXY 127.0.0.1:50040 <- 200 localhost:9876 (72408 bytes)
+20170513 211422.831 [15876] PROXY 127.0.0.1:50044 <- 200 localhost:9876 (120962 bytes)
+20170513 211422.851 [15876] PROXY 127.0.0.1:50041 -> GET http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm4yoPs (467 bytes)
+20170513 211422.851 [15876] PROXY 127.0.0.1:50041 <- 200 localhost:9876 (350 bytes)
+20170513 211422.891 [15876] PROXY 127.0.0.1:50039 -> GET http://localhost:9876/favicon.ico (367 bytes)
+20170513 211422.891 [15876] PROXY 127.0.0.1:50039 <- 200 localhost:9876 (9055 bytes)
+20170513 211422.913 [15876] PROXY resolved 'localhost' to '127.0.0.1:9876'
+20170513 211422.913 [15876] PROXY 127.0.0.1:50049 -> POST http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm4yoTa&sid=Jo032WQcQ80bdslbAAAA (730 bytes)
+20170513 211422.913 [15876] PROXY 127.0.0.1:50049 <- 200 localhost:9876 (273 bytes)
+20170513 211422.945 [15876] PROXY 127.0.0.1:50051 -> POST https://location.services.mozilla.com/v1/country?key=7e40f68c-7938-4c5d-9f95-e61647c213eb (645 bytes)
+20170513 211422.978 [15876] PROXY resolved 'location.services.mozilla.com' to '34.249.242.51:443'
+20170513 211423.001 [15876] PROXY 127.0.0.1:50049 -> GET http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm4yoSA&sid=nHTRxDJo8g_MiHBZAAAB (525 bytes)
+20170513 211423.001 [15876] PROXY 127.0.0.1:50049 <- 200 localhost:9876 (252 bytes)
+20170513 211423.012 [15876] PROXY resolved 'localhost' to '127.0.0.1:9876'
+20170513 211423.012 [15876] PROXY 127.0.0.1:50053 -> POST http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm4yoUy&sid=Jo032WQcQ80bdslbAAAA (1590 bytes)
+20170513 211423.024 [15876] PROXY 127.0.0.1:50053 <- 200 localhost:9876 (273 bytes)
+20170513 211423.024 [15876] PROXY 127.0.0.1:50028 <- 200 localhost:9876 (234 bytes)
+20170513 211423.032 [15876] PROXY 127.0.0.1:50044 -> GET http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm4yoI9 (465 bytes)
+20170513 211423.036 [15876] PROXY 127.0.0.1:50044 <- 200 localhost:9876 (350 bytes)
+20170513 211423.084 [15876] PROXY 127.0.0.1:50041 -> GET http://localhost:9876/favicon.ico (365 bytes)
+20170513 211423.084 [15876] PROXY 127.0.0.1:50041 <- 200 localhost:9876 (9055 bytes)
+20170513 211423.171 [15876] PROXY 127.0.0.1:50028 -> GET http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm4yoWg&sid=Jo032WQcQ80bdslbAAAA (587 bytes)
+20170513 211423.171 [15876] PROXY 127.0.0.1:50053 -> GET http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm4yoUK.0&sid=nHTRxDJo8g_MiHBZAAAB (527 bytes)
+20170513 211423.179 [15876] PROXY resolved 'localhost' to '127.0.0.1:9876'
+20170513 211423.179 [15876] PROXY 127.0.0.1:50057 -> POST http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm4yoUK&sid=nHTRxDJo8g_MiHBZAAAB (742 bytes)
+20170513 211423.179 [15876] PROXY 127.0.0.1:50044 -> GET http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm4yoK9&sid=hBYNRz7H-qbAXr1nAAAC (523 bytes)
+20170513 211423.179 [15876] PROXY 127.0.0.1:50028 <- 200 localhost:9876 (320 bytes)
+20170513 211423.179 [15876] PROXY 127.0.0.1:50053 <- 200 localhost:9876 (341 bytes)
+20170513 211423.179 [15876] PROXY 127.0.0.1:50057 <- 200 localhost:9876 (234 bytes)
+20170513 211423.194 [15876] PROXY 127.0.0.1:50044 <- 200 localhost:9876 (584 bytes)
+20170513 211423.202 [15876] PROXY 127.0.0.1:50040 -> GET https://tiles-cloudfront.cdn.mozilla.net/desktop/STAR/en-US.b93f45fd5b9be4c4f62425c32e5c0235bf0752e9.ag.json (645 bytes)
+20170513 211423.215 [15876] PROXY resolved 'tiles-cloudfront.cdn.mozilla.net' to '52.84.21.44:443'
+20170513 211423.275 [15876] PROXY 127.0.0.1:50053 -> GET http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm4yoYx&sid=Jo032WQcQ80bdslbAAAA (587 bytes)
+20170513 211423.275 [15876] PROXY 127.0.0.1:50053 <- 200 localhost:9876 (558 bytes)
+20170513 211423.310 [15876] PROXY 127.0.0.1:50057 -> GET http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm4yoWh&sid=nHTRxDJo8g_MiHBZAAAB (525 bytes)
+20170513 211423.310 [15876] PROXY 127.0.0.1:50057 <- 200 localhost:9876 (688 bytes)
+20170513 211423.373 [15876] PROXY 127.0.0.1:50040 <- 200 tiles-cloudfront.cdn.mozilla.net:443 (2836 bytes)
+20170513 211423.378 [15876] PROXY resolved 'localhost' to '127.0.0.1:9876'
+20170513 211423.378 [15876] PROXY 127.0.0.1:50061 -> POST http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm4yoMm&sid=hBYNRz7H-qbAXr1nAAAC (737 bytes)
+20170513 211423.378 [15876] PROXY 127.0.0.1:50028 -> GET http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm4yoMp&sid=hBYNRz7H-qbAXr1nAAAC (523 bytes)
+20170513 211423.378 [15876] PROXY 127.0.0.1:50061 <- 200 localhost:9876 (234 bytes)
+20170513 211423.378 [15876] PROXY 127.0.0.1:50028 <- 200 localhost:9876 (487 bytes)
+20170513 211423.434 [15876] PROXY 127.0.0.1:50057 -> GET http://localhost:9876/context.html (504 bytes)
+20170513 211423.434 [15876] PROXY 127.0.0.1:50057 <- 200 localhost:9876 (2848 bytes)
+20170513 211423.463 [15876] PROXY 127.0.0.1:50053 -> GET http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm4yoYy&sid=nHTRxDJo8g_MiHBZAAAB (525 bytes)
+20170513 211423.463 [15876] PROXY 127.0.0.1:50053 <- 200 localhost:9876 (725 bytes)
+20170513 211423.501 [15876] PROXY 127.0.0.1:50028 -> GET http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm4yoPM&sid=hBYNRz7H-qbAXr1nAAAC (523 bytes)
+20170513 211423.501 [15876] PROXY 127.0.0.1:50028 <- 200 localhost:9876 (596 bytes)
+20170513 211423.525 [15876] PROXY 127.0.0.1:50057 -> GET http://localhost:9876/context.js (498 bytes)
+20170513 211423.533 [15876] PROXY 127.0.0.1:50057 <- 200 localhost:9876 (66052 bytes)
+20170513 211423.589 [15876] PROXY 127.0.0.1:50028 -> GET http://localhost:9876/context.html (502 bytes)
+20170513 211423.589 [15876] PROXY 127.0.0.1:50028 <- 200 localhost:9876 (2848 bytes)
+20170513 211423.621 [15876] PROXY 127.0.0.1:50053 -> GET http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm4yoQt&sid=hBYNRz7H-qbAXr1nAAAC (523 bytes)
+20170513 211423.621 [15876] PROXY 127.0.0.1:50061 -> GET http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm4yobV&sid=nHTRxDJo8g_MiHBZAAAB (525 bytes)
+20170513 211423.668 [15876] PROXY 127.0.0.1:50057 -> GET http://localhost:9876/?id=43688800 (490 bytes)
+20170513 211423.668 [15876] PROXY 127.0.0.1:50057 <- 200 localhost:9876 (2903 bytes)
+20170513 211423.683 [15876] PROXY 127.0.0.1:50028 -> GET http://localhost:9876/context.js (496 bytes)
+20170513 211423.689 [15876] PROXY 127.0.0.1:50051 <- 200 location.services.mozilla.com:443 (275 bytes)
+20170513 211423.689 [15876] PROXY 127.0.0.1:50028 <- 200 localhost:9876 (66052 bytes)
+20170513 211423.720 [15876] PROXY resolved 'localhost' to '127.0.0.1:9876'
+20170513 211423.720 [15876] PROXY 127.0.0.1:50064 -> POST http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm4yodV&sid=nHTRxDJo8g_MiHBZAAAB (661 bytes)
+20170513 211423.740 [15876] PROXY 127.0.0.1:50064 <- 200 localhost:9876 (234 bytes)
+20170513 211423.805 [15876] PROXY 127.0.0.1:50028 -> GET http://localhost:9876/socket.io/socket.io.js (457 bytes)
+20170513 211423.809 [15876] PROXY 127.0.0.1:50028 <- 200 localhost:9876 (72408 bytes)
+20170513 211423.817 [15876] PROXY resolved 'localhost' to '127.0.0.1:9876'
+20170513 211423.817 [15876] PROXY 127.0.0.1:50051 -> GET http://localhost:9876/karma.js (443 bytes)
+20170513 211423.829 [15876] PROXY 127.0.0.1:50051 <- 200 localhost:9876 (120962 bytes)
+20170513 211423.833 [15876] PROXY 127.0.0.1:50064 -> GET http://localhost:9876/favicon.ico (461 bytes)
+20170513 211423.833 [15876] PROXY 127.0.0.1:50057 -> GET https://search.services.mozilla.com/1/firefox/50.0/release/en-US/CA/default/default (615 bytes)
+20170513 211423.837 [15876] PROXY 127.0.0.1:50064 <- 200 localhost:9876 (9055 bytes)
+20170513 211423.841 [15876] PROXY resolved 'localhost' to '127.0.0.1:9876'
+20170513 211423.845 [15876] PROXY resolved 'localhost' to '127.0.0.1:9876'
+20170513 211423.845 [15876] PROXY 127.0.0.1:50068 -> POST http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm4yofI&sid=nHTRxDJo8g_MiHBZAAAB (1522 bytes)
+20170513 211423.845 [15876] PROXY resolved 'search.services.mozilla.com' to '52.11.17.245:443'
+20170513 211423.849 [15876] PROXY 127.0.0.1:50068 <- 200 localhost:9876 (234 bytes)
+20170513 211423.849 [15876] PROXY 127.0.0.1:50061 <- 200 localhost:9876 (255 bytes)
+20170513 211423.849 [15876] PROXY 127.0.0.1:50053 <- 200 localhost:9876 (487 bytes)
+20170513 211423.870 [15876] PROXY 127.0.0.1:50067 -> POST http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm4yoUc&sid=hBYNRz7H-qbAXr1nAAAC (659 bytes)
+20170513 211423.870 [15876] PROXY 127.0.0.1:50067 <- 200 localhost:9876 (234 bytes)
+20170513 211423.955 [15876] PROXY 127.0.0.1:50053 -> GET http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm4yoWV&sid=hBYNRz7H-qbAXr1nAAAC (523 bytes)
+20170513 211423.979 [15876] PROXY resolved 'localhost' to '127.0.0.1:9876'
+20170513 211423.979 [15876] PROXY 127.0.0.1:50074 -> POST http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm4yoWn&sid=hBYNRz7H-qbAXr1nAAAC (1520 bytes)
+20170513 211423.986 [15876] PROXY 127.0.0.1:50074 <- 200 localhost:9876 (234 bytes)
+20170513 211423.986 [15876] PROXY 127.0.0.1:50053 <- 200 localhost:9876 (255 bytes)
+20170513 211424.018 [15876] PROXY 127.0.0.1:50064 -> GET http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm4yohU&sid=nHTRxDJo8g_MiHBZAAAB (525 bytes)
+20170513 211424.018 [15876] PROXY 127.0.0.1:50051 -> GET http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm4yoiy (477 bytes)
+20170513 211424.018 [15876] PROXY 127.0.0.1:50064 <- 200 localhost:9876 (725 bytes)
+20170513 211424.018 [15876] PROXY 127.0.0.1:50051 <- 200 localhost:9876 (329 bytes)
+20170513 211424.026 [15876] PROXY 127.0.0.1:50057 <- 200 search.services.mozilla.com:443 (192 bytes)
+20170513 211424.110 [15876] PROXY 127.0.0.1:50053 -> GET http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm4yoYo&sid=hBYNRz7H-qbAXr1nAAAC (523 bytes)
+20170513 211424.110 [15876] PROXY 127.0.0.1:50053 <- 200 localhost:9876 (487 bytes)
+20170513 211424.192 [15876] PROXY resolved 'localhost' to '127.0.0.1:9876'
+20170513 211424.192 [15876] PROXY 127.0.0.1:50057 -> GET http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm4yolb&sid=CkjhNgRPnSpO3mhFAAAD (535 bytes)
+20170513 211424.200 [15876] PROXY 127.0.0.1:50051 -> GET http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm4yokt&sid=nHTRxDJo8g_MiHBZAAAB (525 bytes)
+20170513 211424.200 [15876] PROXY 127.0.0.1:50057 <- 200 localhost:9876 (231 bytes)
+20170513 211424.276 [15876] PROXY 127.0.0.1:50053 -> GET http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm4yobU&sid=hBYNRz7H-qbAXr1nAAAC (523 bytes)
+20170513 211424.582 [15876] PROXY resolved 'localhost' to '127.0.0.1:9876'
+20170513 211424.582 [15876] PROXY 127.0.0.1:50079 -> POST http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm4yooQ&sid=CkjhNgRPnSpO3mhFAAAD (715 bytes)
+20170513 211424.582 [15876] PROXY 127.0.0.1:50064 -> GET http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm4yooR&sid=CkjhNgRPnSpO3mhFAAAD (535 bytes)
+20170513 211424.602 [15876] PROXY 127.0.0.1:50079 <- 200 localhost:9876 (213 bytes)
+20170513 211424.602 [15876] PROXY 127.0.0.1:50051 <- 200 localhost:9876 (563 bytes)
+20170513 211424.602 [15876] PROXY 127.0.0.1:50053 <- 200 localhost:9876 (563 bytes)
+20170513 211424.602 [15876] PROXY 127.0.0.1:50064 <- 200 localhost:9876 (542 bytes)
+20170513 211424.886 [15876] PROXY 127.0.0.1:50064 -> GET http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm4yotK&sid=CkjhNgRPnSpO3mhFAAAD (535 bytes)
+20170513 211424.886 [15876] PROXY 127.0.0.1:50051 -> GET http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm4yosd&sid=nHTRxDJo8g_MiHBZAAAB (525 bytes)
+20170513 211424.887 [15876] PROXY 127.0.0.1:50064 <- 200 localhost:9876 (651 bytes)
+20170513 211424.887 [15876] PROXY 127.0.0.1:50051 <- 200 localhost:9876 (563 bytes)
+20170513 211425.239 [15876] PROXY 127.0.0.1:50081 -> POST https://shavar.services.mozilla.com/downloads?client=navclient-auto-ffox&appver=50.0&pver=2.2 (735 bytes)
+20170513 211425.251 [15876] PROXY resolved 'shavar.services.mozilla.com' to '54.69.100.200:443'
+20170513 211425.323 [15876] PROXY 127.0.0.1:50051 -> GET http://localhost:9876/context.html (570 bytes)
+20170513 211425.323 [15876] PROXY 127.0.0.1:50064 -> GET http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm4yp1N&sid=CkjhNgRPnSpO3mhFAAAD (535 bytes)
+20170513 211425.323 [15876] PROXY 127.0.0.1:50051 <- 200 localhost:9876 (2848 bytes)
+20170513 211425.407 [15876] PROXY 127.0.0.1:50081 <- 200 shavar.services.mozilla.com:443 (515 bytes)
+20170513 211425.419 [15876] PROXY 127.0.0.1:50051 -> GET http://localhost:9876/context.js (478 bytes)
+20170513 211425.419 [15876] PROXY 127.0.0.1:50051 <- 200 localhost:9876 (66052 bytes)
+20170513 211425.536 [15876] PROXY 127.0.0.1:50081 -> GET https://tracking-protection.cdn.mozilla.net/base-track-digest256/1471874828 (600 bytes)
+20170513 211425.587 [15876] PROXY resolved 'tracking-protection.cdn.mozilla.net' to '52.84.21.14:443'
+20170513 211425.781 [15876] PROXY 127.0.0.1:50081 <- 200 tracking-protection.cdn.mozilla.net:443 (55421 bytes)
+20170513 211425.800 [15876] PROXY resolved 'localhost' to '127.0.0.1:9876'
+20170513 211425.800 [15876] PROXY 127.0.0.1:50084 -> POST http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm4yp8p&sid=CkjhNgRPnSpO3mhFAAAD (653 bytes)
+20170513 211425.800 [15876] PROXY 127.0.0.1:50084 <- 200 localhost:9876 (213 bytes)
+20170513 211425.864 [15876] PROXY 127.0.0.1:50081 -> GET https://tracking-protection.cdn.mozilla.net/mozplugin-block-digest256/1471849627 (605 bytes)
+20170513 211425.900 [15876] PROXY 127.0.0.1:50081 <- 200 tracking-protection.cdn.mozilla.net:443 (3483 bytes)
+20170513 211425.908 [15876] PROXY resolved 'localhost' to '127.0.0.1:9876'
+20170513 211425.908 [15876] PROXY 127.0.0.1:50086 -> POST http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm4ypAb&sid=CkjhNgRPnSpO3mhFAAAD (1513 bytes)
+20170513 211425.912 [15876] PROXY 127.0.0.1:50086 <- 200 localhost:9876 (213 bytes)
+20170513 211425.912 [15876] PROXY 127.0.0.1:50064 <- 200 localhost:9876 (234 bytes)
+20170513 211838.546 [8368] Sauce Connect 4.4.0, build 845 e8cba87-dirty
+20170513 211838.546 [8368] Trying to autodetect proxy settings
+20170513 211838.546 [8368] Starting up; pid 8368
+20170513 211838.546 [8368] Command line arguments: C:\projects\tmp7\ng-module-template\node_modules\sauce-connect-launcher\sc\sc-4.4.0-win32\bin\sc -P 5757 --logfile sauce_connect.log -u pixelbits-mk -k **** --tunnel-identifier karma1494731907 --readyfile C:\Users\kangm\AppData\Local\Temp\sc-launcher-readyfile 
+20170513 211838.546 [8368] Log file: sauce_connect.log
+20170513 211838.546 [8368] Pid file: C:\Users\kangm\AppData\Roaming/sc_client-karma1494731907.pid
+20170513 211838.546 [8368] Timezone: Mountain Daylight Time GMT OFfset: -6h
+20170513 211838.546 [8368] Using no proxy for connecting to Sauce Labs REST API.
+20170513 211838.546 [8368] Resolving saucelabs.com to 162.222.75.243 took 0 ms.
+20170513 211839.181 [8368] ***********************************************************
+20170513 211839.181 [8368] A newer version of Sauce Connect (build 1496) is available!
+20170513 211839.181 [8368] Download it here:
+20170513 211839.181 [8368] https://saucelabs.com/downloads/sc-4.4.6-win32.zip
+20170513 211839.181 [8368] ***********************************************************
+20170513 211839.181 [8368] PROXY *** scproxy started ***
+20170513 211839.181 [8368] PROXY found DNS server 192.168.2.1
+20170513 211839.416 [8368] Started scproxy on port 50124.
+20170513 211839.416 [8368] Please wait for 'you may start your tests' to start your tests.
+20170513 211839.416 [8368] Starting secure remote tunnel VM...
+20170513 211845.117 [8368] Secure remote tunnel VM provisioned.
+20170513 211845.117 [8368] Tunnel ID: b5200b8663b145feab45a35e12c8ff8b
+20170513 211845.735 [8368] Secure remote tunnel VM is now: booting
+20170513 211856.181 [8368] Secure remote tunnel VM is now: running
+20170513 211856.182 [8368] Remote tunnel host is: maki84182.miso.saucelabs.com
+20170513 211856.182 [8368] Using no proxy for connecting to tunnel VM.
+20170513 211856.485 [8368] Resolving tunnel hostname to 162.222.75.76 took 290ms.
+20170513 211856.485 [8368] Starting Selenium listener...
+20170513 211856.485 [8368] Establishing secure TLS connection to tunnel...
+20170513 211856.501 [8368] [EVDNS] Added nameserver 192.168.2.1:53 as 02FE2EA0
+20170513 211856.501 [8368] MAIN connecting to maki84182.miso.saucelabs.com:443
+20170513 211856.771 [8368] Selenium listener started on port 5757.
+20170513 211856.771 [8368] MAIN connecting to KGP server maki84182.miso.saucelabs.com took 270 ms
+20170513 211859.049 [8368] Sauce Connect is up, you may start your tests.
+20170513 211904.440 [8368] PROXY 127.0.0.1:50145 -> GET http://saucelabs.secret/0a39f278265f4b379b4aa11f2e72f497 (319 bytes)
+20170513 211904.452 [8368] PROXY 127.0.0.1:50146 -> GET http://saucelabs.secret/fb6a56380aad4c11b22a9ea988a20645 (319 bytes)
+20170513 211904.464 [8368] PROXY 127.0.0.1:50147 -> GET http://saucelabs.secret/e94930dd41c84641bc819e4c3e476162 (319 bytes)
+20170513 211904.490 [8368] PROXY 127.0.0.1:50145 error resolving hostname, ares status: 4
+20170513 211904.490 [8368] PROXY 127.0.0.1:50145 <- saucelabs.secret:80 DNS error: Domain name not found (4)
+20170513 211904.490 [8368] PROXY 127.0.0.1:50147 error resolving hostname, ares status: 4
+20170513 211904.490 [8368] PROXY 127.0.0.1:50147 <- saucelabs.secret:80 DNS error: Domain name not found (4)
+20170513 211904.490 [8368] PROXY 127.0.0.1:50146 error resolving hostname, ares status: 4
+20170513 211904.490 [8368] PROXY 127.0.0.1:50146 <- saucelabs.secret:80 DNS error: Domain name not found (4)
+20170513 211906.339 [8368] PROXY 127.0.0.1:50149 -> GET http://localhost:9876/?id=744032 (551 bytes)
+20170513 211906.339 [8368] PROXY resolved 'localhost' to '127.0.0.1:9876'
+20170513 211906.370 [8368] PROXY 127.0.0.1:50149 <- 200 localhost:9876 (2903 bytes)
+20170513 211906.539 [8368] PROXY 127.0.0.1:50149 -> GET http://localhost:9876/socket.io/socket.io.js (507 bytes)
+20170513 211906.539 [8368] PROXY resolved 'localhost' to '127.0.0.1:9876'
+20170513 211906.539 [8368] PROXY 127.0.0.1:50151 -> GET http://localhost:9876/karma.js (493 bytes)
+20170513 211906.570 [8368] PROXY 127.0.0.1:50149 <- 200 localhost:9876 (72408 bytes)
+20170513 211906.570 [8368] PROXY 127.0.0.1:50151 <- 200 localhost:9876 (120962 bytes)
+20170513 211907.555 [8368] PROXY 127.0.0.1:50151 -> GET http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm4ztul (527 bytes)
+20170513 211907.555 [8368] PROXY 127.0.0.1:50149 -> GET http://localhost:9876/favicon.ico (496 bytes)
+20170513 211907.586 [8368] PROXY 127.0.0.1:50151 <- 200 localhost:9876 (329 bytes)
+20170513 211907.586 [8368] PROXY 127.0.0.1:50149 <- 200 localhost:9876 (5579 bytes)
+20170513 211907.680 [8368] PROXY 127.0.0.1:50149 -> GET http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm4ztzb&sid=ZMbUSj27aksTAvBwAAAA (585 bytes)
+20170513 211907.680 [8368] PROXY 127.0.0.1:50149 <- 200 localhost:9876 (231 bytes)
+20170513 211907.773 [8368] PROXY 127.0.0.1:50151 -> GET http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm4zt_2.0&sid=ZMbUSj27aksTAvBwAAAA (587 bytes)
+20170513 211907.781 [8368] PROXY resolved 'localhost' to '127.0.0.1:9876'
+20170513 211907.781 [8368] PROXY 127.0.0.1:50153 -> POST http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm4zt_2&sid=ZMbUSj27aksTAvBwAAAA (829 bytes)
+20170513 211907.789 [8368] PROXY 127.0.0.1:50153 <- 200 localhost:9876 (273 bytes)
+20170513 211907.797 [8368] PROXY 127.0.0.1:50151 <- 200 localhost:9876 (318 bytes)
+20170513 211908.159 [8368] PROXY 127.0.0.1:50151 -> GET http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm4zu3B&sid=ZMbUSj27aksTAvBwAAAA (585 bytes)
+20170513 211908.163 [8368] PROXY 127.0.0.1:50151 <- 200 localhost:9876 (428 bytes)
+20170513 211908.476 [8368] PROXY 127.0.0.1:50151 -> GET http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm4zu6X&sid=ZMbUSj27aksTAvBwAAAA (585 bytes)
+20170513 211908.476 [8368] PROXY 127.0.0.1:50153 -> GET http://localhost:9876/context.html (631 bytes)
+20170513 211908.488 [8368] PROXY 127.0.0.1:50155 -> GET https://tiles.services.mozilla.com/v3/links/fetch/en-US/release (595 bytes)
+20170513 211908.508 [8368] PROXY resolved 'tiles.services.mozilla.com' to '52.34.37.177:443'
+20170513 211908.536 [8368] PROXY 127.0.0.1:50153 <- 200 localhost:9876 (2848 bytes)
+20170513 211908.625 [8368] PROXY 127.0.0.1:50153 -> GET http://localhost:9876/context.js (530 bytes)
+20170513 211908.636 [8368] PROXY resolved 'localhost' to '127.0.0.1:9876'
+20170513 211908.636 [8368] PROXY 127.0.0.1:50158 -> GET http://localhost:9876/absoluteC:/projects/tmp7/ng-module-template/node_modules/jasmine-core/lib/jasmine-core/jasmine.js?324c10193d2eee846e728831a0b54e7179ff5dc8 (687 bytes)
+20170513 211908.663 [8368] PROXY resolved 'localhost' to '127.0.0.1:9876'
+20170513 211908.663 [8368] PROXY 127.0.0.1:50159 -> GET http://localhost:9876/absoluteC:/projects/tmp7/ng-module-template/node_modules/karma-jasmine/lib/boot.js?945a38bf4e45ad2770eb94868231905a04a0bd3e (672 bytes)
+20170513 211908.663 [8368] PROXY resolved 'localhost' to '127.0.0.1:9876'
+20170513 211908.663 [8368] PROXY 127.0.0.1:50160 -> GET http://localhost:9876/absoluteC:/projects/tmp7/ng-module-template/node_modules/karma-jasmine/lib/adapter.js?7a813cc290d592e664331c573a1a796192cdd1ad (675 bytes)
+20170513 211908.663 [8368] PROXY resolved 'localhost' to '127.0.0.1:9876'
+20170513 211908.663 [8368] PROXY 127.0.0.1:50161 -> GET http://localhost:9876/base/src/main.js?ebbe8b631848ea0b21296bdd505853ffa5a58795 (606 bytes)
+20170513 211908.663 [8368] PROXY 127.0.0.1:50153 <- 200 localhost:9876 (66052 bytes)
+20170513 211908.694 [8368] PROXY 127.0.0.1:50161 <- 200 localhost:9876 (487 bytes)
+20170513 211908.694 [8368] PROXY 127.0.0.1:50159 <- 200 localhost:9876 (1507 bytes)
+20170513 211908.694 [8368] PROXY 127.0.0.1:50160 <- 200 localhost:9876 (11305 bytes)
+20170513 211908.694 [8368] PROXY 127.0.0.1:50155 <- 303 tiles.services.mozilla.com:443 (266 bytes)
+20170513 211908.694 [8368] PROXY 127.0.0.1:50158 <- 200 localhost:9876 (140477 bytes)
+20170513 211908.727 [8368] PROXY resolved 'localhost' to '127.0.0.1:9876'
+20170513 211908.727 [8368] PROXY 127.0.0.1:50166 -> GET http://localhost:9876/?id=47394024 (425 bytes)
+20170513 211908.750 [8368] PROXY 127.0.0.1:50167 -> POST https://location.services.mozilla.com/v1/country?key=7e40f68c-7938-4c5d-9f95-e61647c213eb (646 bytes)
+20170513 211908.750 [8368] PROXY 127.0.0.1:50166 <- 200 localhost:9876 (2903 bytes)
+20170513 211908.750 [8368] PROXY resolved 'location.services.mozilla.com' to '54.77.38.116:443'
+20170513 211908.766 [8368] PROXY 127.0.0.1:50153 -> GET http://localhost:9876/base/test/test.js?1ce4b9cffc7e78321293fa4658518941fed2f49c (607 bytes)
+20170513 211908.766 [8368] PROXY 127.0.0.1:50153 <- 200 localhost:9876 (784 bytes)
+20170513 211908.829 [8368] PROXY 127.0.0.1:50166 -> GET http://localhost:9876/socket.io/socket.io.js (478 bytes)
+20170513 211908.829 [8368] PROXY 127.0.0.1:50166 <- 200 localhost:9876 (72408 bytes)
+20170513 211908.866 [8368] PROXY resolved 'localhost' to '127.0.0.1:9876'
+20170513 211908.866 [8368] PROXY 127.0.0.1:50155 -> GET http://localhost:9876/karma.js (464 bytes)
+20170513 211908.897 [8368] PROXY 127.0.0.1:50155 <- 200 localhost:9876 (120962 bytes)
+20170513 211908.897 [8368] PROXY resolved 'localhost' to '127.0.0.1:9876'
+20170513 211908.897 [8368] PROXY 127.0.0.1:50171 -> POST http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm4zuGB&sid=ZMbUSj27aksTAvBwAAAA (728 bytes)
+20170513 211908.897 [8368] PROXY 127.0.0.1:50171 <- 200 localhost:9876 (273 bytes)
+20170513 211908.968 [8368] PROXY 127.0.0.1:50166 -> GET https://tiles-cloudfront.cdn.mozilla.net/desktop/STAR/en-US.8bce698c20f177b842546346001f43fd8364888b.ag.json (646 bytes)
+20170513 211908.988 [8368] PROXY resolved 'tiles-cloudfront.cdn.mozilla.net' to '52.84.21.61:443'
+20170513 211909.036 [8368] PROXY resolved 'localhost' to '127.0.0.1:9876'
+20170513 211909.036 [8368] PROXY 127.0.0.1:50174 -> POST http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm4zuI5&sid=ZMbUSj27aksTAvBwAAAA (1588 bytes)
+20170513 211909.058 [8368] PROXY 127.0.0.1:50171 -> GET http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm4zuGz (468 bytes)
+20170513 211909.058 [8368] PROXY 127.0.0.1:50151 <- 200 localhost:9876 (234 bytes)
+20170513 211909.059 [8368] PROXY 127.0.0.1:50158 -> GET http://localhost:9876/favicon.ico (368 bytes)
+20170513 211909.059 [8368] PROXY 127.0.0.1:50174 <- 200 localhost:9876 (273 bytes)
+20170513 211909.157 [8368] PROXY 127.0.0.1:50171 <- 200 localhost:9876 (350 bytes)
+20170513 211909.157 [8368] PROXY 127.0.0.1:50158 <- 200 localhost:9876 (9055 bytes)
+20170513 211909.213 [8368] PROXY 127.0.0.1:50166 <- 200 tiles-cloudfront.cdn.mozilla.net:443 (2779 bytes)
+20170513 211909.214 [8368] PROXY 127.0.0.1:50171 -> GET http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm4zuLa&sid=ZMbUSj27aksTAvBwAAAA (585 bytes)
+20170513 211909.215 [8368] PROXY 127.0.0.1:50151 -> GET http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm4zuK4&sid=lUw1yLJw8sETLEakAAAB (526 bytes)
+20170513 211909.218 [8368] PROXY 127.0.0.1:50171 <- 200 localhost:9876 (318 bytes)
+20170513 211909.218 [8368] PROXY 127.0.0.1:50151 <- 200 localhost:9876 (252 bytes)
+20170513 211909.400 [8368] PROXY 127.0.0.1:50171 -> GET http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm4zuO5&sid=ZMbUSj27aksTAvBwAAAA (585 bytes)
+20170513 211909.400 [8368] PROXY resolved 'localhost' to '127.0.0.1:9876'
+20170513 211909.400 [8368] PROXY 127.0.0.1:50166 -> GET http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm4zuMa.0&sid=lUw1yLJw8sETLEakAAAB (528 bytes)
+20170513 211909.400 [8368] PROXY resolved 'localhost' to '127.0.0.1:9876'
+20170513 211909.400 [8368] PROXY 127.0.0.1:50179 -> POST http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm4zuMa&sid=lUw1yLJw8sETLEakAAAB (743 bytes)
+20170513 211909.400 [8368] PROXY 127.0.0.1:50179 <- 200 localhost:9876 (234 bytes)
+20170513 211909.400 [8368] PROXY 127.0.0.1:50158 -> GET http://localhost:9876/?id=38041308 (491 bytes)
+20170513 211909.400 [8368] PROXY 127.0.0.1:50171 <- 200 localhost:9876 (391 bytes)
+20170513 211909.400 [8368] PROXY 127.0.0.1:50166 <- 200 localhost:9876 (412 bytes)
+20170513 211909.400 [8368] PROXY 127.0.0.1:50158 <- 200 localhost:9876 (2903 bytes)
+20170513 211909.450 [8368] PROXY 127.0.0.1:50167 <- 200 location.services.mozilla.com:443 (275 bytes)
+20170513 211909.497 [8368] PROXY 127.0.0.1:50158 -> GET http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm4zuON&sid=lUw1yLJw8sETLEakAAAB (526 bytes)
+20170513 211909.497 [8368] PROXY 127.0.0.1:50158 <- 200 localhost:9876 (521 bytes)
+20170513 211909.497 [8368] PROXY 127.0.0.1:50166 -> GET http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm4zuPs&sid=ZMbUSj27aksTAvBwAAAA (585 bytes)
+20170513 211909.497 [8368] PROXY 127.0.0.1:50166 <- 200 localhost:9876 (391 bytes)
+20170513 211909.543 [8368] PROXY 127.0.0.1:50171 -> GET http://localhost:9876/socket.io/socket.io.js (458 bytes)
+20170513 211909.543 [8368] PROXY 127.0.0.1:50179 -> GET http://localhost:9876/karma.js (444 bytes)
+20170513 211909.543 [8368] PROXY 127.0.0.1:50171 <- 200 localhost:9876 (72408 bytes)
+20170513 211909.559 [8368] PROXY 127.0.0.1:50179 <- 200 localhost:9876 (120962 bytes)
+20170513 211909.578 [8368] PROXY resolved 'localhost' to '127.0.0.1:9876'
+20170513 211909.578 [8368] PROXY 127.0.0.1:50167 -> GET http://localhost:9876/favicon.ico (462 bytes)
+20170513 211909.578 [8368] PROXY 127.0.0.1:50167 <- 200 localhost:9876 (9055 bytes)
+20170513 211909.610 [8368] PROXY 127.0.0.1:50174 -> GET https://search.services.mozilla.com/1/firefox/50.0/release/en-US/CA/default/default (616 bytes)
+20170513 211909.625 [8368] PROXY resolved 'search.services.mozilla.com' to '54.201.174.90:443'
+20170513 211909.625 [8368] PROXY 127.0.0.1:50166 -> GET http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm4zuRz&sid=ZMbUSj27aksTAvBwAAAA (585 bytes)
+20170513 211909.625 [8368] PROXY 127.0.0.1:50158 -> GET http://localhost:9876/context.html (505 bytes)
+20170513 211909.641 [8368] PROXY 127.0.0.1:50161 -> GET http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm4zuQa&sid=lUw1yLJw8sETLEakAAAB (526 bytes)
+20170513 211909.641 [8368] PROXY 127.0.0.1:50158 <- 200 localhost:9876 (2848 bytes)
+20170513 211909.711 [8368] PROXY 127.0.0.1:50158 -> GET http://localhost:9876/context.js (499 bytes)
+20170513 211909.711 [8368] PROXY 127.0.0.1:50158 <- 200 localhost:9876 (66052 bytes)
+20170513 211909.758 [8368] PROXY 127.0.0.1:50167 -> GET http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm4zuTB (478 bytes)
+20170513 211909.758 [8368] PROXY 127.0.0.1:50167 <- 200 localhost:9876 (329 bytes)
+20170513 211909.796 [8368] PROXY 127.0.0.1:50174 <- 200 search.services.mozilla.com:443 (192 bytes)
+20170513 211909.796 [8368] PROXY 127.0.0.1:50179 -> GET http://localhost:9876/?id=9321808 (421 bytes)
+20170513 211909.796 [8368] PROXY 127.0.0.1:50179 <- 200 localhost:9876 (2903 bytes)
+20170513 211909.874 [8368] PROXY resolved 'localhost' to '127.0.0.1:9876'
+20170513 211909.874 [8368] PROXY 127.0.0.1:50185 -> POST http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm4zuU8&sid=lUw1yLJw8sETLEakAAAB (662 bytes)
+20170513 211909.874 [8368] PROXY 127.0.0.1:50185 <- 200 localhost:9876 (234 bytes)
+20170513 211909.874 [8368] PROXY 127.0.0.1:50179 -> GET http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm4zuVL&sid=DGjV4AubYvXi3IbMAAAC (536 bytes)
+20170513 211909.874 [8368] PROXY 127.0.0.1:50179 <- 200 localhost:9876 (231 bytes)
+20170513 211909.916 [8368] PROXY resolved 'localhost' to '127.0.0.1:9876'
+20170513 211909.916 [8368] PROXY 127.0.0.1:50174 -> GET http://localhost:9876/socket.io/socket.io.js (474 bytes)
+20170513 211909.916 [8368] PROXY 127.0.0.1:50167 -> GET http://localhost:9876/karma.js (460 bytes)
+20170513 211909.916 [8368] PROXY 127.0.0.1:50174 <- 200 localhost:9876 (72408 bytes)
+20170513 211909.916 [8368] PROXY 127.0.0.1:50167 <- 200 localhost:9876 (120962 bytes)
+20170513 211909.978 [8368] PROXY resolved 'localhost' to '127.0.0.1:9876'
+20170513 211909.978 [8368] PROXY 127.0.0.1:50188 -> POST http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm4zuVg&sid=lUw1yLJw8sETLEakAAAB (1522 bytes)
+20170513 211909.978 [8368] PROXY 127.0.0.1:50188 <- 200 localhost:9876 (234 bytes)
+20170513 211909.978 [8368] PROXY 127.0.0.1:50161 <- 200 localhost:9876 (255 bytes)
+20170513 211909.978 [8368] PROXY 127.0.0.1:50166 <- 200 localhost:9876 (391 bytes)
+20170513 211910.013 [8368] PROXY 127.0.0.1:50171 -> GET http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm4zuXN&sid=DGjV4AubYvXi3IbMAAAC (536 bytes)
+20170513 211910.013 [8368] PROXY resolved 'localhost' to '127.0.0.1:9876'
+20170513 211910.013 [8368] PROXY 127.0.0.1:50192 -> POST http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm4zuXM&sid=DGjV4AubYvXi3IbMAAAC (716 bytes)
+20170513 211910.013 [8368] PROXY 127.0.0.1:50171 <- 200 localhost:9876 (391 bytes)
+20170513 211910.013 [8368] PROXY 127.0.0.1:50192 <- 200 localhost:9876 (213 bytes)
+20170513 211910.097 [8368] PROXY 127.0.0.1:50166 -> GET http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm4zuXa&sid=lUw1yLJw8sETLEakAAAB (526 bytes)
+20170513 211910.097 [8368] PROXY 127.0.0.1:50192 -> GET http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm4zuYi&sid=DGjV4AubYvXi3IbMAAAC (536 bytes)
+20170513 211910.097 [8368] PROXY 127.0.0.1:50166 <- 200 localhost:9876 (890 bytes)
+20170513 211910.097 [8368] PROXY 127.0.0.1:50192 <- 200 localhost:9876 (815 bytes)
+20170513 211910.183 [8368] PROXY 127.0.0.1:50171 -> GET http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm4zuNG (464 bytes)
+20170513 211910.183 [8368] PROXY 127.0.0.1:50161 -> GET http://localhost:9876/favicon.ico (365 bytes)
+20170513 211910.183 [8368] PROXY 127.0.0.1:50171 <- 200 localhost:9876 (350 bytes)
+20170513 211910.183 [8368] PROXY 127.0.0.1:50161 <- 200 localhost:9876 (9055 bytes)
+20170513 211910.183 [8368] PROXY 127.0.0.1:50166 -> GET http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm4zuZA&sid=lUw1yLJw8sETLEakAAAB (526 bytes)
+20170513 211910.261 [8368] PROXY 127.0.0.1:50161 -> GET http://localhost:9876/context.html (571 bytes)
+20170513 211910.261 [8368] PROXY 127.0.0.1:50171 -> GET http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm4zubS&sid=DGjV4AubYvXi3IbMAAAC (536 bytes)
+20170513 211910.261 [8368] PROXY 127.0.0.1:50161 <- 200 localhost:9876 (2848 bytes)
+20170513 211910.298 [8368] PROXY 127.0.0.1:50192 -> GET http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm4zuPD&sid=H3k5WNxjiQAxTmHMAAAD (522 bytes)
+20170513 211910.298 [8368] PROXY 127.0.0.1:50192 <- 200 localhost:9876 (252 bytes)
+20170513 211910.361 [8368] PROXY 127.0.0.1:50161 -> GET http://localhost:9876/context.js (479 bytes)
+20170513 211910.361 [8368] PROXY 127.0.0.1:50161 <- 200 localhost:9876 (66052 bytes)
+20170513 211910.436 [8368] PROXY 127.0.0.1:50192 -> GET http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm4zuRn&sid=H3k5WNxjiQAxTmHMAAAD (522 bytes)
+20170513 211910.468 [8368] PROXY resolved 'localhost' to '127.0.0.1:9876'
+20170513 211910.468 [8368] PROXY 127.0.0.1:50195 -> POST http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm4zuRm&sid=H3k5WNxjiQAxTmHMAAAD (735 bytes)
+20170513 211910.468 [8368] PROXY 127.0.0.1:50195 <- 200 localhost:9876 (234 bytes)
+20170513 211910.468 [8368] PROXY 127.0.0.1:50166 <- 200 localhost:9876 (560 bytes)
+20170513 211910.468 [8368] PROXY 127.0.0.1:50192 <- 200 localhost:9876 (560 bytes)
+20170513 211910.468 [8368] PROXY 127.0.0.1:50171 <- 200 localhost:9876 (539 bytes)
+20170513 211910.563 [8368] PROXY resolved 'localhost' to '127.0.0.1:9876'
+20170513 211910.563 [8368] PROXY 127.0.0.1:50197 -> POST http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm4zufs&sid=DGjV4AubYvXi3IbMAAAC (654 bytes)
+20170513 211910.563 [8368] PROXY 127.0.0.1:50166 -> GET http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm4zuex&sid=lUw1yLJw8sETLEakAAAB (526 bytes)
+20170513 211910.563 [8368] PROXY 127.0.0.1:50197 <- 200 localhost:9876 (213 bytes)
+20170513 211910.563 [8368] PROXY 127.0.0.1:50166 <- 200 localhost:9876 (560 bytes)
+20170513 211910.601 [8368] PROXY 127.0.0.1:50171 -> GET http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm4zuTi&sid=H3k5WNxjiQAxTmHMAAAD (522 bytes)
+20170513 211910.601 [8368] PROXY 127.0.0.1:50195 -> GET http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm4zugC&sid=DGjV4AubYvXi3IbMAAAC (536 bytes)
+20170513 211910.601 [8368] PROXY 127.0.0.1:50171 <- 200 localhost:9876 (669 bytes)
+20170513 211910.601 [8368] PROXY 127.0.0.1:50195 <- 200 localhost:9876 (539 bytes)
+20170513 211910.686 [8368] PROXY 127.0.0.1:50166 -> GET http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm4zug-&sid=lUw1yLJw8sETLEakAAAB (526 bytes)
+20170513 211910.686 [8368] PROXY resolved 'localhost' to '127.0.0.1:9876'
+20170513 211910.686 [8368] PROXY 127.0.0.1:50199 -> POST http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm4zui1&sid=DGjV4AubYvXi3IbMAAAC (1514 bytes)
+20170513 211910.686 [8368] PROXY 127.0.0.1:50199 <- 200 localhost:9876 (213 bytes)
+20170513 211910.686 [8368] PROXY 127.0.0.1:50166 <- 200 localhost:9876 (560 bytes)
+20170513 211910.749 [8368] PROXY 127.0.0.1:50195 -> GET http://localhost:9876/context.html (501 bytes)
+20170513 211910.749 [8368] PROXY 127.0.0.1:50195 <- 200 localhost:9876 (2848 bytes)
+20170513 211910.765 [8368] PROXY 127.0.0.1:50171 -> GET http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm4zuir&sid=DGjV4AubYvXi3IbMAAAC (536 bytes)
+20170513 211910.765 [8368] PROXY 127.0.0.1:50161 -> GET http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm4zuWP&sid=H3k5WNxjiQAxTmHMAAAD (522 bytes)
+20170513 211910.765 [8368] PROXY 127.0.0.1:50171 <- 200 localhost:9876 (547 bytes)
+20170513 211910.765 [8368] PROXY 127.0.0.1:50161 <- 200 localhost:9876 (560 bytes)
+20170513 211910.780 [8368] PROXY 127.0.0.1:50203 -> POST https://shavar.services.mozilla.com/downloads?client=navclient-auto-ffox&appver=50.0&pver=2.2 (736 bytes)
+20170513 211910.817 [8368] PROXY resolved 'shavar.services.mozilla.com' to '35.165.168.51:443'
+20170513 211910.848 [8368] PROXY 127.0.0.1:50195 -> GET http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm4zujG&sid=lUw1yLJw8sETLEakAAAB (526 bytes)
+20170513 211910.848 [8368] PROXY 127.0.0.1:50166 -> GET http://localhost:9876/context.js (496 bytes)
+20170513 211910.880 [8368] PROXY 127.0.0.1:50166 <- 200 localhost:9876 (66052 bytes)
+20170513 211910.905 [8368] PROXY 127.0.0.1:50161 -> GET http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm4zulZ&sid=DGjV4AubYvXi3IbMAAAC (536 bytes)
+20170513 211910.936 [8368] PROXY 127.0.0.1:50171 -> GET http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm4zuZI&sid=H3k5WNxjiQAxTmHMAAAD (522 bytes)
+20170513 211910.953 [8368] PROXY 127.0.0.1:50203 <- 200 shavar.services.mozilla.com:443 (515 bytes)
+20170513 211911.070 [8368] PROXY resolved 'localhost' to '127.0.0.1:9876'
+20170513 211911.070 [8368] PROXY 127.0.0.1:50205 -> POST http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm4zuax&sid=H3k5WNxjiQAxTmHMAAAD (658 bytes)
+20170513 211911.070 [8368] PROXY 127.0.0.1:50205 <- 200 localhost:9876 (234 bytes)
+20170513 211911.167 [8368] PROXY 127.0.0.1:50203 -> GET https://tracking-protection.cdn.mozilla.net/base-track-digest256/1471874828 (601 bytes)
+20170513 211911.167 [8368] PROXY resolved 'tracking-protection.cdn.mozilla.net' to '52.84.21.41:443'
