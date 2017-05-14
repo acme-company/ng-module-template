@@ -3297,3 +3297,618 @@
 20170514 025918.304 [8064] PROXY 127.0.0.1:57328 <- 200 localhost:9876 (273 bytes)
 20170514 025918.610 [8064] PROXY 127.0.0.1:57317 -> GET http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm72gaq&sid=U018Yi7xo_JQX7zvAAAA (651 bytes)
 20170514 025918.611 [8064] PROXY 127.0.0.1:57317 <- 200 localhost:9876 (527 bytes)
+20170514 093430.012 [10816] Sauce Connect 4.4.0, build 845 e8cba87-dirty
+20170514 093430.012 [10816] Trying to autodetect proxy settings
+20170514 093430.012 [10816] Starting up; pid 10816
+20170514 093430.012 [10816] Command line arguments: C:\projects\tmp7\ng-module-template\node_modules\sauce-connect-launcher\sc\sc-4.4.0-win32\bin\sc -P 5757 --logfile sauce_connect.log -u pixelbits-mk -k **** --tunnel-identifier karma1494776060 --readyfile C:\Users\kangm\AppData\Local\Temp\sc-launcher-readyfile 
+20170514 093430.012 [10816] Log file: sauce_connect.log
+20170514 093430.012 [10816] Pid file: C:\Users\kangm\AppData\Roaming/sc_client-karma1494776060.pid
+20170514 093430.012 [10816] Timezone: Mountain Daylight Time GMT OFfset: -6h
+20170514 093430.012 [10816] Using no proxy for connecting to Sauce Labs REST API.
+20170514 093430.012 [10816] Resolving saucelabs.com to 162.222.75.243 took 2995 ms.
+20170514 093430.350 [10816] ***********************************************************
+20170514 093430.351 [10816] A newer version of Sauce Connect (build 1496) is available!
+20170514 093430.351 [10816] Download it here:
+20170514 093430.351 [10816] https://saucelabs.com/downloads/sc-4.4.6-win32.zip
+20170514 093430.351 [10816] ***********************************************************
+20170514 093430.351 [10816] PROXY *** scproxy started ***
+20170514 093430.366 [10816] PROXY found DNS server 192.168.2.1
+20170514 093430.552 [10816] Started scproxy on port 58246.
+20170514 093430.552 [10816] Please wait for 'you may start your tests' to start your tests.
+20170514 093430.552 [10816] Starting secure remote tunnel VM...
+20170514 093434.055 [10816] Secure remote tunnel VM provisioned.
+20170514 093434.055 [10816] Tunnel ID: fdef8bce100441f9b5d7e6597bd8a82f
+20170514 093434.430 [10816] Secure remote tunnel VM is now: booting
+20170514 093442.612 [10816] Secure remote tunnel VM is now: running
+20170514 093442.612 [10816] Remote tunnel host is: maki81183.miso.saucelabs.com
+20170514 093442.612 [10816] Using no proxy for connecting to tunnel VM.
+20170514 093442.844 [10816] Resolving tunnel hostname to 162.222.75.23 took 229ms.
+20170514 093442.844 [10816] Starting Selenium listener...
+20170514 093442.844 [10816] Establishing secure TLS connection to tunnel...
+20170514 093442.874 [10816] [EVDNS] Added nameserver 192.168.2.1:53 as 02F83438
+20170514 093442.875 [10816] MAIN connecting to maki81183.miso.saucelabs.com:443
+20170514 093443.028 [10816] MAIN connecting to KGP server maki81183.miso.saucelabs.com took 2835 ms
+20170514 093443.106 [10816] Selenium listener started on port 5757.
+20170514 093444.245 [10816] Sauce Connect is up, you may start your tests.
+20170514 093446.026 [10816] PROXY 127.0.0.1:58274 -> GET http://saucelabs.secret/70f5e39bd91e4f2f861d0c4f6b0e6ccd (318 bytes)
+20170514 093446.026 [10816] PROXY 127.0.0.1:58275 -> GET http://saucelabs.secret/424e7727f67a4183a68946e24009f498 (318 bytes)
+20170514 093446.026 [10816] PROXY 127.0.0.1:58276 -> GET http://saucelabs.secret/7d65f4bd794a40d7943120a88172cbfd (319 bytes)
+20170514 093446.058 [10816] PROXY 127.0.0.1:58274 error resolving hostname, ares status: 4
+20170514 093446.058 [10816] PROXY 127.0.0.1:58274 <- saucelabs.secret:80 DNS error: Domain name not found (4)
+20170514 093446.088 [10816] PROXY 127.0.0.1:58276 error resolving hostname, ares status: 4
+20170514 093446.088 [10816] PROXY 127.0.0.1:58276 <- saucelabs.secret:80 DNS error: Domain name not found (4)
+20170514 093446.088 [10816] PROXY 127.0.0.1:58275 error resolving hostname, ares status: 4
+20170514 093446.088 [10816] PROXY 127.0.0.1:58275 <- saucelabs.secret:80 DNS error: Domain name not found (4)
+20170514 093446.119 [10816] PROXY 127.0.0.1:58277 -> GET http://saucelabs.secret/d76838358b734b0cb4c48d30c4c851a3 (319 bytes)
+20170514 093446.119 [10816] PROXY 127.0.0.1:58277 error resolving hostname, ares status: 4
+20170514 093446.119 [10816] PROXY 127.0.0.1:58277 <- saucelabs.secret:80 DNS error: Domain name not found (4)
+20170514 093446.351 [10816] PROXY 127.0.0.1:58278 -> GET http://saucelabs.secret/f2e3cc57d19a4946a13aa5a5658087c6 (318 bytes)
+20170514 093446.382 [10816] PROXY 127.0.0.1:58278 error resolving hostname, ares status: 4
+20170514 093446.382 [10816] PROXY 127.0.0.1:58278 <- saucelabs.secret:80 DNS error: Domain name not found (4)
+20170514 093446.382 [10816] PROXY 127.0.0.1:58279 -> GET http://saucelabs.secret/1f9f6afc1b394e888f54a1ff3128274b (319 bytes)
+20170514 093446.382 [10816] PROXY 127.0.0.1:58279 error resolving hostname, ares status: 4
+20170514 093446.382 [10816] PROXY 127.0.0.1:58279 <- saucelabs.secret:80 DNS error: Domain name not found (4)
+20170514 093446.505 [10816] PROXY 127.0.0.1:58280 -> GET http://saucelabs.secret/d03b2fd8a5204e1b9d8803f1a98dfbb6 (318 bytes)
+20170514 093446.536 [10816] PROXY 127.0.0.1:58280 error resolving hostname, ares status: 4
+20170514 093446.536 [10816] PROXY 127.0.0.1:58280 <- saucelabs.secret:80 DNS error: Domain name not found (4)
+20170514 093446.768 [10816] PROXY 127.0.0.1:58281 -> GET http://saucelabs.secret/4d53293c978e4c1fbb8ff5ace1d8340f (318 bytes)
+20170514 093446.799 [10816] PROXY 127.0.0.1:58281 error resolving hostname, ares status: 4
+20170514 093446.799 [10816] PROXY 127.0.0.1:58281 <- saucelabs.secret:80 DNS error: Domain name not found (4)
+20170514 093448.165 [10816] PROXY 127.0.0.1:58283 -> GET http://localhost:9876/?id=69197321 (553 bytes)
+20170514 093448.165 [10816] PROXY resolved 'localhost' to '127.0.0.1:9876'
+20170514 093448.180 [10816] PROXY 127.0.0.1:58283 <- 200 localhost:9876 (2903 bytes)
+20170514 093448.303 [10816] PROXY 127.0.0.1:58283 -> GET http://localhost:9876/socket.io/socket.io.js (509 bytes)
+20170514 093448.303 [10816] PROXY 127.0.0.1:58283 <- 200 localhost:9876 (72408 bytes)
+20170514 093448.319 [10816] PROXY resolved 'localhost' to '127.0.0.1:9876'
+20170514 093448.319 [10816] PROXY 127.0.0.1:58285 -> GET http://localhost:9876/karma.js (495 bytes)
+20170514 093448.349 [10816] PROXY 127.0.0.1:58285 <- 200 localhost:9876 (120962 bytes)
+20170514 093448.719 [10816] PROXY 127.0.0.1:58285 -> GET http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm7cGbR (505 bytes)
+20170514 093448.750 [10816] PROXY 127.0.0.1:58285 <- 200 localhost:9876 (329 bytes)
+20170514 093448.781 [10816] PROXY 127.0.0.1:58283 -> GET http://localhost:9876/favicon.ico (474 bytes)
+20170514 093448.781 [10816] PROXY 127.0.0.1:58283 <- 200 localhost:9876 (5579 bytes)
+20170514 093448.904 [10816] PROXY resolved 'localhost' to '127.0.0.1:9876'
+20170514 093448.935 [10816] PROXY 127.0.0.1:58287 -> GET http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm7cGdH&sid=65acvLU5Kq43el9MAAAA (563 bytes)
+20170514 093448.935 [10816] PROXY 127.0.0.1:58287 <- 200 localhost:9876 (231 bytes)
+20170514 093449.074 [10816] PROXY resolved 'localhost' to '127.0.0.1:9876'
+20170514 093449.074 [10816] PROXY 127.0.0.1:58290 -> GET http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm7cGgl.0&sid=65acvLU5Kq43el9MAAAA (589 bytes)
+20170514 093449.074 [10816] PROXY resolved 'localhost' to '127.0.0.1:9876'
+20170514 093449.074 [10816] PROXY 127.0.0.1:58291 -> POST http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm7cGgl&sid=65acvLU5Kq43el9MAAAA (833 bytes)
+20170514 093449.074 [10816] PROXY 127.0.0.1:58291 <- 200 localhost:9876 (273 bytes)
+20170514 093449.105 [10816] PROXY 127.0.0.1:58290 <- 200 localhost:9876 (320 bytes)
+20170514 093449.244 [10816] PROXY 127.0.0.1:58290 -> GET http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm7cGjW&sid=65acvLU5Kq43el9MAAAA (587 bytes)
+20170514 093449.245 [10816] PROXY 127.0.0.1:58290 <- 200 localhost:9876 (430 bytes)
+20170514 093449.275 [10816] PROXY 127.0.0.1:58291 -> GET https://mesu.apple.com/assets/macos/com_apple_MobileAsset_DictionaryServices_dictionaryOSX/com_apple_MobileAsset_DictionaryServices_dictionaryOSX.xml (557 bytes)
+20170514 093449.306 [10816] PROXY resolved 'mesu.apple.com' to '17.253.31.201:443'
+20170514 093449.368 [10816] PROXY resolved 'mesu.apple.com' to '17.253.31.201:443'
+20170514 093449.368 [10816] PROXY 127.0.0.1:58290 -> GET https://mesu.apple.com/assets/macos/com_apple_MobileAsset_Font3/com_apple_MobileAsset_Font3.xml (503 bytes)
+20170514 093449.398 [10816] PROXY resolved 'mesu.apple.com' to '17.253.31.201:443'
+20170514 093449.398 [10816] PROXY 127.0.0.1:58296 -> GET https://mesu.apple.com/assets/macos/com_apple_MobileAsset_LinguisticData/com_apple_MobileAsset_LinguisticData.xml (521 bytes)
+20170514 093449.398 [10816] PROXY resolved 'localhost' to '127.0.0.1:9876'
+20170514 093449.398 [10816] PROXY 127.0.0.1:58297 -> GET http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm7cGla&sid=65acvLU5Kq43el9MAAAA (587 bytes)
+20170514 093449.398 [10816] PROXY resolved 'localhost' to '127.0.0.1:9876'
+20170514 093449.399 [10816] PROXY 127.0.0.1:58298 -> GET http://localhost:9876/context.html (633 bytes)
+20170514 093449.399 [10816] PROXY 127.0.0.1:58298 <- 200 localhost:9876 (2848 bytes)
+20170514 093449.444 [10816] PROXY 127.0.0.1:58291 <- 304 mesu.apple.com:443 (256 bytes)
+20170514 093449.491 [10816] PROXY 127.0.0.1:58290 <- 304 mesu.apple.com:443 (256 bytes)
+20170514 093449.522 [10816] PROXY 127.0.0.1:58298 -> GET http://localhost:9876/context.js (530 bytes)
+20170514 093449.522 [10816] PROXY 127.0.0.1:58298 <- 200 localhost:9876 (66052 bytes)
+20170514 093449.522 [10816] PROXY resolved 'localhost' to '127.0.0.1:9876'
+20170514 093449.522 [10816] PROXY 127.0.0.1:58302 -> GET http://localhost:9876/absoluteC:/projects/tmp7/ng-module-template/node_modules/jasmine-core/lib/jasmine-core/jasmine.js?324c10193d2eee846e728831a0b54e7179ff5dc8 (687 bytes)
+20170514 093449.522 [10816] PROXY resolved 'localhost' to '127.0.0.1:9876'
+20170514 093449.553 [10816] PROXY 127.0.0.1:58303 -> GET http://localhost:9876/absoluteC:/projects/tmp7/ng-module-template/node_modules/karma-jasmine/lib/boot.js?945a38bf4e45ad2770eb94868231905a04a0bd3e (672 bytes)
+20170514 093449.553 [10816] PROXY resolved 'localhost' to '127.0.0.1:9876'
+20170514 093449.553 [10816] PROXY 127.0.0.1:58306 -> GET http://localhost:9876/absoluteC:/projects/tmp7/ng-module-template/node_modules/karma-jasmine/lib/adapter.js?7a813cc290d592e664331c573a1a796192cdd1ad (675 bytes)
+20170514 093449.553 [10816] PROXY resolved 'localhost' to '127.0.0.1:9876'
+20170514 093449.553 [10816] PROXY 127.0.0.1:58307 -> GET http://localhost:9876/base/src/main.js?ebbe8b631848ea0b21296bdd505853ffa5a58795 (606 bytes)
+20170514 093449.553 [10816] PROXY 127.0.0.1:58303 <- 200 localhost:9876 (1507 bytes)
+20170514 093449.553 [10816] PROXY 127.0.0.1:58307 <- 200 localhost:9876 (487 bytes)
+20170514 093449.553 [10816] PROXY 127.0.0.1:58306 <- 200 localhost:9876 (11305 bytes)
+20170514 093449.553 [10816] PROXY 127.0.0.1:58302 <- 200 localhost:9876 (140477 bytes)
+20170514 093449.630 [10816] PROXY 127.0.0.1:58306 -> GET http://localhost:9876/base/test/test.js?1ce4b9cffc7e78321293fa4658518941fed2f49c (607 bytes)
+20170514 093449.630 [10816] PROXY 127.0.0.1:58306 <- 200 localhost:9876 (784 bytes)
+20170514 093449.784 [10816] PROXY resolved 'localhost' to '127.0.0.1:9876'
+20170514 093449.784 [10816] PROXY 127.0.0.1:58310 -> POST http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm7cGrP&sid=65acvLU5Kq43el9MAAAA (730 bytes)
+20170514 093449.784 [10816] PROXY 127.0.0.1:58310 <- 200 localhost:9876 (273 bytes)
+20170514 093449.923 [10816] PROXY 127.0.0.1:58302 -> GET https://tiles.services.mozilla.com/v3/links/fetch/en-US/release (594 bytes)
+20170514 093449.954 [10816] PROXY resolved 'tiles.services.mozilla.com' to '52.34.37.177:443'
+20170514 093449.954 [10816] PROXY resolved 'localhost' to '127.0.0.1:9876'
+20170514 093449.954 [10816] PROXY 127.0.0.1:58313 -> POST http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm7cGuf&sid=65acvLU5Kq43el9MAAAA (1590 bytes)
+20170514 093449.954 [10816] PROXY 127.0.0.1:58313 <- 200 localhost:9876 (273 bytes)
+20170514 093449.954 [10816] PROXY 127.0.0.1:58297 <- 200 localhost:9876 (234 bytes)
+20170514 093450.108 [10816] PROXY 127.0.0.1:58302 <- 303 tiles.services.mozilla.com:443 (266 bytes)
+20170514 093450.154 [10816] PROXY 127.0.0.1:58297 -> GET http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm7cGxs&sid=65acvLU5Kq43el9MAAAA (587 bytes)
+20170514 093450.169 [10816] PROXY 127.0.0.1:58297 <- 200 localhost:9876 (320 bytes)
+20170514 093450.292 [10816] PROXY 127.0.0.1:58318 -> POST https://location.services.mozilla.com/v1/country?key=7e40f68c-7938-4c5d-9f95-e61647c213eb (645 bytes)
+20170514 093450.323 [10816] PROXY resolved 'location.services.mozilla.com' to '54.77.38.116:443'
+20170514 093450.354 [10816] PROXY 127.0.0.1:58297 -> GET http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm7cG-n&sid=65acvLU5Kq43el9MAAAA (587 bytes)
+20170514 093450.431 [10816] PROXY 127.0.0.1:58313 -> GET http://localhost:9876/?id=73968194 (421 bytes)
+20170514 093450.431 [10816] PROXY 127.0.0.1:58313 <- 200 localhost:9876 (2903 bytes)
+20170514 093450.493 [10816] PROXY 127.0.0.1:58298 -> GET https://tiles-cloudfront.cdn.mozilla.net/desktop/STAR/en-US.43dea1a883699b3c075bce6d4094d1b9b95a9605.ag.json (645 bytes)
+20170514 093450.524 [10816] PROXY resolved 'tiles-cloudfront.cdn.mozilla.net' to '52.84.21.61:443'
+20170514 093450.524 [10816] PROXY 127.0.0.1:58313 -> GET http://localhost:9876/socket.io/socket.io.js (474 bytes)
+20170514 093450.539 [10816] PROXY 127.0.0.1:58313 <- 200 localhost:9876 (72408 bytes)
+20170514 093450.570 [10816] PROXY 127.0.0.1:58307 -> GET http://localhost:9876/karma.js (460 bytes)
+20170514 093450.570 [10816] PROXY 127.0.0.1:58307 <- 200 localhost:9876 (120962 bytes)
+20170514 093450.601 [10816] PROXY 127.0.0.1:58303 -> GET https://configuration.apple.com/configurations/internetservices/safari/FallbackMaskIcons-10.0.1.plist (515 bytes)
+20170514 093450.601 [10816] PROXY resolved 'configuration.apple.com' to '23.72.228.224:443'
+20170514 093450.663 [10816] PROXY 127.0.0.1:58298 <- 200 tiles-cloudfront.cdn.mozilla.net:443 (2763 bytes)
+20170514 093450.678 [10816] PROXY 127.0.0.1:58290 -> GET https://api-glb-sjc.smoot.apple.com/warm? (447 bytes)
+20170514 093450.709 [10816] PROXY resolved 'api-glb-sjc.smoot.apple.com' to '17.249.9.246:443'
+20170514 093450.709 [10816] PROXY resolved 'mesu.apple.com' to '17.253.31.201:443'
+20170514 093450.709 [10816] PROXY 127.0.0.1:58307 -> GET https://mesu.apple.com/assets/macos/com_apple_MobileAsset_SharingAssets/com_apple_MobileAsset_SharingAssets.xml (519 bytes)
+20170514 093450.740 [10816] PROXY resolved 'mesu.apple.com' to '17.253.31.201:443'
+20170514 093450.741 [10816] PROXY 127.0.0.1:58313 -> GET https://mesu.apple.com/assets/macos/com_apple_MobileAsset_CoreSuggestionsQPAssets/com_apple_MobileAsset_CoreSuggestionsQPAssets.xml (489 bytes)
+20170514 093450.741 [10816] PROXY resolved 'localhost' to '127.0.0.1:9876'
+20170514 093450.741 [10816] PROXY 127.0.0.1:58291 -> GET http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm7cG-S (464 bytes)
+20170514 093450.741 [10816] PROXY resolved 'localhost' to '127.0.0.1:9876'
+20170514 093450.741 [10816] PROXY 127.0.0.1:58324 -> GET http://localhost:9876/favicon.ico (364 bytes)
+20170514 093450.741 [10816] PROXY 127.0.0.1:58291 <- 200 localhost:9876 (350 bytes)
+20170514 093450.741 [10816] PROXY 127.0.0.1:58324 <- 200 localhost:9876 (9055 bytes)
+20170514 093450.833 [10816] PROXY 127.0.0.1:58324 -> GET http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm7cH0E&sid=LxG9hE48u69Z311GAAAB (522 bytes)
+20170514 093450.833 [10816] PROXY 127.0.0.1:58324 <- 200 localhost:9876 (252 bytes)
+20170514 093450.864 [10816] PROXY 127.0.0.1:58303 <- 200 configuration.apple.com:443 (652606 bytes)
+20170514 093450.864 [10816] PROXY 127.0.0.1:58307 <- 304 mesu.apple.com:443 (256 bytes)
+20170514 093450.910 [10816] PROXY 127.0.0.1:58313 <- 403 mesu.apple.com:443 (742 bytes)
+20170514 093450.940 [10816] PROXY 127.0.0.1:58290 <- 200 api-glb-sjc.smoot.apple.com:443 (116 bytes)
+20170514 093450.971 [10816] PROXY resolved 'localhost' to '127.0.0.1:9876'
+20170514 093450.971 [10816] PROXY 127.0.0.1:58329 -> POST http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm7cH1m&sid=LxG9hE48u69Z311GAAAB (736 bytes)
+20170514 093450.990 [10816] PROXY 127.0.0.1:58291 -> GET http://localhost:9876/?id=46086390 (490 bytes)
+20170514 093450.990 [10816] PROXY 127.0.0.1:58324 -> GET http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm7cH1n&sid=LxG9hE48u69Z311GAAAB (522 bytes)
+20170514 093450.990 [10816] PROXY 127.0.0.1:58329 <- 200 localhost:9876 (234 bytes)
+20170514 093450.990 [10816] PROXY 127.0.0.1:58297 <- 200 localhost:9876 (395 bytes)
+20170514 093450.990 [10816] PROXY 127.0.0.1:58324 <- 200 localhost:9876 (692 bytes)
+20170514 093450.990 [10816] PROXY 127.0.0.1:58291 <- 200 localhost:9876 (2903 bytes)
+20170514 093450.991 [10816] PROXY 127.0.0.1:58318 <- 200 location.services.mozilla.com:443 (275 bytes)
+20170514 093451.079 [10816] PROXY resolved 'localhost' to '127.0.0.1:9876'
+20170514 093451.079 [10816] PROXY 127.0.0.1:58318 -> GET http://localhost:9876/context.html (501 bytes)
+20170514 093451.079 [10816] PROXY 127.0.0.1:58291 -> GET http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm7cH3-&sid=LxG9hE48u69Z311GAAAB (522 bytes)
+20170514 093451.079 [10816] PROXY 127.0.0.1:58318 <- 200 localhost:9876 (2848 bytes)
+20170514 093451.125 [10816] PROXY 127.0.0.1:58324 -> GET http://localhost:9876/socket.io/socket.io.js (457 bytes)
+20170514 093451.125 [10816] PROXY 127.0.0.1:58324 <- 200 localhost:9876 (72408 bytes)
+20170514 093451.156 [10816] PROXY 127.0.0.1:58297 -> GET http://localhost:9876/karma.js (443 bytes)
+20170514 093451.156 [10816] PROXY 127.0.0.1:58329 -> GET https://search.services.mozilla.com/1/firefox/50.0/release/en-US/CA/default/default (615 bytes)
+20170514 093451.156 [10816] PROXY 127.0.0.1:58297 <- 200 localhost:9876 (120962 bytes)
+20170514 093451.156 [10816] PROXY resolved 'localhost' to '127.0.0.1:9876'
+20170514 093451.156 [10816] PROXY 127.0.0.1:58313 -> GET http://localhost:9876/favicon.ico (461 bytes)
+20170514 093451.171 [10816] PROXY 127.0.0.1:58318 -> GET http://localhost:9876/context.js (495 bytes)
+20170514 093451.171 [10816] PROXY resolved 'search.services.mozilla.com' to '52.36.90.35:443'
+20170514 093451.171 [10816] PROXY 127.0.0.1:58313 <- 200 localhost:9876 (9055 bytes)
+20170514 093451.171 [10816] PROXY 127.0.0.1:58318 <- 200 localhost:9876 (66052 bytes)
+20170514 093451.325 [10816] PROXY 127.0.0.1:58329 <- 200 search.services.mozilla.com:443 (192 bytes)
+20170514 093451.372 [10816] PROXY 127.0.0.1:58324 -> GET http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm7cHRk (477 bytes)
+20170514 093451.372 [10816] PROXY 127.0.0.1:58324 <- 200 localhost:9876 (329 bytes)
+20170514 093451.403 [10816] PROXY resolved 'localhost' to '127.0.0.1:9876'
+20170514 093451.403 [10816] PROXY 127.0.0.1:58335 -> POST http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm7cH7z&sid=LxG9hE48u69Z311GAAAB (658 bytes)
+20170514 093451.403 [10816] PROXY 127.0.0.1:58335 <- 200 localhost:9876 (234 bytes)
+20170514 093451.573 [10816] PROXY resolved 'localhost' to '127.0.0.1:9876'
+20170514 093451.573 [10816] PROXY 127.0.0.1:58337 -> POST http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm7cHBX&sid=LxG9hE48u69Z311GAAAB (1519 bytes)
+20170514 093451.573 [10816] PROXY 127.0.0.1:58324 -> GET http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm7cHVV&sid=eQNypI6abqlTDAE9AAAC (535 bytes)
+20170514 093451.573 [10816] PROXY 127.0.0.1:58337 <- 200 localhost:9876 (234 bytes)
+20170514 093451.573 [10816] PROXY 127.0.0.1:58291 <- 200 localhost:9876 (255 bytes)
+20170514 093451.604 [10816] PROXY 127.0.0.1:58324 <- 200 localhost:9876 (400 bytes)
+20170514 093451.759 [10816] PROXY 127.0.0.1:58324 -> GET http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm7cHEc&sid=LxG9hE48u69Z311GAAAB (522 bytes)
+20170514 093451.759 [10816] PROXY 127.0.0.1:58324 <- 200 localhost:9876 (416 bytes)
+20170514 093451.759 [10816] PROXY 127.0.0.1:58337 -> GET http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm7cHYb&sid=eQNypI6abqlTDAE9AAAC (535 bytes)
+20170514 093451.773 [10816] PROXY resolved 'localhost' to '127.0.0.1:9876'
+20170514 093451.773 [10816] PROXY 127.0.0.1:58341 -> POST http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm7cHYa&sid=eQNypI6abqlTDAE9AAAC (715 bytes)
+20170514 093451.773 [10816] PROXY 127.0.0.1:58341 <- 200 localhost:9876 (213 bytes)
+20170514 093451.774 [10816] PROXY 127.0.0.1:58337 <- 200 localhost:9876 (471 bytes)
+20170514 093451.850 [10816] PROXY 127.0.0.1:58324 -> GET http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm7cHG2&sid=LxG9hE48u69Z311GAAAB (522 bytes)
+20170514 093451.850 [10816] PROXY 127.0.0.1:58324 <- 200 localhost:9876 (735 bytes)
+20170514 093451.927 [10816] PROXY 127.0.0.1:58337 -> GET http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm7cHbH&sid=eQNypI6abqlTDAE9AAAC (535 bytes)
+20170514 093451.959 [10816] PROXY 127.0.0.1:58337 <- 200 localhost:9876 (580 bytes)
+20170514 093452.020 [10816] PROXY 127.0.0.1:58324 -> GET http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm7cHIg&sid=LxG9hE48u69Z311GAAAB (522 bytes)
+20170514 093452.081 [10816] PROXY resolved 'localhost' to '127.0.0.1:29632'
+20170514 093452.081 [10816] PROXY 127.0.0.1:58341 -> GET http://localhost:29632/ (406 bytes)
+20170514 093452.112 [10816] PROXY 127.0.0.1:58337 -> GET http://localhost:9876/context.html (570 bytes)
+20170514 093452.112 [10816] PROXY 127.0.0.1:58337 <- 200 localhost:9876 (2848 bytes)
+20170514 093452.143 [10816] PROXY resolved 'localhost' to '127.0.0.1:9876'
+20170514 093452.143 [10816] PROXY 127.0.0.1:58329 -> GET http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm7cHd_&sid=eQNypI6abqlTDAE9AAAC (535 bytes)
+20170514 093452.205 [10816] PROXY 127.0.0.1:58337 -> GET http://localhost:9876/context.js (478 bytes)
+20170514 093452.235 [10816] PROXY 127.0.0.1:58337 <- 200 localhost:9876 (66052 bytes)
+20170514 093452.360 [10816] PROXY 127.0.0.1:58345 -> POST https://shavar.services.mozilla.com/downloads?client=navclient-auto-ffox&appver=50.0&pver=2.2 (735 bytes)
+20170514 093452.390 [10816] PROXY resolved 'shavar.services.mozilla.com' to '52.35.5.132:443'
+20170514 093452.421 [10816] PROXY resolved 'localhost' to '127.0.0.1:9876'
+20170514 093452.452 [10816] PROXY 127.0.0.1:58347 -> POST http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm7cHiE&sid=eQNypI6abqlTDAE9AAAC (653 bytes)
+20170514 093452.452 [10816] PROXY 127.0.0.1:58347 <- 200 localhost:9876 (213 bytes)
+20170514 093452.529 [10816] PROXY 127.0.0.1:58345 <- 200 shavar.services.mozilla.com:443 (515 bytes)
+20170514 093452.560 [10816] PROXY resolved 'localhost' to '127.0.0.1:9876'
+20170514 093452.560 [10816] PROXY 127.0.0.1:58349 -> POST http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm7cHkp&sid=eQNypI6abqlTDAE9AAAC (1513 bytes)
+20170514 093452.560 [10816] PROXY 127.0.0.1:58349 <- 200 localhost:9876 (213 bytes)
+20170514 093452.560 [10816] PROXY 127.0.0.1:58329 <- 200 localhost:9876 (234 bytes)
+20170514 093452.560 [10816] PROXY 127.0.0.1:58324 <- 200 localhost:9876 (492 bytes)
+20170514 093452.622 [10816] PROXY 127.0.0.1:58345 -> GET https://tracking-protection.cdn.mozilla.net/base-track-digest256/1471874828 (600 bytes)
+20170514 093452.699 [10816] PROXY 127.0.0.1:58324 -> GET http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm7cHnH&sid=eQNypI6abqlTDAE9AAAC (535 bytes)
+20170514 093452.699 [10816] PROXY 127.0.0.1:58329 -> GET http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm7cHTN&sid=LxG9hE48u69Z311GAAAB (522 bytes)
+20170514 093452.699 [10816] PROXY 127.0.0.1:58324 <- 200 localhost:9876 (471 bytes)
+20170514 093452.792 [10816] PROXY 127.0.0.1:58324 -> GET http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm7cHob&sid=eQNypI6abqlTDAE9AAAC (535 bytes)
+20170514 093453.009 [10816] PROXY 127.0.0.1:58349 -> GET http://localhost:9876/?id=7199719 (624 bytes)
+20170514 093453.009 [10816] PROXY 127.0.0.1:58349 <- 200 localhost:9876 (2903 bytes)
+20170514 093453.039 [10816] PROXY resolved 'tracking-protection.cdn.mozilla.net' to '52.84.21.217:443'
+20170514 093453.070 [10816] PROXY 127.0.0.1:58297 -> GET https://safebrowsing.googleapis.com/v4/threatListUpdates:fetch?$ct=application%2Fx-protobuf&$req=ChgKBlNhZmFyaRIOMTI2MDIuMi4xNC4wLjUaKQgBEAQaGwoNCAEQBhgBIgMwMDEwARCu2wEaAhgIsPabciIEIAEgAigBGikIAhAEGhsKDQgFEAYYASIDMDAxMAEQyNIBGgIYCHBGeEciBCABIAIoARopCAMQBBobCg0IAxAGGAEiAzAwMTABEKnCARoCGAizhOw6IgQgASACKAE=&key=AIzaSyANT-dOXDTNxZS4flEImFNycnoeDh4ehQI (809 bytes)
+20170514 093453.101 [10816] PROXY resolved 'safebrowsing.googleapis.com' to '172.217.4.234:443'
+20170514 093453.132 [10816] PROXY 127.0.0.1:58341 <- localhost:29632 connection error: No connection could be made because the target machine actively refused it.
+20170514 093453.163 [10816] PROXY 127.0.0.1:58349 -> GET http://localhost:9876/karma.js (500 bytes)
+20170514 093453.163 [10816] PROXY resolved 'localhost' to '127.0.0.1:9876'
+20170514 093453.163 [10816] PROXY 127.0.0.1:58290 -> GET http://localhost:9876/socket.io/socket.io.js (514 bytes)
+20170514 093453.163 [10816] PROXY 127.0.0.1:58349 <- 200 localhost:9876 (120962 bytes)
+20170514 093453.163 [10816] PROXY 127.0.0.1:58290 <- 200 localhost:9876 (72408 bytes)
+20170514 093453.240 [10816] PROXY 127.0.0.1:58345 <- 200 tracking-protection.cdn.mozilla.net:443 (55421 bytes)
+20170514 093453.271 [10816] PROXY resolved 'localhost' to '127.0.0.1:29632'
+20170514 093453.302 [10816] PROXY 127.0.0.1:58303 -> GET http://localhost:29632/favicon.ico (361 bytes)
+20170514 093453.349 [10816] PROXY 127.0.0.1:58345 -> GET https://tracking-protection.cdn.mozilla.net/mozplugin-block-digest256/1471849627 (605 bytes)
+20170514 093453.395 [10816] PROXY 127.0.0.1:58345 <- 200 tracking-protection.cdn.mozilla.net:443 (3483 bytes)
+20170514 093453.395 [10816] PROXY 127.0.0.1:58349 -> GET http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm7cIxQ (534 bytes)
+20170514 093453.395 [10816] PROXY 127.0.0.1:58290 -> GET http://localhost:9876/favicon.ico (503 bytes)
+20170514 093453.395 [10816] PROXY 127.0.0.1:58349 <- 200 localhost:9876 (329 bytes)
+20170514 093453.395 [10816] PROXY 127.0.0.1:58290 <- 200 localhost:9876 (9055 bytes)
+20170514 093453.426 [10816] PROXY 127.0.0.1:58298 -> GET https://api.smoot.apple.com/bag?locale=en-US&key=granite0323&sprite=1 (512 bytes)
+20170514 093453.456 [10816] PROXY resolved 'api.smoot.apple.com' to '17.249.9.246:443'
+20170514 093453.472 [10816] PROXY 127.0.0.1:58345 -> GET https://tracking-protection.cdn.mozilla.net/mozstd-trackwhite-digest256/1478554625 (607 bytes)
+20170514 093453.518 [10816] PROXY 127.0.0.1:58290 -> GET http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm7cI-S&sid=asO0-rRotfJwrU6KAAAD (592 bytes)
+20170514 093453.518 [10816] PROXY 127.0.0.1:58290 <- 200 localhost:9876 (231 bytes)
+20170514 093453.564 [10816] PROXY 127.0.0.1:58349 -> GET http://localhost:9876/socket.io/?EIO=3&transport=websocket&sid=asO0-rRotfJwrU6KAAAD (641 bytes)
+20170514 093453.564 [10816] PROXY 127.0.0.1:58349 <- 400 localhost:9876 (286 bytes)
+20170514 093453.580 [10816] PROXY 127.0.0.1:58359 -> GET http://gspe21.ls.apple.com/stylesheet/default-11632@2x.styl?sid=0056272011591963611800883616924580620433&accessKey=1494780298_ZdC5VEB7OMpQFw9P_gxAHlOnS9CC94Y8cy42BI84ddUOpvv2pKRO71%2F3rrn9JdPfTBGAJ%2FgEteFEjb3HdOm7kvt%2FVUacD7Vfm1gAUi8096%2FTWGMMrC2fqJ6B4GZAxyDaiJ7DGbzKt%2BIdRA7korqp1SGPw4a%2BvSEcbbaCd2g%3D%3D (672 bytes)
+20170514 093453.580 [10816] PROXY 127.0.0.1:58360 -> GET http://gspe21.ls.apple.com/stylesheet/default-9882.styl?sid=0056272011591963611800883616924580620433&accessKey=1494780298_6k9kmukqs7FKYbMV_ZVbHfK70XaRMa%2BzMUU7eU%2BPLOU2TBSpICCW%2BHKht7YoYk6O0taDjOWkQWH%2BUhXez%2BN9ZR43FVH8ilynUlpuRQe2hmS%2FnovBCT04gJhEpFeJwTD%2FiUgoboXK42WvCcvl0%2BAohLI69nHMpG%2FmYOT13%2Bg%3D%3D (676 bytes)
+20170514 093453.580 [10816] PROXY 127.0.0.1:58361 -> GET http://gspe21.ls.apple.com/stylesheet/default-search-2979.styl?sid=0056272011591963611800883616924580620433&accessKey=1494780298_IgDJ3CdvO1cOvL04_IBm7zFPLAlGY3jcjmXOaF2YlAMpooCX%2FNkpyM3v%2Bz%2BLU27UJX%2FqBL0r6zIPWnX3xD%2BaaFMQNpPKtSnHymdBEYkL6TtuW3mvKicqsKDAy878B7PYFmxfRCjJaMsF153W%2F7GUhKvAYOEd1fUqX6O7A8A%3D%3D (675 bytes)
+20170514 093453.611 [10816] PROXY resolved 'gspe21.ls.apple.com' to '209.89.157.177:80'
+20170514 093453.611 [10816] PROXY resolved 'gspe21.ls.apple.com' to '209.89.157.177:80'
+20170514 093453.611 [10816] PROXY resolved 'gspe21.ls.apple.com' to '209.89.157.177:80'
+20170514 093453.611 [10816] PROXY 127.0.0.1:58345 <- 200 tracking-protection.cdn.mozilla.net:443 (311615 bytes)
+20170514 093453.642 [10816] PROXY 127.0.0.1:58361 <- 200 gspe21.ls.apple.com:80 (11908 bytes)
+20170514 093453.704 [10816] PROXY 127.0.0.1:58298 <- 200 api.smoot.apple.com:443 (3229 bytes)
+20170514 093453.704 [10816] PROXY 127.0.0.1:58349 -> GET http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm7cJ0W.0&sid=asO0-rRotfJwrU6KAAAD (594 bytes)
+20170514 093453.704 [10816] PROXY 127.0.0.1:58359 <- 200 gspe21.ls.apple.com:80 (112613 bytes)
+20170514 093453.735 [10816] PROXY resolved 'localhost' to '127.0.0.1:9876'
+20170514 093453.735 [10816] PROXY 127.0.0.1:58366 -> POST http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm7cJ0W&sid=asO0-rRotfJwrU6KAAAD (830 bytes)
+20170514 093453.735 [10816] PROXY 127.0.0.1:58366 <- 200 localhost:9876 (273 bytes)
+20170514 093453.735 [10816] PROXY 127.0.0.1:58329 <- 200 localhost:9876 (567 bytes)
+20170514 093453.735 [10816] PROXY 127.0.0.1:58349 <- 200 localhost:9876 (546 bytes)
+20170514 093453.735 [10816] PROXY 127.0.0.1:58324 <- 200 localhost:9876 (546 bytes)
+20170514 093453.766 [10816] PROXY 127.0.0.1:58361 -> GET http://gspe21.ls.apple.com/stylesheet/default-search-3336@2x.styl?sid=0056272011591963611800883616924580620433&accessKey=1494780298_SeNMg8lxGkkjwpmR_PZqRfMlxhJy1V6MsGtj3spuMa5etjThRIaPVmmcEEdu0nlWGJ4uQV998zkZJSXDyP7WVXmZVNayNFNG%2B34HlnjGcExlF51D2p7N9Uuxx%2BK1K05s4ctGm1JrkIWwHE82A1MxzMCyIhpNSO0qlw0YhHQ%3D%3D (670 bytes)
+20170514 093453.766 [10816] PROXY 127.0.0.1:58361 <- 200 gspe21.ls.apple.com:80 (11863 bytes)
+20170514 093453.797 [10816] PROXY resolved 'gspe21.ls.apple.com' to '209.89.157.177:80'
+20170514 093453.797 [10816] PROXY 127.0.0.1:58324 -> GET http://gspe21.ls.apple.com/stylesheet/globe-default-1021.styl?sid=0056272011591963611800883616924580620433&accessKey=1494780299_LxFSspOARLc767BV_EeQx7676RUD%2FwD07FbLhbdRj1NP8zxLmR69EuMC1oIyMORgTgvj8%2FsYkisnAxUEv3AMZO41zgMoBPXNm1wDMPFyeFZmK137zI1KpqBLMvppnFhCopAWTv6RVOUWo%2FNbtW7d2FOdkjcJynq%2BRbsJ%2Bpg%3D%3D (672 bytes)
+20170514 093453.843 [10816] PROXY 127.0.0.1:58349 -> GET http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm7cJ3w&sid=asO0-rRotfJwrU6KAAAD (592 bytes)
+20170514 093453.843 [10816] PROXY 127.0.0.1:58349 <- 200 localhost:9876 (655 bytes)
+20170514 093453.843 [10816] PROXY 127.0.0.1:58329 -> GET http://localhost:9876/?id=58641863 (416 bytes)
+20170514 093453.843 [10816] PROXY 127.0.0.1:58329 <- 200 localhost:9876 (2903 bytes)
+20170514 093453.873 [10816] PROXY 127.0.0.1:58324 <- 200 gspe21.ls.apple.com:80 (28842 bytes)
+20170514 093453.889 [10816] PROXY 127.0.0.1:58361 -> GET http://gspe21.ls.apple.com/stylesheet/globe-default-1024@2x.styl?sid=0056272011591963611800883616924580620433&accessKey=1494780299_GNtxFjg4DrbL9nrj_VzwM%2Bco31ZNTeQnx%2Fxj3mDBdavDiRbl3tgMdN2g5yL%2BKc9T2J5pylIbQI6iHH%2FpSQ8oF2SiSylQDMJ%2BgQwHvccrqdaf4SU%2Bh1w4Y1ih6s%2BIYzuV2B7KguY9mpQMpizKOiigVBIlhqA0XWi3glyRRPQ%3D%3D (679 bytes)
+20170514 093453.920 [10816] PROXY 127.0.0.1:58361 <- 200 gspe21.ls.apple.com:80 (29463 bytes)
+20170514 093453.951 [10816] PROXY 127.0.0.1:58360 <- 200 gspe21.ls.apple.com:80 (112225 bytes)
+20170514 093453.951 [10816] PROXY 127.0.0.1:58329 -> GET http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm7cJ5u&sid=asO0-rRotfJwrU6KAAAD (592 bytes)
+20170514 093453.951 [10816] PROXY 127.0.0.1:58349 -> GET http://localhost:9876/socket.io/socket.io.js (469 bytes)
+20170514 093453.951 [10816] PROXY 127.0.0.1:58349 <- 200 localhost:9876 (72408 bytes)
+20170514 093453.982 [10816] PROXY 127.0.0.1:58366 -> GET http://localhost:9876/context.html (627 bytes)
+20170514 093453.982 [10816] PROXY resolved 'localhost' to '127.0.0.1:9876'
+20170514 093453.982 [10816] PROXY 127.0.0.1:58359 -> GET http://localhost:9876/karma.js (455 bytes)
+20170514 093453.982 [10816] PROXY 127.0.0.1:58366 <- 200 localhost:9876 (2848 bytes)
+20170514 093454.012 [10816] PROXY 127.0.0.1:58359 <- 200 localhost:9876 (120962 bytes)
+20170514 093454.043 [10816] PROXY 127.0.0.1:58361 -> GET http://gspe21.ls.apple.com/stylesheet/hybrid-942.styl?sid=0056272011591963611800883616924580620433&accessKey=1494780299_IVT4skDH5gs3E7Vh_40iZ9jpelmBiNBxo6bWlBwxjnz7LZB7vGqxdaxod0cQl6DxguBEq1hkQBs0%2FIOH1nHwee3GASj%2BCDjLBQqDzl0ri1dsMf%2FOHxMLNc%2F6AeC%2BGnAzlnD363GgoS1AIP%2BGtbtqoExV%2BFkEUbcYRopu8RA%3D%3D (668 bytes)
+20170514 093454.043 [10816] PROXY 127.0.0.1:58360 -> GET http://gspe21.ls.apple.com/stylesheet/hybrid-944@2x.styl?sid=0056272011591963611800883616924580620433&accessKey=1494780299_Zs21iAXueG61mWOc_ABuugY0lynPZ1PND0NKVpSFxV476s3LWGBdds6GkD3%2FaSwPvc8hvebDB7HxuenI7BcHVS2wO1MlUs%2FLRV6H4V8s3wHay3CgD55PtMnlZMSCjy5Cyd7U3U3LSG5Nd%2FNYI2TNzM4xWTsBNS0uC7Sm3Pg%3D%3D (663 bytes)
+20170514 093454.043 [10816] PROXY 127.0.0.1:58324 -> GET http://gspe21.ls.apple.com/stylesheet/scene-53@2x.styl?sid=0056272011591963611800883616924580620433&accessKey=1494780299_LcJ7BHzYwARic2hj_Ph818jKw1DVEwNUTdmGJlJiX2TlrZvX9q9e6u1hOD96iwSyR7khXJtqgv2KUKaHY%2BxpbTfHoG60HhmzY1REbMZXzDBfTO53CV0%2FTluApF1N30%2FfjQ6kvn43mVAQTmk3C3y5bNrDxgOXS2pQ0Uxdi4Q%3D%3D (661 bytes)
+20170514 093454.074 [10816] PROXY 127.0.0.1:58361 <- 200 gspe21.ls.apple.com:80 (28537 bytes)
+20170514 093454.074 [10816] PROXY 127.0.0.1:58324 <- 200 gspe21.ls.apple.com:80 (3686 bytes)
+20170514 093454.074 [10816] PROXY 127.0.0.1:58360 <- 200 gspe21.ls.apple.com:80 (29151 bytes)
+20170514 093454.151 [10816] PROXY 127.0.0.1:58359 -> GET http://localhost:9876/context.js (536 bytes)
+20170514 093454.151 [10816] PROXY 127.0.0.1:58359 <- 200 localhost:9876 (66052 bytes)
+20170514 093454.182 [10816] PROXY resolved 'localhost' to '127.0.0.1:9876'
+20170514 093454.182 [10816] PROXY 127.0.0.1:58324 -> GET http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm7cI1S&b64=1 (465 bytes)
+20170514 093454.182 [10816] PROXY 127.0.0.1:58324 <- 200 localhost:9876 (350 bytes)
+20170514 093454.212 [10816] PROXY 127.0.0.1:58349 -> GET http://localhost:9876/favicon.ico (359 bytes)
+20170514 093454.212 [10816] PROXY 127.0.0.1:58360 -> GET http://gspe21.ls.apple.com/icon/33-45-7-detroit-transit-icons-6@2x.iconpack?sid=0056272011591963611800883616924580620433&accessKey=1494780299_dvEffUQnFNXgkdS5_Acygt9UZK8FiEPvT3Gggr2Ap8ORPYdNcCELvqG6Q5s7rO63KO4xK%2FLwH%2BxyL9h%2FMcftrg66ZUWQuCEu1t3yIW6XqZb5ChkVCcVOGYW12bnldzdnb%2FuIlRFOqjfHMOq0VAxbKBGb0GAJTFCQYh5NS1o8Yv6dFPaKw1CwVYU6ssX8%3D (702 bytes)
+20170514 093454.213 [10816] PROXY resolved 'gspe21.ls.apple.com' to '209.89.157.177:80'
+20170514 093454.213 [10816] PROXY 127.0.0.1:58366 -> GET http://gspe21.ls.apple.com/icon/33-45-7-detroit-transit-icons-5.iconpack?sid=0056272011591963611800883616924580620433&accessKey=1494780299_1DSNxwVJBR1EAxaa_o0JfOJK2yFl3lG8UWyhzxDu%2BgsYmZi%2BfXPvo1JqVxtjtVPAtMhq%2BN%2FkbY93%2FPh6MaB16BmP%2BquSeHjrokC1UohvFx5aC4F3mWMUScULkjatPaHXUfNu3p87Y%2FG9kre5dDtV%2FLWTleGJBjeMIbtRadBt3ZGuQb2Z8QSrGLTKoWCs%3D (707 bytes)
+20170514 093454.213 [10816] PROXY 127.0.0.1:58361 -> GET http://gspe21.ls.apple.com/icon/5-12-5-la-transit-icons-21.iconpack?sid=0056272011591963611800883616924580620433&accessKey=1494780299_8YI82JkSLDRC60tl_3AfG7h93e81GlUPyu4sJU0UxbaE2ybEvRPLkY8QKF8MYpQjCidlWL0a2aoPBRS2SqxmTrAuB3RyK5VWIu27ifnylD%2FNv%2Fp%2FK5YFAlYGHZcDxZbclw0T1QPDLw71E%2BP62sB2rpMn0XG14YoAKNFjelr9c%2Bikf%2BM7j%2FfeTuEGJTCw%3D (700 bytes)
+20170514 093454.213 [10816] PROXY 127.0.0.1:58349 <- 200 localhost:9876 (9055 bytes)
+20170514 093454.274 [10816] PROXY 127.0.0.1:58360 <- 200 gspe21.ls.apple.com:80 (104779 bytes)
+20170514 093454.274 [10816] PROXY 127.0.0.1:58366 <- 200 gspe21.ls.apple.com:80 (32002 bytes)
+20170514 093454.305 [10816] PROXY 127.0.0.1:58303 <- localhost:29632 connection error: No connection could be made because the target machine actively refused it.
+20170514 093454.305 [10816] PROXY 127.0.0.1:58359 -> GET http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm7cI3d&b64=1&sid=xD15Vra4aF2EA36iAAAE (523 bytes)
+20170514 093454.305 [10816] PROXY 127.0.0.1:58359 <- 200 localhost:9876 (252 bytes)
+20170514 093454.337 [10816] PROXY resolved 'localhost' to '127.0.0.1:9876'
+20170514 093454.337 [10816] PROXY 127.0.0.1:58372 -> POST http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm7cJCZ&sid=asO0-rRotfJwrU6KAAAD (722 bytes)
+20170514 093454.337 [10816] PROXY 127.0.0.1:58372 <- 200 localhost:9876 (273 bytes)
+20170514 093454.337 [10816] PROXY 127.0.0.1:58361 <- 200 gspe21.ls.apple.com:80 (173874 bytes)
+20170514 093454.629 [10816] PROXY resolved 'localhost' to '127.0.0.1:9876'
+20170514 093454.629 [10816] PROXY 127.0.0.1:58360 -> GET http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm7cI5c&b64=1&sid=xD15Vra4aF2EA36iAAAE (523 bytes)
+20170514 093454.633 [10816] PROXY 127.0.0.1:58366 -> GET http://gspe21.ls.apple.com/icon/default-icons-373.iconpack?sid=0056272011591963611800883616924580620433&accessKey=1494780299_lGBjxHNw7hptscdA_XvnHTDZCWZ%2FD%2FUqICOFP4k4nElvXebF8L4bVcIaPDoT11ZOWVpVghpGUIDAw9TbHprkRqQDfOcRcp8NpJ7NUH9ZHdg%2FcW2g8Od2CWs5mZVnR7HAat%2FoUmkqkZdje0dwqlr3yESNgzbhnIG4af105qA%3D%3D (667 bytes)
+20170514 093454.633 [10816] PROXY resolved 'gspe21.ls.apple.com' to '209.89.157.177:80'
+20170514 093454.633 [10816] PROXY 127.0.0.1:58324 -> GET http://gspe21.ls.apple.com/icon/default-icons-396@2x.iconpack?sid=0056272011591963611800883616924580620433&accessKey=1494780299_GDURXle5nIYYUXtZ_zcyhJOMwqNUyFO%2BOvnoSv4MnOBOl8BaUhAk1NgqFj8dEt%2FKFpXaDXc9c9x0hbd0HzSm9MMMPimGY7QWZQqDLzpaRaBfFgwn9a%2FEQDOQwRRalIlVpLp8pyHZqvwziM99RsfvA%2BeYJxp10G%2BKxiQ%2F4mw%3D%3D (674 bytes)
+20170514 093454.633 [10816] PROXY 127.0.0.1:58361 -> GET http://gspe21.ls.apple.com/icon/5-12-5-la-transit-icons-24@2x.iconpack?sid=0056272011591963611800883616924580620433&accessKey=1494780299_43MCWfo1zIL7n3fh_DrJQUdYk9KFa1Fer7mdZTSAnnKs%2FeMUj8djoazTtcVGYOiq%2B5shgq%2BAWe1UHnStvci1K%2FKWkmxOit5XxvpPSbPWQ%2BnOEiPcle9abuc4CJ2u%2Fod2sijC8SySju7zfR6LXeqNdIS%2F34MoJOTTjTKrsOaXqRBA2Y6DgQeQ7yqBoGeA%3D (703 bytes)
+20170514 093454.633 [10816] PROXY resolved 'localhost' to '127.0.0.1:9876'
+20170514 093454.633 [10816] PROXY 127.0.0.1:58375 -> POST http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm7cJEt&sid=asO0-rRotfJwrU6KAAAD (1582 bytes)
+20170514 093454.633 [10816] PROXY resolved 'localhost' to '127.0.0.1:9876'
+20170514 093454.633 [10816] PROXY 127.0.0.1:58374 -> POST http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm7cI5b&b64=1&sid=xD15Vra4aF2EA36iAAAE (759 bytes)
+20170514 093454.634 [10816] PROXY 127.0.0.1:58375 <- 200 localhost:9876 (273 bytes)
+20170514 093454.634 [10816] PROXY 127.0.0.1:58329 <- 200 localhost:9876 (234 bytes)
+20170514 093454.634 [10816] PROXY 127.0.0.1:58360 <- 200 localhost:9876 (567 bytes)
+20170514 093454.634 [10816] PROXY 127.0.0.1:58374 <- 200 localhost:9876 (234 bytes)
+20170514 093454.769 [10816] PROXY 127.0.0.1:58374 -> GET http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm7cJK5&sid=asO0-rRotfJwrU6KAAAD (592 bytes)
+20170514 093454.800 [10816] PROXY 127.0.0.1:58360 -> GET http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm7cIAn&b64=1&sid=xD15Vra4aF2EA36iAAAE (523 bytes)
+20170514 093454.800 [10816] PROXY 127.0.0.1:58360 <- 200 localhost:9876 (1132 bytes)
+20170514 093454.800 [10816] PROXY 127.0.0.1:58374 <- 200 localhost:9876 (480 bytes)
+20170514 093455.001 [10816] PROXY 127.0.0.1:58329 -> GET http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm7cJNi&sid=asO0-rRotfJwrU6KAAAD (592 bytes)
+20170514 093455.001 [10816] PROXY 127.0.0.1:58374 -> GET http://localhost:9876/context.html (496 bytes)
+20170514 093455.001 [10816] PROXY 127.0.0.1:58360 -> GET http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm7cID_&b64=1&sid=xD15Vra4aF2EA36iAAAE (523 bytes)
+20170514 093455.032 [10816] PROXY 127.0.0.1:58366 <- 200 gspe21.ls.apple.com:80 (140292 bytes)
+20170514 093455.032 [10816] PROXY 127.0.0.1:58374 <- 200 localhost:9876 (2848 bytes)
+20170514 093455.063 [10816] PROXY 127.0.0.1:58375 -> GET https://www.msn.com/spartan/ntp?locale=en-US&market=US (578 bytes)
+20170514 093455.078 [10816] PROXY 127.0.0.1:58297 <- 200 safebrowsing.googleapis.com:443 (3059859 bytes)
+20170514 093455.109 [10816] PROXY resolved 'www.msn.com' to '204.79.197.203:443'
+20170514 093455.124 [10816] PROXY 127.0.0.1:58366 -> GET http://gspe21.ls.apple.com/icon/default-shields-index-large-43.shieldindex?sid=0056272011591963611800883616924580620433&accessKey=1494780300_puVk26AoZxq3vhNL_GPvVt5byJzo5Nbu8iE%2FfGfcwLYpPQYvLe57tAGKZKV7WQI0n%2Fpg4zBl7PQ%2Bs0W81kwO8PBE%2FQefpKjnL1JVxolKSWpudIWkfr5RObVtGzoTZ7%2B6GFUtlFYMTyoZ2n8JkoqCvXbaVQ%2F3FdvwfvO%2BRPfY5pDNicVK5K%2B8r6mEWEdY%3D (709 bytes)
+20170514 093455.155 [10816] PROXY 127.0.0.1:58374 -> GET http://localhost:9876/?id=85360998 (573 bytes)
+20170514 093455.155 [10816] PROXY 127.0.0.1:58374 <- 200 localhost:9876 (2903 bytes)
+20170514 093455.187 [10816] PROXY resolved 'localhost' to '127.0.0.1:9876'
+20170514 093455.187 [10816] PROXY 127.0.0.1:58298 -> GET http://localhost:9876/context.js (490 bytes)
+20170514 093455.187 [10816] PROXY 127.0.0.1:58298 <- 200 localhost:9876 (66052 bytes)
+20170514 093455.218 [10816] PROXY 127.0.0.1:58366 <- 200 gspe21.ls.apple.com:80 (4786 bytes)
+20170514 093455.218 [10816] PROXY 127.0.0.1:58324 <- 200 gspe21.ls.apple.com:80 (320931 bytes)
+20170514 093455.310 [10816] PROXY 127.0.0.1:58366 -> GET http://gspe21.ls.apple.com/icon/default-shields-index-large-45@2x.shieldindex?sid=0056272011591963611800883616924580620433&accessKey=1494780300_xgEUXKUaVAznYRHO_csnxYIC6kEJxzKtRwssjglZYNITbl6tufmQyrAZ542BoXopU2dbv3IcOvd41mJDkPk%2Bo8HuGp5GYj0f20nU%2Fds%2BaF64yS%2Beyq1jtAbFY3V8DhQccSxs5gWETYnUaXr4P9s8vjIGe7ZPt7pafp2rDgmD8Cd1L5bnsWsH9O%2BOb9vI%3D (706 bytes)
+20170514 093455.326 [10816] PROXY 127.0.0.1:58324 -> GET http://gspe21.ls.apple.com/icon/default-shields-index-medium-44.shieldindex?sid=0056272011591963611800883616924580620433&accessKey=1494780300_ChzvbwayJhcJTffh_qcGN5BVIeiO2hcBCA4EtPmSDqmr47CJQoTNbUXT0%2BO1c6EJ9BlfkkqQrv0JZQsMTRfEx62qGBw8CR10UBwBW3t7nuzhvy9v5OQTdKr3TFlbhsRM6UOpB5uHKuZWeUS2lw2Yn1Lnpygj4BZl1q3N5ljovcN1fiez3D%2Foawpef6Jg%3D (698 bytes)
+20170514 093455.326 [10816] PROXY 127.0.0.1:58366 <- 200 gspe21.ls.apple.com:80 (4751 bytes)
+20170514 093455.357 [10816] PROXY 127.0.0.1:58324 <- 200 gspe21.ls.apple.com:80 (3831 bytes)
+20170514 093455.357 [10816] PROXY resolved 'localhost' to '127.0.0.1:9876'
+20170514 093455.361 [10816] PROXY 127.0.0.1:58387 -> POST http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm7cIKA&b64=1&sid=xD15Vra4aF2EA36iAAAE (659 bytes)
+20170514 093455.361 [10816] PROXY 127.0.0.1:58387 <- 200 localhost:9876 (234 bytes)
+20170514 093455.398 [10816] PROXY 127.0.0.1:58361 <- 200 gspe21.ls.apple.com:80 (602608 bytes)
+20170514 093455.474 [10816] PROXY resolved 'localhost' to '127.0.0.1:9876'
+20170514 093455.474 [10816] PROXY 127.0.0.1:58389 -> POST http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm7cIM5&b64=1&sid=xD15Vra4aF2EA36iAAAE (1586 bytes)
+20170514 093455.474 [10816] PROXY 127.0.0.1:58389 <- 200 localhost:9876 (234 bytes)
+20170514 093455.474 [10816] PROXY 127.0.0.1:58360 <- 200 localhost:9876 (255 bytes)
+20170514 093455.474 [10816] PROXY 127.0.0.1:58329 <- 200 localhost:9876 (616 bytes)
+20170514 093455.582 [10816] PROXY 127.0.0.1:58329 -> GET http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm7cINn&b64=1&sid=xD15Vra4aF2EA36iAAAE (523 bytes)
+20170514 093455.582 [10816] PROXY 127.0.0.1:58329 <- 200 localhost:9876 (637 bytes)
+20170514 093455.643 [10816] PROXY 127.0.0.1:58360 -> GET http://localhost:9876/karma.js (479 bytes)
+20170514 093455.644 [10816] PROXY 127.0.0.1:58360 <- 200 localhost:9876 (120962 bytes)
+20170514 093455.690 [10816] PROXY 127.0.0.1:58329 -> GET http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm7cIPM&b64=1&sid=xD15Vra4aF2EA36iAAAE (523 bytes)
+20170514 093455.720 [10816] PROXY 127.0.0.1:58389 -> GET http://localhost:9876/socket.io/socket.io.js (493 bytes)
+20170514 093455.720 [10816] PROXY 127.0.0.1:58389 <- 200 localhost:9876 (72408 bytes)
+20170514 093455.859 [10816] PROXY 127.0.0.1:58389 -> GET http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm7cIX8 (513 bytes)
+20170514 093455.874 [10816] PROXY 127.0.0.1:58389 <- 200 localhost:9876 (329 bytes)
+20170514 093455.905 [10816] PROXY 127.0.0.1:58360 -> GET http://localhost:9876/favicon.ico (482 bytes)
+20170514 093455.905 [10816] PROXY 127.0.0.1:58360 <- 200 localhost:9876 (9055 bytes)
+20170514 093455.967 [10816] PROXY 127.0.0.1:58389 -> GET http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm7cIYi&sid=na4CE-pOKhIJR4S1AAAF (571 bytes)
+20170514 093455.967 [10816] PROXY 127.0.0.1:58389 <- 200 localhost:9876 (231 bytes)
+20170514 093455.998 [10816] PROXY resolved 'localhost' to '127.0.0.1:9876'
+20170514 093455.998 [10816] PROXY 127.0.0.1:58366 -> GET http://localhost:9876/socket.io/?EIO=3&transport=websocket&sid=na4CE-pOKhIJR4S1AAAF (638 bytes)
+20170514 093455.998 [10816] PROXY 127.0.0.1:58366 <- 400 localhost:9876 (286 bytes)
+20170514 093456.090 [10816] PROXY resolved 'localhost' to '127.0.0.1:9876'
+20170514 093456.090 [10816] PROXY 127.0.0.1:58394 -> POST http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm7cIaR&sid=na4CE-pOKhIJR4S1AAAF (827 bytes)
+20170514 093456.090 [10816] PROXY 127.0.0.1:58360 -> GET http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm7cIaU&sid=na4CE-pOKhIJR4S1AAAF (571 bytes)
+20170514 093456.090 [10816] PROXY 127.0.0.1:58394 <- 200 localhost:9876 (273 bytes)
+20170514 093456.091 [10816] PROXY 127.0.0.1:58329 <- 200 localhost:9876 (711 bytes)
+20170514 093456.091 [10816] PROXY 127.0.0.1:58360 <- 200 localhost:9876 (556 bytes)
+20170514 093456.178 [10816] PROXY 127.0.0.1:58360 -> GET http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm7cIc7&sid=na4CE-pOKhIJR4S1AAAF (571 bytes)
+20170514 093456.183 [10816] PROXY 127.0.0.1:58329 -> GET http://localhost:9876/context.html (576 bytes)
+20170514 093456.184 [10816] PROXY 127.0.0.1:58329 <- 200 localhost:9876 (2848 bytes)
+20170514 093456.200 [10816] PROXY 127.0.0.1:58394 -> GET http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm7cIXL&b64=1&sid=xD15Vra4aF2EA36iAAAE (523 bytes)
+20170514 093456.200 [10816] PROXY 127.0.0.1:58394 <- 200 localhost:9876 (711 bytes)
+20170514 093456.246 [10816] PROXY 127.0.0.1:58366 -> GET https://api-glb-msp.smoot.apple.com/user_guid?key=granite0323 (512 bytes)
+20170514 093456.260 [10816] PROXY resolved 'api-glb-msp.smoot.apple.com' to '17.249.187.246:443'
+20170514 093456.310 [10816] PROXY 127.0.0.1:58329 -> GET http://localhost:9876/context.js (514 bytes)
+20170514 093456.310 [10816] PROXY resolved 'configuration.apple.com' to '23.72.228.224:443'
+20170514 093456.310 [10816] PROXY 127.0.0.1:58324 -> GET https://configuration.apple.com/configurations/pep/config/geo/networkDefaults-osx-10.11.plist (510 bytes)
+20170514 093456.310 [10816] PROXY 127.0.0.1:58329 <- 200 localhost:9876 (66052 bytes)
+20170514 093456.341 [10816] PROXY 127.0.0.1:58394 -> GET http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm7cIZd&b64=1&sid=xD15Vra4aF2EA36iAAAE (523 bytes)
+20170514 093456.387 [10816] PROXY resolved 'localhost' to '127.0.0.1:9876'
+20170514 093456.387 [10816] PROXY 127.0.0.1:58297 -> GET http://localhost:9876/?id=12947396 (510 bytes)
+20170514 093456.387 [10816] PROXY 127.0.0.1:58297 <- 200 localhost:9876 (2903 bytes)
+20170514 093456.418 [10816] PROXY 127.0.0.1:58324 <- 200 configuration.apple.com:443 (2022 bytes)
+20170514 093456.479 [10816] PROXY resolved 'localhost' to '127.0.0.1:9876'
+20170514 093456.495 [10816] PROXY 127.0.0.1:58399 -> POST http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm7cIgW&sid=na4CE-pOKhIJR4S1AAAF (720 bytes)
+20170514 093456.496 [10816] PROXY 127.0.0.1:58399 <- 200 localhost:9876 (273 bytes)
+20170514 093456.496 [10816] PROXY resolved 'localhost' to '127.0.0.1:9876'
+20170514 093456.496 [10816] PROXY 127.0.0.1:58324 -> GET http://localhost:9876/socket.io/socket.io.js (552 bytes)
+20170514 093456.496 [10816] PROXY 127.0.0.1:58329 -> GET http://localhost:9876/karma.js (538 bytes)
+20170514 093456.510 [10816] PROXY 127.0.0.1:58324 <- 200 localhost:9876 (72408 bytes)
+20170514 093456.511 [10816] PROXY 127.0.0.1:58329 <- 200 localhost:9876 (120962 bytes)
+20170514 093456.541 [10816] PROXY 127.0.0.1:58374 -> GET https://cdn.smoot.apple.com/sprites/835ca01c10511e05c33ca9d152482687_mac_1x.json (523 bytes)
+20170514 093456.541 [10816] PROXY 127.0.0.1:58402 -> GET https://init.itunes.apple.com/WebObjects/MZInit.woa/wa/signSapSetupCert (478 bytes)
+20170514 093456.541 [10816] PROXY resolved 'configuration.apple.com' to '23.72.228.224:443'
+20170514 093456.541 [10816] PROXY 127.0.0.1:58403 -> GET https://configuration.apple.com/configurations/internetservices/safari/FallbackMaskIcons-9.1.2.plist (509 bytes)
+20170514 093456.541 [10816] PROXY resolved 'cdn.smoot.apple.com' to '17.253.31.203:443'
+20170514 093456.541 [10816] PROXY resolved 'init.itunes.apple.com' to '23.73.34.217:443'
+20170514 093456.572 [10816] PROXY resolved 'cdn.smoot.apple.com' to '17.253.31.203:443'
+20170514 093456.572 [10816] PROXY 127.0.0.1:58407 -> GET https://cdn.smoot.apple.com/sprites/835ca01c10511e05c33ca9d152482687_mac_1x.png (524 bytes)
+20170514 093456.602 [10816] PROXY resolved 'localhost' to '127.0.0.1:9876'
+20170514 093456.602 [10816] PROXY 127.0.0.1:58409 -> POST http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm7cIiH&sid=na4CE-pOKhIJR4S1AAAF (1580 bytes)
+20170514 093456.602 [10816] PROXY 127.0.0.1:58409 <- 200 localhost:9876 (273 bytes)
+20170514 093456.602 [10816] PROXY 127.0.0.1:58360 <- 200 localhost:9876 (234 bytes)
+20170514 093456.602 [10816] PROXY 127.0.0.1:58394 <- 200 localhost:9876 (711 bytes)
+20170514 093456.649 [10816] PROXY 127.0.0.1:58366 <- 200 api-glb-msp.smoot.apple.com:443 (222 bytes)
+20170514 093456.649 [10816] PROXY 127.0.0.1:58402 <- 200 init.itunes.apple.com:443 (3256 bytes)
+20170514 093456.680 [10816] PROXY 127.0.0.1:58394 -> GET http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm7cIjq&sid=na4CE-pOKhIJR4S1AAAF (571 bytes)
+20170514 093456.680 [10816] PROXY 127.0.0.1:58394 <- 200 localhost:9876 (690 bytes)
+20170514 093456.711 [10816] PROXY 127.0.0.1:58374 <- 200 cdn.smoot.apple.com:443 (7604 bytes)
+20170514 093456.711 [10816] PROXY 127.0.0.1:58360 -> GET http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm7cIf7&b64=1&sid=xD15Vra4aF2EA36iAAAE (523 bytes)
+20170514 093456.787 [10816] PROXY resolved 'localhost' to '127.0.0.1:9876'
+20170514 093456.787 [10816] PROXY 127.0.0.1:58402 -> GET http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm7cIbC (542 bytes)
+20170514 093456.787 [10816] PROXY 127.0.0.1:58402 <- 200 localhost:9876 (329 bytes)
+20170514 093456.787 [10816] PROXY resolved 'localhost' to '127.0.0.1:9876'
+20170514 093456.787 [10816] PROXY 127.0.0.1:58374 -> GET http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm7cIlS&sid=na4CE-pOKhIJR4S1AAAF (571 bytes)
+20170514 093456.849 [10816] PROXY 127.0.0.1:58403 <- 200 configuration.apple.com:443 (652607 bytes)
+20170514 093456.868 [10816] PROXY resolved 'cdn.smoot.apple.com' to '17.253.31.203:443'
+20170514 093456.868 [10816] PROXY 127.0.0.1:58394 -> GET https://cdn.smoot.apple.com/sprites/644e8edd1a479a03c2c25e63f32cc2a0_mac_2x.json (523 bytes)
+20170514 093456.875 [10816] PROXY resolved 'cdn.smoot.apple.com' to '17.253.31.203:443'
+20170514 093456.875 [10816] PROXY 127.0.0.1:58366 -> GET https://cdn.smoot.apple.com/sprites/644e8edd1a479a03c2c25e63f32cc2a0_mac_2x.png (524 bytes)
+20170514 093456.902 [10816] PROXY 127.0.0.1:58417 -> POST https://play.itunes.apple.com/WebObjects/MZPlay.woa/wa/signSapSetup (1270 bytes)
+20170514 093456.902 [10816] PROXY 127.0.0.1:58409 -> GET http://localhost:9876/socket.io/?EIO=3&transport=websocket&sid=25Dwf-MOTEp5TSGrAAAG (580 bytes)
+20170514 093456.902 [10816] PROXY 127.0.0.1:58324 -> GET http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm7cIdm&sid=25Dwf-MOTEp5TSGrAAAG (600 bytes)
+20170514 093456.902 [10816] PROXY 127.0.0.1:58409 <- 400 localhost:9876 (286 bytes)
+20170514 093456.902 [10816] PROXY 127.0.0.1:58324 <- 200 localhost:9876 (231 bytes)
+20170514 093456.933 [10816] PROXY resolved 'play.itunes.apple.com' to '23.73.34.217:443'
+20170514 093456.995 [10816] PROXY 127.0.0.1:58394 <- 200 cdn.smoot.apple.com:443 (8404 bytes)
+20170514 093457.026 [10816] PROXY 127.0.0.1:58324 -> GET http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm7cIfd&sid=25Dwf-MOTEp5TSGrAAAG (600 bytes)
+20170514 093457.056 [10816] PROXY resolved 'localhost' to '127.0.0.1:9876'
+20170514 093457.056 [10816] PROXY 127.0.0.1:58419 -> POST http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm7cIfb&sid=25Dwf-MOTEp5TSGrAAAG (815 bytes)
+20170514 093457.056 [10816] PROXY 127.0.0.1:58419 <- 200 localhost:9876 (213 bytes)
+20170514 093457.056 [10816] PROXY 127.0.0.1:58360 <- 200 localhost:9876 (789 bytes)
+20170514 093457.056 [10816] PROXY 127.0.0.1:58374 <- 200 localhost:9876 (768 bytes)
+20170514 093457.056 [10816] PROXY 127.0.0.1:58324 <- 200 localhost:9876 (768 bytes)
+20170514 093457.119 [10816] PROXY 127.0.0.1:58417 <- 200 play.itunes.apple.com:443 (2202 bytes)
+20170514 093457.165 [10816] PROXY 127.0.0.1:58407 <- 200 cdn.smoot.apple.com:443 (239415 bytes)
+20170514 093457.165 [10816] PROXY 127.0.0.1:58324 -> GET http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm7cIqq&sid=na4CE-pOKhIJR4S1AAAF (571 bytes)
+20170514 093457.165 [10816] PROXY 127.0.0.1:58374 -> GET http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm7cIhs&sid=25Dwf-MOTEp5TSGrAAAG (600 bytes)
+20170514 093457.165 [10816] PROXY 127.0.0.1:58374 <- 200 localhost:9876 (877 bytes)
+20170514 093457.165 [10816] PROXY 127.0.0.1:58324 <- 200 localhost:9876 (768 bytes)
+20170514 093457.258 [10816] PROXY 127.0.0.1:58324 -> GET http://localhost:9876/context.html (590 bytes)
+20170514 093457.258 [10816] PROXY 127.0.0.1:58324 <- 200 localhost:9876 (2848 bytes)
+20170514 093457.319 [10816] PROXY 127.0.0.1:58374 -> GET http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm7cIjW&sid=25Dwf-MOTEp5TSGrAAAG (600 bytes)
+20170514 093457.376 [10816] PROXY 127.0.0.1:58324 -> GET http://localhost:9876/context.js (573 bytes)
+20170514 093457.392 [10816] PROXY 127.0.0.1:58324 <- 200 localhost:9876 (66052 bytes)
+20170514 093457.423 [10816] PROXY 127.0.0.1:58366 <- 200 cdn.smoot.apple.com:443 (575767 bytes)
+20170514 093457.600 [10816] PROXY resolved 'localhost' to '127.0.0.1:9876'
+20170514 093457.630 [10816] PROXY 127.0.0.1:58421 -> POST http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm7cInm&sid=25Dwf-MOTEp5TSGrAAAG (698 bytes)
+20170514 093457.630 [10816] PROXY 127.0.0.1:58421 <- 200 localhost:9876 (213 bytes)
+20170514 093457.692 [10816] PROXY resolved 'play.itunes.apple.com' to '23.73.34.217:443'
+20170514 093457.692 [10816] PROXY 127.0.0.1:58324 -> GET https://play.itunes.apple.com/WebObjects/MZPlay.woa/wa/getSubscriptionStatusSrv?guid= (586 bytes)
+20170514 093457.769 [10816] PROXY resolved 'localhost' to '127.0.0.1:9876'
+20170514 093457.769 [10816] PROXY 127.0.0.1:58424 -> POST http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm7cIr7&sid=25Dwf-MOTEp5TSGrAAAG (1558 bytes)
+20170514 093457.769 [10816] PROXY 127.0.0.1:58424 <- 200 localhost:9876 (213 bytes)
+20170514 093457.772 [10816] PROXY 127.0.0.1:58374 <- 200 localhost:9876 (234 bytes)
+20170514 093457.785 [10816] PROXY resolved 'localhost' to '127.0.0.1:9876'
+20170514 093457.785 [10816] PROXY 127.0.0.1:58407 -> GET http://localhost:9876/favicon.ico (442 bytes)
+20170514 093457.800 [10816] PROXY 127.0.0.1:58407 <- 200 localhost:9876 (9055 bytes)
+20170514 093457.877 [10816] PROXY 127.0.0.1:58374 -> GET http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm7cIs-&sid=25Dwf-MOTEp5TSGrAAAG (600 bytes)
+20170514 093457.877 [10816] PROXY 127.0.0.1:58374 <- 200 localhost:9876 (768 bytes)
+20170514 093457.908 [10816] PROXY 127.0.0.1:58324 <- 200 play.itunes.apple.com:443 (1046 bytes)
+20170514 093458.001 [10816] PROXY resolved 'localhost' to '127.0.0.1:9876'
+20170514 093458.001 [10816] PROXY 127.0.0.1:58324 -> GET http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm7cIum&sid=25Dwf-MOTEp5TSGrAAAG (600 bytes)
+20170514 093458.077 [10816] PROXY 127.0.0.1:58374 -> GET http://saucelabs.secret/1e2b41496df44554a63b878dd1bb1d75 (318 bytes)
+20170514 093458.108 [10816] PROXY 127.0.0.1:58374 error resolving hostname, ares status: 4
+20170514 093458.108 [10816] PROXY 127.0.0.1:58374 <- saucelabs.secret:80 DNS error: Domain name not found (4)
+20170514 093458.493 [10816] PROXY 127.0.0.1:58407 -> GET http://saucelabs.secret/d85ce4dd628d47369f31f86c027d79eb (318 bytes)
+20170514 093458.524 [10816] PROXY 127.0.0.1:58407 error resolving hostname, ares status: 4
+20170514 093458.524 [10816] PROXY 127.0.0.1:58407 <- saucelabs.secret:80 DNS error: Domain name not found (4)
+20170514 093458.601 [10816] PROXY 127.0.0.1:58424 -> GET http://localhost:9876/?id=83687243 (592 bytes)
+20170514 093458.632 [10816] PROXY 127.0.0.1:58424 <- 200 localhost:9876 (2903 bytes)
+20170514 093458.893 [10816] PROXY 127.0.0.1:58424 -> GET http://localhost:9876/socket.io/socket.io.js (512 bytes)
+20170514 093458.893 [10816] PROXY resolved 'localhost' to '127.0.0.1:9876'
+20170514 093458.893 [10816] PROXY 127.0.0.1:58417 -> GET http://localhost:9876/karma.js (498 bytes)
+20170514 093458.924 [10816] PROXY 127.0.0.1:58424 <- 200 localhost:9876 (72408 bytes)
+20170514 093458.924 [10816] PROXY 127.0.0.1:58417 <- 200 localhost:9876 (120962 bytes)
+20170514 093459.219 [10816] PROXY 127.0.0.1:58417 -> GET http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm7cK16 (532 bytes)
+20170514 093459.250 [10816] PROXY 127.0.0.1:58424 -> GET http://localhost:9876/favicon.ico (501 bytes)
+20170514 093459.250 [10816] PROXY 127.0.0.1:58360 -> GET https://setup.icloud.com/configurations/init (712 bytes)
+20170514 093459.250 [10816] PROXY 127.0.0.1:58417 <- 200 localhost:9876 (329 bytes)
+20170514 093459.250 [10816] PROXY 127.0.0.1:58424 <- 200 localhost:9876 (9055 bytes)
+20170514 093459.281 [10816] PROXY resolved 'setup.icloud.com' to '17.248.139.45:443'
+20170514 093459.436 [10816] PROXY 127.0.0.1:58424 -> GET http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm7cK4E&sid=lrHWlREtccb7f8lnAAAH (590 bytes)
+20170514 093459.466 [10816] PROXY 127.0.0.1:58417 -> GET http://localhost:9876/socket.io/?EIO=3&transport=websocket&sid=lrHWlREtccb7f8lnAAAH (638 bytes)
+20170514 093459.466 [10816] PROXY 127.0.0.1:58424 <- 200 localhost:9876 (231 bytes)
+20170514 093459.466 [10816] PROXY 127.0.0.1:58417 <- 400 localhost:9876 (286 bytes)
+20170514 093459.622 [10816] PROXY 127.0.0.1:58424 -> GET http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm7cK7d&sid=lrHWlREtccb7f8lnAAAH (590 bytes)
+20170514 093459.640 [10816] PROXY resolved 'localhost' to '127.0.0.1:9876'
+20170514 093459.641 [10816] PROXY 127.0.0.1:58433 -> POST http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm7cK7a&sid=lrHWlREtccb7f8lnAAAH (826 bytes)
+20170514 093459.641 [10816] PROXY 127.0.0.1:58433 <- 200 localhost:9876 (273 bytes)
+20170514 093459.641 [10816] PROXY 127.0.0.1:58324 <- 200 localhost:9876 (843 bytes)
+20170514 093459.641 [10816] PROXY 127.0.0.1:58424 <- 200 localhost:9876 (843 bytes)
+20170514 093459.730 [10816] PROXY 127.0.0.1:58360 <- 200 setup.icloud.com:443 (2363 bytes)
+20170514 093459.808 [10816] PROXY 127.0.0.1:58424 -> GET http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm7cKAw&sid=lrHWlREtccb7f8lnAAAH (590 bytes)
+20170514 093459.808 [10816] PROXY 127.0.0.1:58424 <- 200 localhost:9876 (952 bytes)
+20170514 093459.931 [10816] PROXY 127.0.0.1:58424 -> GET http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm7cKDP&sid=lrHWlREtccb7f8lnAAAH (590 bytes)
+20170514 093459.978 [10816] PROXY resolved 'localhost' to '127.0.0.1:9876'
+20170514 093459.978 [10816] PROXY 127.0.0.1:58360 -> GET http://localhost:9876/context.html (595 bytes)
+20170514 093459.978 [10816] PROXY 127.0.0.1:58360 <- 200 localhost:9876 (2848 bytes)
+20170514 093500.116 [10816] PROXY 127.0.0.1:58360 -> GET http://localhost:9876/context.js (533 bytes)
+20170514 093500.116 [10816] PROXY 127.0.0.1:58360 <- 200 localhost:9876 (66052 bytes)
+20170514 093500.455 [10816] PROXY resolved 'localhost' to '127.0.0.1:9876'
+20170514 093500.455 [10816] PROXY 127.0.0.1:58436 -> POST http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm7cKKL&sid=lrHWlREtccb7f8lnAAAH (720 bytes)
+20170514 093500.455 [10816] PROXY 127.0.0.1:58436 <- 200 localhost:9876 (273 bytes)
+20170514 093500.578 [10816] PROXY resolved 'localhost' to '127.0.0.1:9876'
+20170514 093500.578 [10816] PROXY 127.0.0.1:58438 -> POST http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm7cKOB&sid=lrHWlREtccb7f8lnAAAH (1580 bytes)
+20170514 093500.578 [10816] PROXY 127.0.0.1:58438 <- 200 localhost:9876 (273 bytes)
+20170514 093500.578 [10816] PROXY 127.0.0.1:58424 <- 200 localhost:9876 (234 bytes)
+20170514 093500.840 [10816] PROXY 127.0.0.1:58424 -> GET http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm7cKS4&sid=lrHWlREtccb7f8lnAAAH (590 bytes)
+20170514 093500.840 [10816] PROXY 127.0.0.1:58424 <- 200 localhost:9876 (843 bytes)
+20170514 093500.964 [10816] PROXY 127.0.0.1:58424 -> GET http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm7cKUS&sid=lrHWlREtccb7f8lnAAAH (590 bytes)
+20170514 093502.089 [10816] PROXY 127.0.0.1:58438 -> GET http://localhost:9876/?id=21701390 (424 bytes)
+20170514 093502.120 [10816] PROXY 127.0.0.1:58438 <- 200 localhost:9876 (2903 bytes)
+20170514 093502.182 [10816] PROXY 127.0.0.1:58438 -> GET http://localhost:9876/socket.io/socket.io.js (477 bytes)
+20170514 093502.182 [10816] PROXY 127.0.0.1:58438 <- 200 localhost:9876 (72408 bytes)
+20170514 093502.213 [10816] PROXY 127.0.0.1:58324 -> GET http://localhost:9876/karma.js (463 bytes)
+20170514 093502.213 [10816] PROXY 127.0.0.1:58324 <- 200 localhost:9876 (120962 bytes)
+20170514 093502.399 [10816] PROXY 127.0.0.1:58324 -> GET http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm7cK4L (467 bytes)
+20170514 093502.399 [10816] PROXY 127.0.0.1:58438 -> GET http://localhost:9876/favicon.ico (367 bytes)
+20170514 093502.399 [10816] PROXY 127.0.0.1:58324 <- 200 localhost:9876 (350 bytes)
+20170514 093502.414 [10816] PROXY 127.0.0.1:58438 <- 200 localhost:9876 (9055 bytes)
+20170514 093502.491 [10816] PROXY 127.0.0.1:58324 -> GET http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm7cK6C&sid=lh8NljiGwDriUSMjAAAI (525 bytes)
+20170514 093502.491 [10816] PROXY 127.0.0.1:58324 <- 200 localhost:9876 (252 bytes)
+20170514 093502.694 [10816] PROXY 127.0.0.1:58438 -> GET http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm7cK9G&sid=lh8NljiGwDriUSMjAAAI (525 bytes)
+20170514 093502.723 [10816] PROXY resolved 'localhost' to '127.0.0.1:9876'
+20170514 093502.754 [10816] PROXY 127.0.0.1:58444 -> POST http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm7cK9F&sid=lh8NljiGwDriUSMjAAAI (742 bytes)
+20170514 093502.754 [10816] PROXY 127.0.0.1:58444 <- 200 localhost:9876 (234 bytes)
+20170514 093502.754 [10816] PROXY 127.0.0.1:58424 <- 200 localhost:9876 (914 bytes)
+20170514 093502.755 [10816] PROXY 127.0.0.1:58438 <- 200 localhost:9876 (935 bytes)
+20170514 093502.832 [10816] PROXY 127.0.0.1:58438 -> GET http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm7cKBW&sid=lh8NljiGwDriUSMjAAAI (525 bytes)
+20170514 093502.832 [10816] PROXY 127.0.0.1:58438 <- 200 localhost:9876 (1044 bytes)
+20170514 093502.924 [10816] PROXY 127.0.0.1:58438 -> GET http://localhost:9876/context.html (504 bytes)
+20170514 093502.924 [10816] PROXY 127.0.0.1:58424 -> GET http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm7cKCs&sid=lh8NljiGwDriUSMjAAAI (525 bytes)
+20170514 093502.925 [10816] PROXY 127.0.0.1:58438 <- 200 localhost:9876 (2848 bytes)
+20170514 093503.002 [10816] PROXY 127.0.0.1:58438 -> GET http://localhost:9876/context.js (498 bytes)
+20170514 093503.002 [10816] PROXY 127.0.0.1:58438 <- 200 localhost:9876 (66052 bytes)
+20170514 093503.189 [10816] PROXY resolved 'localhost' to '127.0.0.1:9876'
+20170514 093503.189 [10816] PROXY 127.0.0.1:58446 -> POST http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm7cKH0&sid=lh8NljiGwDriUSMjAAAI (661 bytes)
+20170514 093503.189 [10816] PROXY 127.0.0.1:58446 <- 200 localhost:9876 (234 bytes)
+20170514 093503.359 [10816] PROXY resolved 'localhost' to '127.0.0.1:9876'
+20170514 093503.359 [10816] PROXY 127.0.0.1:58448 -> POST http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm7cKJX&sid=lh8NljiGwDriUSMjAAAI (1522 bytes)
+20170514 093503.359 [10816] PROXY 127.0.0.1:58448 <- 200 localhost:9876 (234 bytes)
+20170514 093503.359 [10816] PROXY 127.0.0.1:58424 <- 200 localhost:9876 (255 bytes)
+20170514 093503.515 [10816] PROXY 127.0.0.1:58424 -> GET http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm7cKL-&sid=lh8NljiGwDriUSMjAAAI (525 bytes)
+20170514 093503.515 [10816] PROXY 127.0.0.1:58424 <- 200 localhost:9876 (935 bytes)
+20170514 093503.593 [10816] PROXY 127.0.0.1:58424 -> GET http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm7cKNK&sid=lh8NljiGwDriUSMjAAAI (525 bytes)
+20170514 093505.134 [10816] PROXY resolved 'api.smoot.apple.com' to '17.249.9.246:443'
+20170514 093505.134 [10816] PROXY 127.0.0.1:58448 -> GET https://api.smoot.apple.com/bag?locale=en-US&key=montana4289&sprite=1 (484 bytes)
+20170514 093505.350 [10816] PROXY 127.0.0.1:58448 <- 200 api.smoot.apple.com:443 (3225 bytes)
+20170514 093506.908 [10816] PROXY resolved 'api-glb-msp.smoot.apple.com' to '17.249.187.246:443'
+20170514 093506.909 [10816] PROXY 127.0.0.1:58448 -> GET https://api-glb-msp.smoot.apple.com/user_guid?key=montana4289 (484 bytes)
+20170514 093506.939 [10816] PROXY resolved 'init.itunes.apple.com' to '23.73.34.217:443'
+20170514 093506.939 [10816] PROXY 127.0.0.1:58444 -> GET https://init.itunes.apple.com/WebObjects/MZInit.woa/wa/signSapSetupCert (477 bytes)
+20170514 093506.939 [10816] PROXY resolved 'cdn.smoot.apple.com' to '17.253.31.203:443'
+20170514 093506.939 [10816] PROXY 127.0.0.1:58433 -> GET https://cdn.smoot.apple.com/sprites/644e8edd1a479a03c2c25e63f32cc2a0_mac_2x.png (496 bytes)
+20170514 093507.031 [10816] PROXY 127.0.0.1:58444 <- 200 init.itunes.apple.com:443 (3256 bytes)
+20170514 093507.263 [10816] PROXY 127.0.0.1:58448 <- 200 api-glb-msp.smoot.apple.com:443 (222 bytes)
+20170514 093507.371 [10816] PROXY 127.0.0.1:58433 <- 200 cdn.smoot.apple.com:443 (575767 bytes)
+20170514 093507.371 [10816] PROXY resolved 'play.itunes.apple.com' to '23.73.34.217:443'
+20170514 093507.371 [10816] PROXY 127.0.0.1:58457 -> POST https://play.itunes.apple.com/WebObjects/MZPlay.woa/wa/signSapSetup (1269 bytes)
+20170514 093507.586 [10816] PROXY 127.0.0.1:58457 <- 200 play.itunes.apple.com:443 (2206 bytes)
+20170514 093508.701 [10816] PROXY resolved 'localhost' to '127.0.0.1:9876'
+20170514 093508.732 [10816] PROXY 127.0.0.1:58457 -> GET http://localhost:9876/?id=48820611 (591 bytes)
+20170514 093508.732 [10816] PROXY 127.0.0.1:58457 <- 200 localhost:9876 (2903 bytes)
+20170514 093508.840 [10816] PROXY 127.0.0.1:58457 -> GET http://localhost:9876/socket.io/socket.io.js (511 bytes)
+20170514 093508.840 [10816] PROXY 127.0.0.1:58457 <- 200 localhost:9876 (72408 bytes)
+20170514 093508.871 [10816] PROXY resolved 'localhost' to '127.0.0.1:9876'
+20170514 093508.871 [10816] PROXY 127.0.0.1:58433 -> GET http://localhost:9876/karma.js (497 bytes)
+20170514 093508.871 [10816] PROXY 127.0.0.1:58433 <- 200 localhost:9876 (120962 bytes)
+20170514 093509.102 [10816] PROXY 127.0.0.1:58433 -> GET http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm7cLl5 (531 bytes)
+20170514 093509.105 [10816] PROXY 127.0.0.1:58457 -> GET http://localhost:9876/favicon.ico (500 bytes)
+20170514 093509.105 [10816] PROXY 127.0.0.1:58433 <- 200 localhost:9876 (329 bytes)
+20170514 093509.133 [10816] PROXY 127.0.0.1:58457 <- 200 localhost:9876 (9055 bytes)
+20170514 093509.242 [10816] PROXY 127.0.0.1:58433 -> GET http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm7cLne&sid=HTzX3B2P1jLjRV34AAAJ (589 bytes)
+20170514 093509.242 [10816] PROXY resolved 'localhost' to '127.0.0.1:9876'
+20170514 093509.242 [10816] PROXY 127.0.0.1:58444 -> GET http://localhost:9876/socket.io/?EIO=3&transport=websocket&sid=HTzX3B2P1jLjRV34AAAJ (637 bytes)
+20170514 093509.242 [10816] PROXY 127.0.0.1:58433 <- 200 localhost:9876 (231 bytes)
+20170514 093509.242 [10816] PROXY 127.0.0.1:58444 <- 400 localhost:9876 (286 bytes)
+20170514 093509.397 [10816] PROXY 127.0.0.1:58444 -> GET http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm7cLpz&sid=HTzX3B2P1jLjRV34AAAJ (589 bytes)
+20170514 093509.397 [10816] PROXY resolved 'localhost' to '127.0.0.1:9876'
+20170514 093509.397 [10816] PROXY 127.0.0.1:58463 -> POST http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm7cLpy&sid=HTzX3B2P1jLjRV34AAAJ (825 bytes)
+20170514 093509.397 [10816] PROXY 127.0.0.1:58463 <- 200 localhost:9876 (273 bytes)
+20170514 093509.412 [10816] PROXY 127.0.0.1:58424 <- 200 localhost:9876 (1010 bytes)
+20170514 093509.412 [10816] PROXY 127.0.0.1:58444 <- 200 localhost:9876 (989 bytes)
+20170514 093509.519 [10816] PROXY 127.0.0.1:58444 -> GET http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm7cLsJ&sid=HTzX3B2P1jLjRV34AAAJ (589 bytes)
+20170514 093509.520 [10816] PROXY 127.0.0.1:58444 <- 200 localhost:9876 (1098 bytes)
+20170514 093509.643 [10816] PROXY 127.0.0.1:58444 -> GET http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm7cLu0&sid=HTzX3B2P1jLjRV34AAAJ (589 bytes)
+20170514 093509.674 [10816] PROXY 127.0.0.1:58424 -> GET http://localhost:9876/context.html (594 bytes)
+20170514 093509.674 [10816] PROXY 127.0.0.1:58424 <- 200 localhost:9876 (2848 bytes)
+20170514 093509.797 [10816] PROXY 127.0.0.1:58424 -> GET http://localhost:9876/context.js (532 bytes)
+20170514 093509.797 [10816] PROXY 127.0.0.1:58424 <- 200 localhost:9876 (66052 bytes)
+20170514 093510.016 [10816] PROXY resolved 'localhost' to '127.0.0.1:9876'
+20170514 093510.048 [10816] PROXY 127.0.0.1:58465 -> POST http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm7cLzi&sid=HTzX3B2P1jLjRV34AAAJ (719 bytes)
+20170514 093510.048 [10816] PROXY 127.0.0.1:58465 <- 200 localhost:9876 (273 bytes)
+20170514 093510.205 [10816] PROXY resolved 'localhost' to '127.0.0.1:9876'
+20170514 093510.205 [10816] PROXY 127.0.0.1:58467 -> POST http://localhost:9876/socket.io/?EIO=3&transport=polling&t=Lm7cM0s&sid=HTzX3B2P1jLjRV34AAAJ (1579 bytes)
+20170514 093510.205 [10816] PROXY 127.0.0.1:58467 <- 200 localhost:9876 (273 bytes)
+20170514 093510.205 [10816] PROXY 127.0.0.1:58444 <- 200 localhost:9876 (234 bytes)
