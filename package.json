@@ -9,7 +9,7 @@
     "ci": "npm run tslint && npm run build && npm run test && npm run e2e",
     "build": "gulp build",
     "test": "karma start karma.conf.js",
-    "e2e": "node e2e/launchSaucelabs.js IOS ANDROID IE SAFARI DESKTOP",
+    "e2e": "node e2e/launchSaucelabs.js IOS ANDROID SAFARI DESKTOP",
     "tslint": "tslint \"e2e/src/**/*.ts\" --exclude \"src/**/*.d.ts\"",
     "docs": "git subtree push --prefix coverage/html origin gh-pages"
   },
