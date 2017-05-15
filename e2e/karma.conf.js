@@ -15,7 +15,8 @@ module.exports = function (config) {
      return acc.concat(browserList.browsers);
   }, []);
 
-
+  //hack fix later
+  browsers.splice(browsers.indexOf('SL_IE9'), 1); 
   
   console.log(browsers);
 
