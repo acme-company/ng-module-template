@@ -23,4 +23,4 @@ before_script:
   - sh -e /etc/init.d/xvfb start 
 after_success:
   - npm install -g codeclimate-test-reporter
-  - codeclimate-test-reporter < lcov.info
+  - codeclimate-test-reporter < coverage/lcov.info
