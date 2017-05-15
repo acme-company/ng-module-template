@@ -15,7 +15,8 @@ cache:
     - node_modules
 addons:
   sauce_connect: true
-  apt:
+  code_climate:
+    repo_token: 5158cdccb838275ebc3c84594a1b1cff8dba5626effdfe41d055d203a34ec1de
 before_script:
   - export CHROME_BIN=chromium-browser
   - export DISPLAY=:99.0
