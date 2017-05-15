@@ -51,7 +51,12 @@ module.exports = function (config) {
     webpack: testWebpackConfig,
 
     coverageReporter: {
-      type: 'in-memory'
+      type: 'in-memory',
+      reporters: [
+        // reporters not supporting the `file` property 
+        { type: 'html', subdir: 'report-html' },
+        { type: 'lcov', subdir: 'report-lcov' }
+      ]
     },
 
     remapCoverageReporter: {
