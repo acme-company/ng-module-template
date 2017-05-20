@@ -1,0 +1,40 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "declaration": true,
+    "stripInternal": true,
+    "outDir": "../dist",
+    "module": "es2015",
+    "experimentalDecorators": true,
+    "moduleResolution": "node",
+    "paths": {
+      "rxjs/*": ["../node_modules/rxjs/*"]
+    },    
+    "rootDir": ".",
+    "noImplicitAny": false,
+    "sourceMap": true,
+    "inlineSources": true,
+    "target": "es2015",
+    //"emitDecoratorMetadata": true,
+    "lib": [
+      "es2015",
+      "dom"
+    ],
+    "skipLibCheck": true,
+    // don't auto-discover @types/node, it results in a ///<reference in the .d.ts output
+    "types": []
+    
+  },
+  "files": [
+    "public_api.ts",
+    "../node_modules/zone.js/dist/zone.js.d.ts"
+  ],
+
+  "angularCompilerOptions": {
+    "annotateForClosureCompiler": true,
+    "strictMetadataEmit": true,
+    "flatModuleOutFile": "index.js",
+    "flatModuleId": "ng-module-template",
+    "genDir": "compiled"
+  }
+}
