@@ -1,13 +1,9 @@
-const pkg = require('./package.json')
+const helpers = require('./helpers');
 const gulp = require('gulp');
-const exec = require('child_process').exec;
-process.chdir('build');
+const shell = require('gulp-shell');
 
-gulp.task('build', function(cb) {
-  exec('gulp build', function (err, stdout, stderr) {
-    console.log(stdout);
-    console.log(stderr);
-    cb(err);
-  });
-});
+gulp.task('build', shell.task('gulp build', { cwd: helpers.root('build') }));
+gulp.task('test', shell.task('gulp test', { cwd: helpers.root('test') }));
+gulp.task('e2e', shell.task('gulp e2e', { cwd: helpers.root('e2e') }));
+gulp.task('lint', shell.task('gulp lint', { cwd: helpers.root('lint') }));
 

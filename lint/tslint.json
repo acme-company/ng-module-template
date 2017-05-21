@@ -3,7 +3,7 @@
     "tslint:recommended"
   ],
   "rulesDirectory": [
-    "node_modules/codelyzer"
+    "../node_modules/codelyzer"
   ],
   "rules": {
     // Custom

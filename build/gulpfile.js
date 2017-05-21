@@ -1,13 +1,12 @@
 const pkg = require('../package.json')
 const gulp = require('gulp');
-const exec = require('child_process').exec;
+const shell = require('gulp-shell');
 const del = require('del');
 const runSequence = require('run-sequence');
 const rename = require('gulp-rename');
 const rollup = require('rollup');
 const tsc = require('gulp-typescript');
 const inlineNg2Template = require('gulp-inline-ng2-template');
-
 const uglify = require('gulp-uglify');
 const pump = require('pump');
 
@@ -36,12 +35,9 @@ gulp.task('copy-src', ['clean'], function () {
         .pipe(gulp.dest('src'))
 });
 
-gulp.task('compile:aot', ['copy-src'], function (cb) {
-    exec('"../node_modules/.bin/ngc" -p tsconfig.json', function (err, stdout, stderr) {
-        console.log(stdout);
-        console.log(stderr);
-        cb(err);
-    });
+gulp.task('compile:aot', ['copy-src'], function () {
+    return gulp.src('tsconfig.json')
+        .pipe(shell(['"../node_modules/.bin/ngc" -p <%= file.path %>']));
 });
 
 gulp.task('compile:es5', ['compile:aot'], function () {
