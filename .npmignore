@@ -9,8 +9,7 @@ gulpfile.js
 helpers.js
 lint
 node_modules
-src/
-!src/**/*.d.ts
+src
 test
 debug.log
 dist/src/*.html
