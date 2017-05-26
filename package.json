@@ -1,6 +1,6 @@
 {
   "name": "ng-module-template",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "",
   "main": "dist/ng-module-template.es5.js",
   "typings": "dist/index.d.ts",
