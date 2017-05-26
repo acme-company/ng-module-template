@@ -9,10 +9,12 @@ gulpfile.js
 helpers.js
 lint
 node_modules
-./src
+src/**/*.ts
+!src/**/*.d.ts
 test
 debug.log
-./dist/src/*.js
-./dist/src/*.map
-./dist/index.js
-./dist/public_api.js
+dist/src/*.js
+dist/src/*.map
+dist/*.js
+!dist/*.metdata.json
+!dist/*.map
