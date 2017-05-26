@@ -80,12 +80,12 @@ gulp.task("webpack-dev-server", function(callback) {
 			colors: true
 		}
 	}).listen(8080, "localhost", function(err) {
+		var entryUrl = "http://localhost:8080/webpack-dev-server/index.html";
 		if(err) throw new gutil.PluginError("webpack-dev-server", err);
-		gutil.log("[webpack-dev-server]", "http://localhost:8080/webpack-dev-server/index.html");
+		gutil.log("[webpack-dev-server]", entryUrl);
 
-		let target_entry = 'http://localhost:8080/webpack-dev-server/index.html';
-		console.log('Opening your system browser...');
-  		open(target_entry);
+		console.log('Opening browser...');
+  		open(entryUrl);
 
 	});
 });

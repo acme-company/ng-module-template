@@ -4437,3 +4437,35 @@
 20170520 223432.530 [12468] Secure remote tunnel VM provisioned.
 20170520 223432.531 [12468] Tunnel ID: 67de893301a24f6883a2e7db40d95072
 20170520 223433.138 [12468] Secure remote tunnel VM is now: booting
+20170525 233006.789 [15196] Sauce Connect 4.4.0, build 845 e8cba87-dirty
+20170525 233006.791 [15196] Trying to autodetect proxy settings
+20170525 233006.794 [15196] Starting up; pid 15196
+20170525 233006.794 [15196] Command line arguments: C:\projects\ng-module-template\node_modules\sauce-connect-launcher\sc\sc-4.4.0-win32\bin\sc -P 5757 --logfile sauce_connect.log -u pixelbits-mk -k **** --tunnel-identifier karma1495776588 --readyfile C:\Users\kangm\AppData\Local\Temp\sc-launcher-readyfile 
+20170525 233006.794 [15196] Log file: sauce_connect.log
+20170525 233006.794 [15196] Pid file: C:\Users\kangm\AppData\Roaming/sc_client-karma1495776588.pid
+20170525 233006.794 [15196] Timezone: Mountain Daylight Time GMT OFfset: -6h
+20170525 233006.794 [15196] Using no proxy for connecting to Sauce Labs REST API.
+20170525 233006.797 [15196] Resolving saucelabs.com to 162.222.75.243 took 3 ms.
+20170525 233021.106 [15196] ***********************************************************
+20170525 233021.106 [15196] A newer version of Sauce Connect (build 1496) is available!
+20170525 233021.106 [15196] Download it here:
+20170525 233021.106 [15196] https://saucelabs.com/downloads/sc-4.4.6-win32.zip
+20170525 233021.106 [15196] ***********************************************************
+20170525 233021.106 [15196] PROXY *** scproxy started ***
+20170525 233021.165 [15196] PROXY found DNS server 192.168.2.1
+20170525 233021.366 [15196] Started scproxy on port 56742.
+20170525 233021.366 [15196] Please wait for 'you may start your tests' to start your tests.
+20170525 233021.366 [15196] Starting secure remote tunnel VM...
+20170525 233052.764 [15196] Secure remote tunnel VM provisioned.
+20170525 233052.764 [15196] Tunnel ID: c11ebee9f15d4d11a0e3a19f21095ea6
+20170525 233106.278 [15196] Secure remote tunnel VM is now: running
+20170525 233106.278 [15196] Remote tunnel host is: maki77008.miso.saucelabs.com
+20170525 233106.278 [15196] Using no proxy for connecting to tunnel VM.
+20170525 233106.888 [15196] Resolving tunnel hostname to 162.222.77.8 took 610ms.
+20170525 233106.888 [15196] Starting Selenium listener...
+20170525 233106.888 [15196] Establishing secure TLS connection to tunnel...
+20170525 233106.919 [15196] [EVDNS] Added nameserver 192.168.2.1:53 as 02FC76B0
+20170525 233106.919 [15196] MAIN connecting to maki77008.miso.saucelabs.com:443
+20170525 233107.158 [15196] Selenium listener started on port 5757.
+20170525 233107.205 [15196] MAIN connecting to KGP server maki77008.miso.saucelabs.com took 2714 ms
+20170525 233136.483 [15196] Sauce Connect is up, you may start your tests.
