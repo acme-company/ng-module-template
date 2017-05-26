@@ -4,6 +4,7 @@ const runSequence = require ('run-sequence');
 const webpack = require('webpack');
 const shell = require('gulp-shell');
 const del = require('del');
+const open = require('open');
 
 const webpackConfig = require("./webpack.config.js");
 const WebpackDevServer = require("webpack-dev-server");
@@ -81,6 +82,11 @@ gulp.task("webpack-dev-server", function(callback) {
 	}).listen(8080, "localhost", function(err) {
 		if(err) throw new gutil.PluginError("webpack-dev-server", err);
 		gutil.log("[webpack-dev-server]", "http://localhost:8080/webpack-dev-server/index.html");
+
+		let target_entry = 'http://localhost:8080/webpack-dev-server/index.html';
+		console.log('Opening your system browser...');
+  		open(target_entry);
+
 	});
 });
 
