@@ -18,6 +18,10 @@ export class SortComponent implements OnInit {
 
     constructor(private sortService:SortService, private elementRef:ElementRef) {
         this.sortState = SortState.None;
+        this.sortService.onClear$.subscribe((name:string)=>{
+            if (this.name == name)
+                this.sortState = SortState.None;
+        });
      }
 
     ngOnInit() { 
@@ -28,14 +32,14 @@ export class SortComponent implements OnInit {
         this.sortState = <SortState>(this.sortState + 1)%3;
     }
 
-    onSortClick() {
+    onSortClick($event) {
         this.toggleSortState();
         switch (this.sortState) {
             case SortState.Ascending:
-               this.sortService.orderBy({ name: this.name, asc: true});
+               this.sortService.orderBy({ name: this.name, asc: true}, $event.ctrlKey);
                break;
             case SortState.Descending:
-               this.sortService.orderBy({ name: this.name, asc: false});
+               this.sortService.orderBy({ name: this.name, asc: false}, $event.ctrlKey);
                break;
             case SortState.None:
                this.sortService.clear(this.name);
